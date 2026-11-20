@@ -1,0 +1,10 @@
+{
+  "baseline_attempt": "attempt_005_prompt_only",
+  "changed_model_conditions": [
+    "prompt.txt"
+  ],
+  "user_requested": true,
+  "purpose": "Fill gray regions into one continuous classroom; preserve known objects/layout while allowing localized natural blending at joins.",
+  "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Iterative-20261106\\round9\\08_user_analysis\\prompt_natural_completion_v006.txt",
+  "source_sha256": "023f3cd61ae102140180a6a85d2392c2f930816653d3c70ce02a2c78a95c5224"
+}

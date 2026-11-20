@@ -1,0 +1,17 @@
+{
+  "status": "prepared_not_run",
+  "picture_1": "inputs/reference.png",
+  "video_1": "inputs/partial_proxy.mp4",
+  "prompt": "inputs/prompt.txt",
+  "reference_origin": "this experiment round2 output F123, nominal yaw -60",
+  "trajectory": "inputs/camera_trajectory.json",
+  "files": {
+    "inputs/camera_trajectory.csv": "11d92af93faab0e2e9236664d305cbdb4bd4a5f4b14b2e40aa61891ec89b9200",
+    "inputs/camera_trajectory.json": "9cdac0e9a941ad272f36ec95cf7a708811b8fcf49ce6aca3147790a3b70b7419",
+    "inputs/coverage.json": "01b3c5dbd3df9c0248f41fbcff19c2954bbb55861a3139b0684ce0c282b30bd2",
+    "inputs/partial_proxy.mp4": "7755eaa4b2e4d71d2c8cf92a17e77609c71dc15f259f8147bec43ce41657a713",
+    "inputs/prompt.txt": "935e4083317e4dbb6e26b25d096ed2e586b7f65feca0f8353c4cec91edb70897",
+    "inputs/reference.png": "a0b0c92da2f83c97a84b981e0c2f3869dfa02342799e1043d3a05c42eb663829"
+  },
+  "mask_and_camera_not_model_inputs": true
+}

@@ -1,0 +1,6 @@
+{
+  "baseline": "../attempt_001/inputs/prompt.txt",
+  "changed_condition": "prompt only",
+  "reason": "Explicit outpainting with concrete adjoining wall, ceiling and floor; preserve current clock/plaque motion; no new doorway requested",
+  "guaranteed_success": false
+}

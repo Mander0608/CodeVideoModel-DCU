@@ -1,0 +1,54 @@
+{
+  "status": "prepared_to_launch",
+  "backend": "MiniMax-H3 Ref2VA through existing CodeVideoModel DCU runner",
+  "model_root_on_scnet2": "/public/home/lixin1/chenxy/CodeVideoModel/models/MiniMax-H3-ref2va",
+  "inputs": {
+    "code_video": "inputs/partial_proxy.mp4",
+    "reference_image": "inputs/reference.png",
+    "prompt_file": "inputs/prompt.txt"
+  },
+  "seed": 42,
+  "steps": 20,
+  "keep_steps": 5,
+  "frames": 124,
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "style_reference_guidance_appended": false,
+  "keep_steps_semantics": "Video-reference conditioning for the first 5 of 20 denoising updates; not a pixel preservation constraint.",
+  "mask_input": false,
+  "camera_parameter_input": false,
+  "output": "outputs/round9_seed42.mp4",
+  "notes": "New user-authorized prompt-only control006: natural gray-region completion and localized seam blending while preserving known objects/layout. Same i8/video/seed42/20steps/keep5 as001 and005. No masks/pasteback. Only this inference authorized; main chain stays stopped.",
+  "chain_protocol": {
+    "current_protocol": "original_CVM_raw_Blender_material_RGB",
+    "sampling": {
+      "seed": 42,
+      "steps": 20,
+      "keep_steps": 5
+    },
+    "composite_references": [
+      {
+        "id": "i8",
+        "path": "00_input/i8.png",
+        "type": "composite_generated_prior",
+        "parent_round": 8,
+        "attempt": "attempt_006_masked",
+        "frame": 117,
+        "yaw": -240,
+        "size": [
+          960,
+          544
+        ],
+        "vertical_extra_pixels_at_render_scale": 0,
+        "sha256": "b5b249963b2901dba172e775d4c320d9d075a720072282f4404112ef85243f4b",
+        "protocol": "explicit_masked_completion",
+        "pixel_provenance": "provenance/i8_composite_sources.json",
+        "repaint_mask": "00_input/i8_repaint_mask.png"
+      }
+    ],
+    "limits": "Composite source regions were supplied by ray reprojection and pasteback. This chain includes a method change and is not an end-to-end original CVM baseline success. Fixed-center angular support is not metric depth or translation accuracy.",
+    "current_masks_supplied_to_model": false,
+    "current_pasteback": false
+  }
+}

@@ -1,0 +1,22 @@
+subject_definitions:
+<Subject 1> is the same classroom throughout <Picture 1> and <Video 1>, with cream walls, wooden desks, a navy wall board, a continuous floor and ceiling.
+<Picture 1> supplies the classroom appearance and starting view.
+<Video 1> is a partially observed render of one continuous camera turn. Every flat neutral-gray area is missing scene content. All non-gray regions, including a narrow strip that reappears at the far left later in the clip, show existing parts of this same room. The gray cutout edges are coverage boundaries, not physical wall edges or separate pictures.
+
+summary:
+[video editing + reference generation] Complete all gray holes of <Video 1>, including the interior gap between the returning left strip and the larger known region on the right, to produce one coherent full-frame classroom video.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - retain the existing classroom identity, number and placement of boards and furnishings.
+<Video 1>: partially_preserved - preserve the camera framing, chronological motion, visible room layout and every non-gray region on both sides of each hole. Replace only the missing gray content and its artificial cutout boundary with connected room surfaces.
+
+detailed_description:
+[Shot 1] Follow the camera path in <Video 1> frame by frame: the initial pause, the smooth in-place LEFT turn totaling 30 degrees, and the final pause. Match the displacement and perspective of the existing navy board and desks throughout the clip. Stop turning exactly when the source stops. Keep the optical center fixed, with no translation, zoom, extra rotation or return turn.
+At first, complete the newly exposed gaps at the left, top and bottom. Later, when an already known strip of the classroom re-enters at the far left, retain that strip and the larger known view on the right simultaneously. Fill the gray gap BETWEEN them by connecting their existing cream wall, baseboard, ceiling, floor and any genuinely clipped furniture. Use the surrounding visible edges and perspective to determine the connection. Preserve the room corner indicated by the visible geometry; do not turn a gray boundary into a new corner, pillar, recess, doorway or partition. The two known regions are parts of one room, not independent scenes.
+Keep the existing navy board as one stationary object at its source-video position. Leave the newly connected wall bare where no existing fixture is indicated. Do not invent or duplicate a board, clock, window, door or row of desks. Continue a clipped object only where its visible shape requires continuation. Apply the appearance of <Picture 1> consistently while retaining the source layout. Fill the upper holes with the connected ceiling and the lower holes with the continuous floor. Maintain stable surfaces, occlusion and lighting over time. Every frame is a single full-frame classroom view without gray holes, inset images, cutout outlines, cuts or scene transitions.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

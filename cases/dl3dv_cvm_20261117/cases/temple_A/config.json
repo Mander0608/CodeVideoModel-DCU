@@ -1,0 +1,24 @@
+{
+  "job_id": "temple_A",
+  "scene": "temple",
+  "condition": "A",
+  "proxy": "inputs/temple/proxy.mp4",
+  "references": [
+    {
+      "path": "inputs/temple/ref1.png",
+      "noise_stream": "target_first_frame_condition_noise",
+      "noise_step": -20
+    }
+  ],
+  "prompt": "inputs/temple/prompt_A.txt",
+  "seed": 42,
+  "steps": 20,
+  "keep_steps": 5,
+  "output": "outputs/result.mp4",
+  "text_device": "cuda:1",
+  "generation_device": "cuda:0",
+  "width": 960,
+  "height": 544,
+  "frames": 124,
+  "fps": 24
+}

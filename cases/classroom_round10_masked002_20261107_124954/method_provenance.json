@@ -1,0 +1,15 @@
+{
+  "protocol": "explicit_masked_completion_branch",
+  "original_cvm_baseline_passed": false,
+  "source_reference_sha256": "fc2ab5d08667cd4622483186e6206812aa9dc49c6c5ae3b0d7fdfa6f40e86948",
+  "source_video_sha256": "822758216b1c59705c7a19f5434f2f369d23aaf3bad65584dfb43b085d6abd56",
+  "source_policy": "Original i0 first within its valid frustum, otherwise latest accepted prior; original support/unknown/repaint masks unchanged.",
+  "original_i0_supplied_memory": true,
+  "known_pixel_motion_is_supplied": true,
+  "raw_generated_before_paste_back_required": true,
+  "turbo": false,
+  "intended_actual_updates": 20,
+  "seed": 42,
+  "source_revision": "v002_original_i0_priority",
+  "before_correction_archive": "offline_v001_latest_priority"
+}

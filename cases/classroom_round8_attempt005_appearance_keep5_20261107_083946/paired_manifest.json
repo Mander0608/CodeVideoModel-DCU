@@ -1,0 +1,26 @@
+{
+  "baseline_attempt": "../attempt_004",
+  "changed_model_conditions": [
+    "keep_steps:10->5"
+  ],
+  "same_inputs": {
+    "partial_proxy.mp4": "123251efb87ed0c6a4214c75bf288d013347ee4f92719f0564a7cad5db6e025f",
+    "reference.png": "7c9a78f70eee56c90a55c9edf63bf134e4b198d3e306e4c42a79231f52ce6e2a",
+    "prompt.txt": "f0fb28466fcb4ab31841a4f2fa23b1303234e4829b2003af98874f0a3f2a29f4",
+    "camera_trajectory.json": "35befa61fff75a090cdde7fa5c86f6ee0d2b892f59b790b4a8ab569715cc71cc"
+  },
+  "same_runner": true,
+  "same_sampling_as_round1": true,
+  "same_control_representation_as_round1": false,
+  "deviation_from_round1": "Accepted-appearance fixed-center reprojection instead of raw Blender material RGB.",
+  "parameters": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  },
+  "retry_limit": "One baseline-conditioning test on this representation. If it fails, consolidate all five results and inspect alternatives; do not make further blind prompt/seed/keep sweeps."
+}

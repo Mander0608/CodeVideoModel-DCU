@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "lane": "pair56",
+  "devices": [
+    5,
+    6
+  ],
+  "pid": 844348,
+  "started_at": "2026-11-17T16:09:34+08:00",
+  "jobs": {
+    "street_A": {
+      "status": "completed",
+      "queued_at": "2026-11-17T16:09:34+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T16:10:10+08:00",
+      "queue_seconds": 36.42023094929755,
+      "inference_started_at": "2026-11-17T16:10:19+08:00",
+      "inference_pid": 854212,
+      "exit_code": 0,
+      "elapsed_seconds": 2161.446859315969,
+      "finished_at": "2026-11-17T16:46:20+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    },
+    "street_B": {
+      "status": "completed",
+      "queued_at": "2026-11-17T16:46:20+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T16:46:33+08:00",
+      "queue_seconds": 12.45295946765691,
+      "inference_started_at": "2026-11-17T16:46:38+08:00",
+      "inference_pid": 1251029,
+      "exit_code": 0,
+      "elapsed_seconds": 2177.7161693274975,
+      "finished_at": "2026-11-17T17:22:56+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    }
+  },
+  "current_job": "street_B",
+  "finished_at": "2026-11-17T17:22:56+08:00",
+  "exit_code": 0
+}

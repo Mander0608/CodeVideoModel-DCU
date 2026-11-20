@@ -1,0 +1,14 @@
+{
+  "all_124_saved_camera_keys_checked": true,
+  "maximum_matrix_error": 2.82087000869069e-07,
+  "focal_pixels": 469.5943705240885,
+  "horizontal_fov_degrees": 91.25564095384006,
+  "mesh_objects": 494,
+  "packed_used_file_images": 5,
+  "fixed_center": [
+    0.0,
+    -4.0,
+    1.55
+  ],
+  "no_scene_geometry_edit_in_renderer": true
+}

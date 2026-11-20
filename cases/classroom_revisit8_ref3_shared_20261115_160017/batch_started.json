@@ -1,0 +1,10 @@
+{
+  "status": "waiting_resources",
+  "started_at": "2026-11-15T16:02:14+08:00",
+  "supervisor_pid": 4098460,
+  "jobs": {
+    "r02_three": {
+      "status": "pending"
+    }
+  }
+}

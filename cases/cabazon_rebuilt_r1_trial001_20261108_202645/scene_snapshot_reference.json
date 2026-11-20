@@ -1,0 +1,5 @@
+{
+  "scene": "../01_blender/scene/round1_proxy_scene.blend",
+  "sha256": "ca9b91382d7fa25b9d69be6eeeeca31c5bd8b721d6e1eee2f88c2aea38d07621",
+  "trajectory": "../01_blender/inputs/trajectory.json"
+}

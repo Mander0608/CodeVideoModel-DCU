@@ -1,0 +1,6 @@
+{
+  "baseline": "round7/05_cvm/attempt_002/inputs/prompt.txt",
+  "reason": "Current view contains dark side-wall panel; do not require offscreen clock. Retain explicit full-frame outpainting instructions.",
+  "model_conditions": "One image, RGB proxy, prompt only; no masks or poses supplied.",
+  "no_early_image_reconditioning": true
+}

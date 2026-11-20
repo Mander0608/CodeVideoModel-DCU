@@ -1,0 +1,11 @@
+{
+  "base": "round9/05_cvm/attempt_001/inputs/prompt.txt",
+  "prompt_changed": false,
+  "sampling": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5
+  },
+  "reference": "new i9 original001F123",
+  "protocol": "original raw Blender RGB CVM, one reference image, no explicit mask or pasteback"
+}

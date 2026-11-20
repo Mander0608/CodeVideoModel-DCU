@@ -1,0 +1,19 @@
+{
+  "endpoint_interior_roi_xyxy": [
+    40,
+    120,
+    530,
+    300
+  ],
+  "repaint_fraction": 0.0,
+  "scope": "Visually verified greenboard interior only; board ends nearx540,source seam nearx627.",
+  "corrected_audit_ROI_only": true,
+  "previous_failed_roi": [
+    60,
+    140,
+    650,
+    350
+  ],
+  "reason": "Old test rectangle extended beyond board into intended wall seam. No RGB or mask pixels changed.",
+  "board_pixels_supplied_not_model_memory": true
+}

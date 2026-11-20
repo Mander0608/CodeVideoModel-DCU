@@ -1,0 +1,13 @@
+{
+  "cvm_config.json": "9c9a6699722629f3d197717f01e2bf386f5bd404ea033f0a576fd039a010d834",
+  "launch.sh": "e0b3977c8a92632bb672e05aa4ff6f8530df391ff8971faa930313f2a471de05",
+  "paired_manifest.json": "0ce625ed0a9694f63d84699f4ea325d4a0af73ca4f8b277afa8b9b74a9d15059",
+  "preflight.py": "63363e404b5b67293894affd640b7d89658e11dbd5a5346072b25bf7744b5357",
+  "run_cvm.py": "b5a249dd45b1980f250a6032518da728bc60b253ddb5b5c7cbdbb45b560ee010",
+  "supervise.py": "92661e05bea425833425832ff8efb11c1e50b1f600927224acfb2257bdc17655",
+  "watch_and_collect.py": "2e77b494cc0a3c8cbfc4d7066659f4fba2a574a47567360826e02ca0eeee0483",
+  "inputs/camera_trajectory.json": "739fbcca976464abb9c2aad1d3851c2ab6a865cd9d7642a26b35382315e963d4",
+  "inputs/partial_proxy.mp4": "43e61d99165aa4a2de847c1b5fac03c32d0bd9048ae0851b7143fb3f68cfc300",
+  "inputs/prompt.txt": "4e9278897013da9312889add4465de16786a85b58b1e17d87ce80ab59bfa7a46",
+  "inputs/reference.png": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d"
+}

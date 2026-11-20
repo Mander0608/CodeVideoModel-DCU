@@ -1,0 +1,19 @@
+{
+  "files": {
+    "inputs/camera_trajectory.csv": "be4c7303bb1c7fa6cdcc19ac8d4ce816fd594f4b47ba32c09b56a82af22fccfe",
+    "inputs/camera_trajectory.json": "a7f73f91f29a37e23248412bb78c17d1b3f7e6d07a49ad0f210339c73dcb3f0a",
+    "inputs/coverage.json": "f3bfe2d3af4e9fd35ee5ea10e664c9672c1ee0be924eb6a26310ff75c08d47f3",
+    "inputs/partial_proxy.mp4": "43fc7d40e0fba583346c92ded058b93e4784576f4a4da63aa726e5049e4f5590",
+    "inputs/prompt.txt": "13cbe96121c6930ab6acee2896c89aea0eb3d5008420c8606445df2e30533ab4",
+    "inputs/reference.png": "24e0e7efd46851b819e4bb2c4e571815d114c7a1f76109e029e141e301e16163"
+  },
+  "maximum_unknown_fraction": 0.392886412377451,
+  "reference": {
+    "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-360-Cumulative-20261117\\round02\\03_result\\round02_cvm_output.mp4",
+    "source_video_sha256": "a54538030f77d02eb7f633eb720ced37ceac81a926fec34fdceefddcd0d2affc",
+    "source_frame": 123,
+    "role": "previous_actual_terminal_start",
+    "sha256": "24e0e7efd46851b819e4bb2c4e571815d114c7a1f76109e029e141e301e16163",
+    "pixel_sha256": "a8b409195d7234031b3414960d72826b7ecd200f8fca0bd8acc72c940f1ed9ce"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "input_checksums_match": true,
+  "proxy_format_valid": true,
+  "free_GiB": [
+    63.640625,
+    63.640625
+  ],
+  "physical_devices": [
+    5,
+    6
+  ],
+  "generation_device": "cuda:0",
+  "text_device": "cuda:1",
+  "used_GiB_before_preflight": [
+    0.34375,
+    0.34375
+  ],
+  "torch": "2.7.1",
+  "hip": "6.3.26093",
+  "shared_source_sha256": {
+    "cvm/video.py": "98b451d987812d6f1caec3c36208fa280866bf40be803cd4474813ad0db40e4c",
+    "run_dcu.py": "a46644c0e095eff2ee9046b08c1cb1d3096b3e61d0232dd5783fbea42e6d671f"
+  }
+}

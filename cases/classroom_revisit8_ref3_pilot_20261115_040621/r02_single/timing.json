@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "queued_at": "2026-11-15T04:06:38+08:00",
+  "free_GiB": [
+    63.640625,
+    63.640625
+  ],
+  "last_resource_check": "2026-11-15T05:35:54+08:00",
+  "queue_reason": "Need >60 GiB free on both DCUs",
+  "queue_seconds": 5355.639405311085,
+  "inference_started_at": "2026-11-15T05:36:03+08:00",
+  "inference_pid": 2257366,
+  "exit_code": 0,
+  "finished_at": "2026-11-15T06:31:20+08:00",
+  "elapsed_seconds": 3317.0465981643647,
+  "denoise_steps": 20,
+  "remote_output_files": 6,
+  "visual_acceptance": "pending"
+}

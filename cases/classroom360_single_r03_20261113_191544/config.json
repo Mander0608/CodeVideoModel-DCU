@@ -1,0 +1,33 @@
+{
+  "case": "360_r03_single_start_ablation",
+  "reference_images": [
+    {
+      "path": "inputs/start.png",
+      "role": "start"
+    }
+  ],
+  "code_video": "inputs/partial_proxy.mp4",
+  "prompt_file": "inputs/prompt.txt",
+  "seed": 42,
+  "steps": 20,
+  "keep_steps": 5,
+  "frames": 124,
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "generation_device": "cuda:0",
+  "text_device": "cuda:1",
+  "physical_devices": [
+    6,
+    7
+  ],
+  "output": "outputs/result.mp4",
+  "style_reference_guidance_appended": false,
+  "reference_image_short_edge": "unchanged runtime default (2048)",
+  "reference_schedule": "One start image persists for all20 steps; proxy only updates1-5.",
+  "expected_source_sha256": {
+    "cvm/video.py": "98b451d987812d6f1caec3c36208fa280866bf40be803cd4474813ad0db40e4c",
+    "run_dcu.py": "a46644c0e095eff2ee9046b08c1cb1d3096b3e61d0232dd5783fbea42e6d671f",
+    "inference/generate_video.py": "02155b3d94a4196af78495be6a32b60a5f283bd6b8c38db0fabdc21d75d063df"
+  }
+}

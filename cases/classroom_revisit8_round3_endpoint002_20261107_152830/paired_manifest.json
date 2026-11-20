@@ -1,0 +1,30 @@
+{
+  "baseline": "..",
+  "created_at": "2026-11-07T15:28:31.262376+08:00",
+  "changed": [
+    "reference image: i2 to i1",
+    "prompt: reference describes destination instead of starting view"
+  ],
+  "video_sha256": "7755eaa4b2e4d71d2c8cf92a17e77609c71dc15f259f8147bec43ce41657a713",
+  "baseline_reference_sha256": "a0b0c92da2f83c97a84b981e0c2f3869dfa02342799e1043d3a05c42eb663829",
+  "new_reference_sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+  "effective_prompt_sha256": "9930279169bfe78de7cff14fb2c23051d8d5748abbd56721368e43836d633fab",
+  "unchanged": [
+    "Blender scene",
+    "input video",
+    "seed42",
+    "steps20",
+    "keep_steps5",
+    "124frames",
+    "24fps",
+    "960x544",
+    "DCU4/5",
+    "shared runtime"
+  ],
+  "evaluation": [
+    "Start composition remains at i2 despite destination reference",
+    "Continuous rightward camera motion",
+    "Restore mug, tree and MEMORY TEST text at historical i1 endpoint"
+  ],
+  "limitation": "Reference and its prompt role change together; not a reference-only causal test."
+}

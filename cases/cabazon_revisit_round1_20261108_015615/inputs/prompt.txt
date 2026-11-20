@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the handcrafted Cabazon miniature in <Picture 1>, with a green dinosaur model, paper palms, a small car, a road with red curbs and cardboard mountains.
+<Video 1> provides the camera path and visible layout; uniform gray regions indicate missing view content.
+
+summary:
+[video editing + reference generation] Complete <Video 1> as a coherent filmed miniature, matching the craft materials and appearance of <Subject 1>.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, static models, colors and handmade materials.
+<Video 1>: partially_preserved - preserve camera motion, timing and visible object layout; replace gray areas and their boundaries with consistent scene content.
+
+detailed_description:
+[Shot 1] Begin at <Picture 1>. Follow <Video 1> as the camera moves rightward along a 15-degree arc around the miniature, always looking at the same center. Reveal coherent sides of the dinosaur and palms and the ground behind them, with natural parallax and occlusion. The dinosaur, trees and car remain stationary. Preserve the visible clay, fabric, paper and wooden-stick textures, uneven cut edges, soft lighting and original colors. Complete missing areas from the first frame onward. One continuous shot of the same miniature, with no animated creatures, scene changes, gray placeholders or gradual construction.
+
+overall_soundscape:
+Quiet indoor room ambience.
+
+non_diegetic_music:
+N/A

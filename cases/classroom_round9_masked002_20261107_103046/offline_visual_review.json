@@ -1,0 +1,17 @@
+{
+  "accepted_for_inference": true,
+  "reviewed_at": "2026-11-07T10:30:46.628421+08:00",
+  "reviewed_images": [
+    "06_control_diagnosis/representation_comparison.jpg",
+    "06_control_diagnosis/appearance_proxy_frames/0123.png"
+  ],
+  "findings": [
+    "Source F0 exactly matches accepted i8.",
+    "Fixed-camera known-region motion passes seven decoded-video checks with maximum0.06365deg diagnostic difference.",
+    "All124 unknown masks equal raw Blender support union, including original i0 vertical excess.",
+    "Original i0 occupies14.545% endpoint pixels on the left; i8 occupies61.110%; unknown24.345%. No rejected pixels used.",
+    "i0 is brighter and its furniture differs from synthetic i8; a broad unknown gap separates their source regions. Keep this appearance difference explicit and inspect generated bridge before accepting."
+  ],
+  "mask": "Unknown dilated8px,32px guard; exact decoded mask; endpoint repaint26.915%.",
+  "decision": "Launch one distinct masked branch with same full weights/seed42/20actual updates/noTurbo. Do not treat output as original CVM baseline success or supplied-region camera/memory evidence."
+}

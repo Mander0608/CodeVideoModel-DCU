@@ -1,0 +1,63 @@
+{
+  "selected": {
+    "frame": 116,
+    "nominal_yaw": -300,
+    "unknown_fraction": 0.04142922794117647,
+    "sharpness": 59.954038280467266
+  },
+  "candidates": [
+    {
+      "frame": 116,
+      "nominal_yaw": -300,
+      "unknown_fraction": 0.04142922794117647,
+      "sharpness": 59.954038280467266
+    },
+    {
+      "frame": 117,
+      "nominal_yaw": -300,
+      "unknown_fraction": 0.04142922794117647,
+      "sharpness": 58.67800234501659
+    },
+    {
+      "frame": 118,
+      "nominal_yaw": -300,
+      "unknown_fraction": 0.04142922794117647,
+      "sharpness": 58.43745777028929
+    },
+    {
+      "frame": 119,
+      "nominal_yaw": -300,
+      "unknown_fraction": 0.04142922794117647,
+      "sharpness": 58.73122496780914
+    },
+    {
+      "frame": 120,
+      "nominal_yaw": -300,
+      "unknown_fraction": 0.04142922794117647,
+      "sharpness": 59.092577981255864
+    },
+    {
+      "frame": 121,
+      "nominal_yaw": -300,
+      "unknown_fraction": 0.04142922794117647,
+      "sharpness": 59.01847985208241
+    },
+    {
+      "frame": 122,
+      "nominal_yaw": -300,
+      "unknown_fraction": 0.04142922794117647,
+      "sharpness": 59.043493254359795
+    },
+    {
+      "frame": 123,
+      "nominal_yaw": -300,
+      "unknown_fraction": 0.04142922794117647,
+      "sharpness": 59.129882659912106
+    }
+  ],
+  "terminal_frame": 123,
+  "terminal_yaw": -300,
+  "source_video_sha256": "9f5e50a7f67e472ccf7dbf508abcfad9adbeb524b33d1b428be81ab4b355eb6f",
+  "selected_png_sha256": "ba4f738de01374768fbd91068da26287024be727509e800339e0cc81a852d80b",
+  "method": "Maximum nominal angular novelty against all11 accepted frusta, sharpness tie-break; exact boundary retained separately. All selected candidates share-300. No nominal relabeling; known-region feature match is not independent validation."
+}

@@ -1,0 +1,10 @@
+{
+  "template": "round10/05_cvm/attempt_004_masked_original_i9",
+  "template_runner_sha256": "52b41c3af6d954b27bd7254928ca25383dae451e6abd05d06bf7b01b4336c167",
+  "changes": [
+    "case and output paths",
+    "reference and source-lineage metadata",
+    "collector phase shows denoise"
+  ],
+  "masked_core_algorithm_changed": false
+}

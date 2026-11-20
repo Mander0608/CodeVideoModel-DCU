@@ -1,0 +1,20 @@
+{
+  "pixel_sha256": "ddf1905efe255cc47d9a9e77dd0d81896c51be8b20563b503f433c5c9f581403",
+  "pixel_shape": [
+    1,
+    3,
+    1,
+    2048,
+    3616
+  ],
+  "latent_sha256": "77f181509c311e3acdb0a9a8ad6ff9fd723b87b6b67736f86b4f3db4930f7be0",
+  "latent_shape": [
+    1,
+    24,
+    1,
+    128,
+    226
+  ],
+  "file_sha256": "3b117f25a38eebba73b539de8ef49142927a352a5d1c70d9250325f58de09652",
+  "created_by": "museum_car_B"
+}

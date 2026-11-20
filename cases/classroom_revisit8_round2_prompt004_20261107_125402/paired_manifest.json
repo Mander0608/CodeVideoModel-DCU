@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-11-07T12:54:02.397095+08:00",
+  "baseline_attempt": "../attempt_003",
+  "prompt_source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Iterative-20261106\\round2\\05_cvm\\attempt_002\\outputs\\effective_prompt.txt",
+  "changed_model_inputs": [
+    "prompt"
+  ],
+  "same_physical_devices": [
+    4,
+    5
+  ],
+  "input_comparison": {
+    "camera_trajectory.json": {
+      "previous_sha256": "a66362a479366ca72210b816a1ca113ab91951a34722bd4a2e7b119f2321a1f3",
+      "new_sha256": "a66362a479366ca72210b816a1ca113ab91951a34722bd4a2e7b119f2321a1f3"
+    },
+    "coverage.json": {
+      "previous_sha256": "e993bdb8283b21066f0c6ceded874ab546975448c8866fbeda17037aa0509b2a",
+      "new_sha256": "e993bdb8283b21066f0c6ceded874ab546975448c8866fbeda17037aa0509b2a"
+    },
+    "partial_proxy.mp4": {
+      "previous_sha256": "dca60542a4071604a82b2971ba3b2171d0694bcba29ed16c856882d90340a8dc",
+      "new_sha256": "dca60542a4071604a82b2971ba3b2171d0694bcba29ed16c856882d90340a8dc"
+    },
+    "prompt.txt": {
+      "previous_sha256": "2927fbc006491c7e8c4f692c50302b4c76c6aeac7fb1e3b8b88e0e70b33ec462",
+      "new_sha256": "9f01eda527302183243b5aac56ca5ab75e6f7a28f0767f7e43ad71edd4d1f5ba"
+    },
+    "reference.png": {
+      "previous_sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+      "new_sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94"
+    },
+    "reference_i0.png": {
+      "previous_sha256": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d",
+      "new_sha256": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d"
+    }
+  },
+  "sampling": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  },
+  "evaluation": "Check complete first frame, chronological left turn, newly revealed room, gray completion and no return to reference composition. Compare to own attempt003 and other accepted attempt002."
+}

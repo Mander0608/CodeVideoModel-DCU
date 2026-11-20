@@ -1,0 +1,16 @@
+{
+  "capture_environment.py": "9fc181b17d1d01fe696494df2cda31ac29bfa796618b60e435b5e1693fbc02a0",
+  "cvm_config.json": "c0604b75d2cbfb462f6b6c3603c1d29ed6ae1bac1b4362c83b21bad21fdd1ec9",
+  "gpu_before.json": "fa1204d8e42d37e2b751292337312d2fcdfcee5dd28036d08b2544396c8780ed",
+  "input_manifest.json": "98e42d99d27dc8e4f92373fbc1d15df840f8a9806e5700ecde747ae14b93c953",
+  "launch.sh": "3ed09980426fae0d8f7a4903a58b6b65b9c070d320b3833b3105a38218237eb6",
+  "preflight.py": "b61e4ce151f5829a860dee168d0e7562b6e3081d55c7cd23d635b5db740009e2",
+  "run_cvm.py": "9aa6fa2d7e34845f6d3611ff8523be5848592c7bd3dae877ad1865a02e4f9c53",
+  "supervise.py": "5a5533b5f3b656f5e49cc20e3adeabe99e358821f8cee8fe2aa3f00cdc5973db",
+  "inputs/camera_trajectory.csv": "0ce9bfd41ebb9f597f1f0664f876de6590da16ba894d02b1f839a85ce08ab5b4",
+  "inputs/camera_trajectory.json": "2ab0b34dcf2ce6f40cbc67553408f7a8802c6e520b186cf097997bd0dced8d63",
+  "inputs/coverage.json": "811839c13969e52485c397fc304592ba538bf9afb44e623af8785a3ca5028b8f",
+  "inputs/partial_proxy.mp4": "2607f98c0369ea98fb8756d337778d86fc3a015e9b94d05625cb6a08d8d016fe",
+  "inputs/prompt.txt": "7bb54867987abd115b833c15d639798ae7dab4fe3ec5610d3aa1af9cef4299f9",
+  "inputs/reference.png": "f9d9774c5b2a30d591d40d33f259d531af7948ffc02aa3697c4142045326a64a"
+}

@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-07T10:30:22.359758+08:00",
+  "verified_archived_files": {
+    "attempt_001": 68
+  },
+  "video_decoded_frames": 124,
+  "motion_samples": [
+    {
+      "frame": 0,
+      "inliers": 238,
+      "median_error_px": 0.09386412799358368,
+      "estimated_yaw": -0.0032253405251258796,
+      "nominal_yaw": 0,
+      "absolute_yaw_error": 0.0032253405251258796
+    },
+    {
+      "frame": 7,
+      "inliers": 235,
+      "median_error_px": 0.09527251869440079,
+      "estimated_yaw": -0.004019593810868005,
+      "nominal_yaw": 0,
+      "absolute_yaw_error": 0.004019593810868005
+    },
+    {
+      "frame": 31,
+      "inliers": 157,
+      "median_error_px": 0.26506537199020386,
+      "estimated_yaw": -3.761925471781931,
+      "nominal_yaw": -3.7227892193919843,
+      "absolute_yaw_error": 0.03913625238994678
+    },
+    {
+      "frame": 62,
+      "inliers": 118,
+      "median_error_px": 0.5502403974533081,
+      "estimated_yaw": -15.142768959296575,
+      "nominal_yaw": -15.206416226972522,
+      "absolute_yaw_error": 0.06364726767594675
+    },
+    {
+      "frame": 92,
+      "inliers": 68,
+      "median_error_px": 0.5450605154037476,
+      "estimated_yaw": -26.30802921221426,
+      "nominal_yaw": -26.277210780608016,
+      "absolute_yaw_error": 0.030818431606245866
+    },
+    {
+      "frame": 116,
+      "inliers": 53,
+      "median_error_px": 0.538821280002594,
+      "estimated_yaw": -30.03621220644138,
+      "nominal_yaw": -30,
+      "absolute_yaw_error": 0.036212206441380346
+    },
+    {
+      "frame": 123,
+      "inliers": 53,
+      "median_error_px": 0.5068005919456482,
+      "estimated_yaw": -30.05220672973701,
+      "nominal_yaw": -30,
+      "absolute_yaw_error": 0.05220672973700857
+    }
+  ],
+  "max_sample_yaw_error": 0.06364726767594675,
+  "mask_disagreement_all_frames": 0,
+  "actual_appearance_source": "i8 composite supplies newest accepted appearance; original i0 returns with14.545% endpoint support. Other sources supply zero. This is supplied history.",
+  "visual_review": "F0/F62/F123 inspected: expected small rightward feature displacement; reference appearance retained; no offline completion of gray. Raw proxy and rejected attempt001 inspected separately. Source brightness/desk differences across the unknown gap remain explicit; completion must be reviewed.",
+  "limitations": "Known exact fixed-center reprojection only; this validates control construction, not CVM adherence or geometry/depth accuracy."
+}

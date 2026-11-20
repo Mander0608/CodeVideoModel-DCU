@@ -1,0 +1,48 @@
+{
+  "status": "failed",
+  "started_at": "2026-11-15T04:06:38+08:00",
+  "supervisor_pid": 3541104,
+  "jobs": {
+    "r02_single": {
+      "status": "completed",
+      "queued_at": "2026-11-15T04:06:38+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-15T05:35:54+08:00",
+      "queue_reason": "Need >60 GiB free on both DCUs",
+      "queue_seconds": 5355.639405311085,
+      "inference_started_at": "2026-11-15T05:36:03+08:00",
+      "inference_pid": 2257366,
+      "exit_code": 0,
+      "finished_at": "2026-11-15T06:31:20+08:00",
+      "elapsed_seconds": 3317.0465981643647,
+      "denoise_steps": 20,
+      "remote_output_files": 6,
+      "visual_acceptance": "pending"
+    },
+    "r02_three": {
+      "status": "failed",
+      "queued_at": "2026-11-15T06:31:21+08:00",
+      "free_GiB": [
+        61.1875,
+        30.55859375
+      ],
+      "last_resource_check": "2026-11-15T09:01:07+08:00",
+      "queue_reason": "Need >60 GiB free on both DCUs",
+      "error": "Batch resource queue budget expired; no inference launched for r02_three"
+    },
+    "r03_single": {
+      "status": "pending"
+    },
+    "r03_three": {
+      "status": "pending"
+    }
+  },
+  "current_job": "r02_three",
+  "total_queue_seconds": 5355.639404151589,
+  "error": "Batch resource queue budget expired; no inference launched for r02_three",
+  "finished_at": "2026-11-15T09:02:07+08:00",
+  "exit_code": 1
+}

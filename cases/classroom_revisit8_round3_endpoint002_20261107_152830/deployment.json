@@ -1,0 +1,16 @@
+{
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom_revisit8_round3_endpoint002_20261107_152830",
+  "screen_session": "cvm_revisit8_r3_endpoint002_20261107_152830",
+  "physical_devices": [
+    4,
+    5
+  ],
+  "generation_physical_device": 4,
+  "text_physical_device": 5,
+  "status": "prepared_to_launch",
+  "prepared_at": "2026-11-07T15:28:31.355193+08:00",
+  "round": 3,
+  "attempt": "attempt_002",
+  "local_archive": "round3/02_cvm/attempt_002"
+}

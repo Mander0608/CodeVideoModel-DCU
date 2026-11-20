@@ -1,0 +1,29 @@
+{
+  "job_id": "glass_building_B",
+  "scene": "glass_building",
+  "condition": "B",
+  "proxy": "inputs/glass_building/proxy.mp4",
+  "references": [
+    {
+      "path": "inputs/glass_building/ref1.png",
+      "noise_stream": "target_first_frame_condition_noise",
+      "noise_step": -20
+    },
+    {
+      "path": "inputs/glass_building/ref2.png",
+      "noise_stream": "additional_reference_condition_noise",
+      "noise_step": -20
+    }
+  ],
+  "prompt": "inputs/glass_building/prompt_B.txt",
+  "seed": 42,
+  "steps": 20,
+  "keep_steps": 5,
+  "output": "outputs/result.mp4",
+  "text_device": "cuda:1",
+  "generation_device": "cuda:0",
+  "width": 960,
+  "height": 544,
+  "frames": 124,
+  "fps": 24
+}

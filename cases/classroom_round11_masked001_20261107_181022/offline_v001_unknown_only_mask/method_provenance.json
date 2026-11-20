@@ -1,0 +1,36 @@
+{
+  "protocol": "explicit_masked_completion_branch",
+  "original_cvm_baseline_passed": false,
+  "source_reference_sha256": "ba4f738de01374768fbd91068da26287024be727509e800339e0cc81a852d80b",
+  "source_video_sha256": "4fdb9a155c7d3156f4cd7aba2f9bd8862ee469843b26005f730ec80f268aedc4",
+  "source_policy": "Original i0 first in valid angular support, otherwise latest accepted composite i10 then raw i9 and older accepted history; i10 per-pixel original/generated lineage is reprojected from its saved final origin map. No historical manually corrected i9 and no rejected output used.",
+  "source_labels": {
+    "1": "i0",
+    "2": "i1",
+    "3": "i2",
+    "4": "i3",
+    "5": "i4",
+    "6": "i5",
+    "7": "i6",
+    "8": "i7",
+    "9": "i8",
+    "10": "i9_coverage",
+    "11": "i9",
+    "12": "i10"
+  },
+  "inherited_origin_labels": {
+    "0": "unknown",
+    "1": "original_i0",
+    "2": "i8_preserved_earlier_generated",
+    "3": "i8_masked_generated",
+    "4": "other_accepted_generated_prior",
+    "5": "round10_masked_generated_gaps_and_seams"
+  },
+  "original_i0_supplied_memory": true,
+  "known_pixel_motion_is_supplied": true,
+  "raw_generated_before_paste_back_required": true,
+  "turbo": false,
+  "intended_actual_updates": 20,
+  "seed": 42,
+  "limits": "Nominal rotation-only projection, approximate source poses and scene layout; no depth or translation evidence. Source priority is an explicit conditioning choice."
+}

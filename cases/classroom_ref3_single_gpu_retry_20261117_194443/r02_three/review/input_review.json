@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "reviewed_at": "2026-11-15T04:06:21.686466+08:00",
+  "reviewed_by": "Codex",
+  "inspected_proxy_frames": [
+    0,
+    31,
+    62,
+    92,
+    123
+  ],
+  "reference_sha256": [
+    "78e0b78b09a5d2ae58940ce93984115750389478d120b9c13e8f400e858077e2",
+    "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+    "a3650372fbcc578d89ba0019174734da3aae6e5fc130e0cb4b61475b0bfffff1"
+  ],
+  "prompt_sha256": "55af8bcc58000a60b00483e7ff238f89ce3f9c0690fd984167fde60736d51b50",
+  "proxy_sha256": "dca60542a4071604a82b2971ba3b2171d0694bcba29ed16c856882d90340a8dc",
+  "nominal_angles_are_not_calibrated_output_poses": true,
+  "observations": [
+    "All actual references and the actual proxy F0/31/62/92/123 reviewed in contact sheets.",
+    "R2: windows/chalkboard move right while new left region appears gray. R1 terminal triplet has nearly identical composition.",
+    "R3: windows/chalkboard move left during rightward revisit. Three-reference roles explicitly destination/start/intermediate.",
+    "Known photo/proxy differences remain in furniture geometry, window patch boundaries, exposure and blackboard appearance. Fixed paired inputs preserve these risks.",
+    "No first-frame hard lock, masks or output pasteback. Input/prompt consistency is reviewed, not a guarantee of model success."
+  ]
+}

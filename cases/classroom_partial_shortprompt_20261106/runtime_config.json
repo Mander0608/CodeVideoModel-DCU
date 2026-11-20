@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "keep_steps": 5,
+  "steps": 20,
+  "frames": 124,
+  "modification": "Use official-format short prompt and remove automatic STYLE_REFERENCE concatenation in this process only.",
+  "style_reference_guidance_appended": false,
+  "weights_architecture_sampling_inputs_unchanged": true,
+  "effective_prompt_sha256": "e6e29b5c9fbd6422ab761876fa7f86c4c085b5c5245aa6f3222a9d89dc31840d",
+  "patched_generate_sha256": "c927c0af95511f3f7086c41698cac8e07760684f89d2a26b2f0770baaf1a9351",
+  "source_sha256": {
+    "cvm/video.py": "98b451d987812d6f1caec3c36208fa280866bf40be803cd4474813ad0db40e4c",
+    "run_dcu.py": "a46644c0e095eff2ee9046b08c1cb1d3096b3e61d0232dd5783fbea42e6d671f"
+  }
+}

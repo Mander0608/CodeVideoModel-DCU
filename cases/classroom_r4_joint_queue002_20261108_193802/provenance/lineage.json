@@ -1,0 +1,14 @@
+{
+  "proxy_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Iterative-20261106\\revisions\\v3_from_v2_round3_joint\\round4_proxy_v1\\partial_proxy.mp4",
+  "proxy_sha256": "4923b2b457969cf90aee012a64ae91cff97eff3d5c2d1a90a29c992c6ca1d169",
+  "reference_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Iterative-20261106\\revisions\\v3_from_v2_round3_joint\\observations\\0123.png",
+  "reference_frame": 123,
+  "reference_sha256": "670f30c7a30cbe745eee9d494bbbaa5d77fe20def51624781a773ba8e643edc4",
+  "round3_video_sha256": "a8ecbe3b47639fb50006d2e8169512e7976a69a2b0adab32fc175e7e1b5cc10e",
+  "scene_sha256": "383aa2110a59f13641c3f6c369f0b9a7b609a8a87480d8329eef51a72371c8ab",
+  "revision_scene_sha256": "5bacbe30fc45533edee63fcc564154b3e4da0b0d745d2d9b1df973ee98c43832",
+  "source_proxy_manifest_files_verified": 405,
+  "original_archives_modified": false,
+  "parent_proxy_input_png_mae": 0.0,
+  "generated_round3_to_proxy_F0_mae": 38.06378421160131
+}

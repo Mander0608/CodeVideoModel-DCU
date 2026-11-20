@@ -1,0 +1,81 @@
+{
+  "scene": "glass_building",
+  "scene_id": "cc08c0bdc34ddd2867705d0b17a86ec2a9d7c7926ce99070ed1fdc66a812de07",
+  "status": "planned_inputs_prepared_no_inference",
+  "start_index": 122,
+  "end_index_inclusive": 245,
+  "frame_count": 124,
+  "source_first": "frame_00123.png",
+  "source_last": "frame_00246.png",
+  "proxy_first": "00122.png",
+  "proxy_last": "00245.png",
+  "references": [
+    {
+      "reference": 1,
+      "camera_index": 122,
+      "source_filename": "frame_00123.png",
+      "clip_index": 0,
+      "original_path": "D:\\Datasets\\DL3DV-10K-Sample\\cc08c0bdc34ddd2867705d0b17a86ec2a9d7c7926ce99070ed1fdc66a812de07\\colmap\\images_4\\frame_00123.png",
+      "original_sha256": "a40da83d28cdb269b218ae5c7be0ec2c277fcdbd0ca7ffe5d034101d5681f958",
+      "undistorted_path": "D:\\Experiments\\DL3DV-Blender-20261116\\glass_building\\inputs\\frame_00123.png",
+      "padded_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\DL3DV-CVM-Plan-20261117\\cases\\glass_building\\ref1_frame_00123.png",
+      "padded_sha256": "b8f2710cd31b6b80e725b70e4419ce0031b160972d39329d082562fbf21e3599",
+      "already_used_for_blender": true
+    },
+    {
+      "reference": 2,
+      "camera_index": 219,
+      "source_filename": "frame_00220.png",
+      "clip_index": 97,
+      "original_path": "D:\\Datasets\\DL3DV-10K-Sample\\cc08c0bdc34ddd2867705d0b17a86ec2a9d7c7926ce99070ed1fdc66a812de07\\colmap\\images_4\\frame_00220.png",
+      "original_sha256": "d80cb5d78905afa46ba7ffd8f6618a69d37584592fb22fd784deb4032aed69e8",
+      "undistorted_path": "D:\\Experiments\\DL3DV-Blender-20261116\\glass_building\\inputs\\frame_00220.png",
+      "padded_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\DL3DV-CVM-Plan-20261117\\cases\\glass_building\\ref2_frame_00220.png",
+      "padded_sha256": "3cbb0fdc81a67f907545b16ad2a7b37f567f0d922f9bd72dbe7b781bdb4dd2eb",
+      "already_used_for_blender": true
+    }
+  ],
+  "reason": "首帧正面展示玻璃幕墙与 140 标识，片段围绕同一建筑；首尾方向差较小，但中间仍有转动。",
+  "resolution": [
+    960,
+    544
+  ],
+  "fps": 24,
+  "seed": 42,
+  "updates": 20,
+  "keep_steps": 5,
+  "padding": {
+    "top": 2,
+    "bottom": 2,
+    "left": 0,
+    "right": 0,
+    "mode": "edge_replicate"
+  },
+  "K_after_padding": [
+    [
+      432.7918958376848,
+      0.0,
+      480.0
+    ],
+    [
+      0.0,
+      432.5558879980442,
+      272.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "proxy_preparation": "Encode listed PNGs in order using identical edge padding; no interpolation or frame skipping; original v10 frozen.",
+  "frame_map": "frame_map.csv",
+  "source_scene_sha256": "ba72c2e7588f33d2f1cf80f62079a9ac9699f3e6cfb790449c0ae8d98b33994e",
+  "source_cameras_sha256": "53f77997e21637dbf9851cc716d22916dc72305739742479c36d6a227e4f619e",
+  "evaluation_exclude_indices": [
+    122,
+    154,
+    171,
+    219
+  ]
+}

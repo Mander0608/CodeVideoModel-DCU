@@ -1,0 +1,15 @@
+{
+  "base_model": "existing full MiniMax-H3 Ref2VA",
+  "protocol": "explicit_masked_completion_branch",
+  "original_cvm_baseline_passed": false,
+  "source_i7_sha256": "7c9a78f70eee56c90a55c9edf63bf134e4b198d3e306e4c42a79231f52ce6e2a",
+  "source_appearance_video_sha256": "123251efb87ed0c6a4214c75bf288d013347ee4f92719f0564a7cad5db6e025f",
+  "pinned_inpaint_revision": "1c0ab6b0b8a2e1bed7c20205050e07d1ba868837",
+  "turbo": false,
+  "intended_actual_updates": 20,
+  "seed": 42,
+  "geometry_and_nominal_trajectory_unchanged": true,
+  "known_pixel_motion_is_supplied": true,
+  "raw_generated_before_paste_back_required": true,
+  "new_content_is_generated_prior_not_observation": true
+}

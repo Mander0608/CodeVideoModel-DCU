@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "files_checked": 124,
+  "method": "weight sizes/mtimes and config hashes unchanged since launch; no full rehash of weight shards"
+}

@@ -1,0 +1,36 @@
+{
+  "protocol": "explicit_masked_completion_branch",
+  "original_cvm_baseline_passed": false,
+  "source_reference_sha256": "503891926cc8ab203a5085de76bf228109e01a9dbb9ca75d108248c04f00bf0b",
+  "source_video_sha256": "cbe7719c638ea2fd4a617dd150cbbc46985f88317b57c5b1f493af3b808b344e",
+  "source_policy": "Original i0 first in valid angular support, otherwise latest accepted raw i9 then i9coverage and older accepted history. No historical manually corrected i9 and no rejected output used.",
+  "source_labels": {
+    "1": "i0",
+    "2": "i1",
+    "3": "i2",
+    "4": "i3",
+    "5": "i4",
+    "6": "i5",
+    "7": "i6",
+    "8": "i7",
+    "9": "i8",
+    "10": "i9_coverage",
+    "11": "i9"
+  },
+  "inherited_origin_labels": {
+    "0": "unknown",
+    "1": "original_i0",
+    "2": "i8_preserved_earlier_generated",
+    "3": "i8_masked_generated",
+    "4": "other_accepted_generated_prior"
+  },
+  "original_i0_supplied_memory": true,
+  "known_pixel_motion_is_supplied": true,
+  "raw_generated_before_paste_back_required": true,
+  "turbo": false,
+  "intended_actual_updates": 20,
+  "seed": 42,
+  "limits": "Nominal rotation-only projection, approximate source poses and scene layout; no depth or translation evidence. Source priority is an explicit conditioning choice.",
+  "source_seam_policy": "24px each side of known-source identity transitions added to repaint mask; unknown dilated8px. Both mask revisions retained. Known interiors preserved, transition pixels may be generated.",
+  "prior_mask_revision": "offline_v001_unknown_only_mask"
+}

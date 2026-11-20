@@ -5,6 +5,7 @@ import io
 import json
 import math
 import mimetypes
+import os
 from pathlib import Path
 import secrets
 import subprocess
@@ -69,7 +70,7 @@ def render(scene, mode, requested_times=None):
     temporary = scene / "case/reconstruction.partial.mp4"
     try:
         with sync_playwright() as pw:
-            browser = pw.chromium.launch(args=[
+            browser = pw.chromium.launch(executable_path=os.environ.get("CVM_CHROMIUM_EXECUTABLE"), args=[
                 "--disable-dev-shm-usage", "--use-gl=angle",
                 "--use-angle=swiftshader", "--enable-unsafe-swiftshader"])
             page = browser.new_page(viewport={"width": w, "height": h},
@@ -80,12 +81,19 @@ def render(scene, mode, requested_times=None):
                        if route.request.url.startswith(origin + "/") else route.abort())
             errors = []
             page.on("pageerror", lambda error: errors.append(str(error)))
+            page.on("console", lambda message: errors.append(message.text) if message.type == "error" else None)
+            page.on("requestfailed", lambda request: errors.append(f"Request failed: {request.url}: {request.failure}"))
             page.goto(origin + "/case/index.html", wait_until="networkidle")
             if errors:
                 raise RuntimeError("; ".join(errors))
-            page.wait_for_function(
-                "() => typeof window.reconstruction?.seek === 'function' && "
-                "typeof window.reconstruction?.pause === 'function'")
+            try:
+                page.wait_for_function(
+                    "() => typeof window.reconstruction?.seek === 'function' && "
+                    "typeof window.reconstruction?.pause === 'function'", polling=100, timeout=180000)
+            except Exception:
+                print('RENDER_DIAGNOSTICS', errors, page.evaluate("() => ({url:location.href,html:document.documentElement.outerHTML.slice(0,2000),api:typeof window.reconstruction,canvas:document.querySelectorAll('canvas').length})"), flush=True)
+                page.screenshot(path=str(scene / 'render_error.png'))
+                raise
             page.evaluate("window.reconstruction.pause()")
             canvas = page.locator("canvas")
             if canvas.count() != 1:

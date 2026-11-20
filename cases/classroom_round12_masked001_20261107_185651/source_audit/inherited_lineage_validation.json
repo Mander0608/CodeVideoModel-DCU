@@ -1,0 +1,22 @@
+{
+  "all124frames_checked": true,
+  "known_pixels_have_origin": true,
+  "class_counts_all_frames": {
+    "0": 4770,
+    "1": 51434949,
+    "2": 0,
+    "3": 0,
+    "4": 9993804,
+    "5": 611346,
+    "6": 2712891
+  },
+  "source_label_counts": {
+    "1": 51434949,
+    "14": 13318041,
+    "0": 4770
+  },
+  "class6": "Inherited round11 masked generation, not newly generated round12",
+  "endpoint_all_original_i0": true,
+  "endpoint_repaint_pixels": 0,
+  "parent_round11_archive_unchanged": true
+}

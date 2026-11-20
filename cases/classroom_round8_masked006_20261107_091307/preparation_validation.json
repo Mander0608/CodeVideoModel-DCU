@@ -1,0 +1,767 @@
+{
+  "status": "passed_offline",
+  "source_frames": 124,
+  "mask_frames": 124,
+  "fps": 24,
+  "processing_size": [
+    1024,
+    608
+  ],
+  "final_crop_size": [
+    960,
+    544
+  ],
+  "mask_decode_exact": true,
+  "dilation_pixels": 8,
+  "guard_pixels": 32,
+  "all_unknown_pixels_covered": true,
+  "coverage": [
+    {
+      "frame": 0,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 1,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 2,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 3,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 4,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 5,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 6,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 7,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 8,
+      "unknown_fraction": 0.0,
+      "repaint_fraction_core": 0.0,
+      "repaint_fraction_padded": 0.0
+    },
+    {
+      "frame": 9,
+      "unknown_fraction": 0.0010416666666666667,
+      "repaint_fraction_core": 0.009375,
+      "repaint_fraction_padded": 0.0400390625
+    },
+    {
+      "frame": 10,
+      "unknown_fraction": 0.0010416666666666667,
+      "repaint_fraction_core": 0.009375,
+      "repaint_fraction_padded": 0.0400390625
+    },
+    {
+      "frame": 11,
+      "unknown_fraction": 0.002542892156862745,
+      "repaint_fraction_core": 0.014552696078431373,
+      "repaint_fraction_padded": 0.05682051809210526
+    },
+    {
+      "frame": 12,
+      "unknown_fraction": 0.0040709252450980395,
+      "repaint_fraction_core": 0.019971660539215685,
+      "repaint_fraction_padded": 0.07452392578125
+    },
+    {
+      "frame": 13,
+      "unknown_fraction": 0.0053730085784313725,
+      "repaint_fraction_core": 0.023357077205882353,
+      "repaint_fraction_padded": 0.08445659436677631
+    },
+    {
+      "frame": 14,
+      "unknown_fraction": 0.008061427696078432,
+      "repaint_fraction_core": 0.027301623774509804,
+      "repaint_fraction_padded": 0.09218557257401316
+    },
+    {
+      "frame": 15,
+      "unknown_fraction": 0.010608149509803922,
+      "repaint_fraction_core": 0.030644914215686273,
+      "repaint_fraction_padded": 0.09786826685855263
+    },
+    {
+      "frame": 16,
+      "unknown_fraction": 0.01331954656862745,
+      "repaint_fraction_core": 0.033877144607843135,
+      "repaint_fraction_padded": 0.10253263774671052
+    },
+    {
+      "frame": 17,
+      "unknown_fraction": 0.01605392156862745,
+      "repaint_fraction_core": 0.03697916666666667,
+      "repaint_fraction_padded": 0.10657380756578948
+    },
+    {
+      "frame": 18,
+      "unknown_fraction": 0.01881127450980392,
+      "repaint_fraction_core": 0.03998161764705882,
+      "repaint_fraction_padded": 0.11012027138157894
+    },
+    {
+      "frame": 19,
+      "unknown_fraction": 0.02264859068627451,
+      "repaint_fraction_core": 0.04400275735294118,
+      "repaint_fraction_padded": 0.11441843133223684
+    },
+    {
+      "frame": 20,
+      "unknown_fraction": 0.02653186274509804,
+      "repaint_fraction_core": 0.04797794117647059,
+      "repaint_fraction_padded": 0.11836965460526316
+    },
+    {
+      "frame": 21,
+      "unknown_fraction": 0.029465379901960784,
+      "repaint_fraction_core": 0.051034007352941176,
+      "repaint_fraction_padded": 0.12154990748355263
+    },
+    {
+      "frame": 22,
+      "unknown_fraction": 0.034440104166666666,
+      "repaint_fraction_core": 0.05600873161764706,
+      "repaint_fraction_padded": 0.12613396895559212
+    },
+    {
+      "frame": 23,
+      "unknown_fraction": 0.03843826593137255,
+      "repaint_fraction_core": 0.0600375306372549,
+      "repaint_fraction_padded": 0.12992457339638158
+    },
+    {
+      "frame": 24,
+      "unknown_fraction": 0.04247089460784314,
+      "repaint_fraction_core": 0.06407015931372549,
+      "repaint_fraction_padded": 0.1336155941611842
+    },
+    {
+      "frame": 25,
+      "unknown_fraction": 0.04754518995098039,
+      "repaint_fraction_core": 0.06911381740196078,
+      "repaint_fraction_padded": 0.13815468236019737
+    },
+    {
+      "frame": 26,
+      "unknown_fraction": 0.05164292279411765,
+      "repaint_fraction_core": 0.07321155024509804,
+      "repaint_fraction_padded": 0.14190031352796054
+    },
+    {
+      "frame": 27,
+      "unknown_fraction": 0.05674402573529412,
+      "repaint_fraction_core": 0.07825137867647058,
+      "repaint_fraction_padded": 0.14633339329769737
+    },
+    {
+      "frame": 28,
+      "unknown_fraction": 0.061864276960784316,
+      "repaint_fraction_core": 0.08334099264705883,
+      "repaint_fraction_padded": 0.15091103001644737
+    },
+    {
+      "frame": 29,
+      "unknown_fraction": 0.06698644301470588,
+      "repaint_fraction_core": 0.08840188419117648,
+      "repaint_fraction_padded": 0.15536177785773025
+    },
+    {
+      "frame": 30,
+      "unknown_fraction": 0.07213158700980392,
+      "repaint_fraction_core": 0.09348575367647059,
+      "repaint_fraction_padded": 0.15983179995888158
+    },
+    {
+      "frame": 31,
+      "unknown_fraction": 0.07727864583333334,
+      "repaint_fraction_core": 0.09857153799019608,
+      "repaint_fraction_padded": 0.16430342824835525
+    },
+    {
+      "frame": 32,
+      "unknown_fraction": 0.08242570465686275,
+      "repaint_fraction_core": 0.10365732230392156,
+      "repaint_fraction_padded": 0.16877505653782895
+    },
+    {
+      "frame": 33,
+      "unknown_fraction": 0.08758808210784313,
+      "repaint_fraction_core": 0.10872778799019608,
+      "repaint_fraction_padded": 0.17313103926809212
+    },
+    {
+      "frame": 34,
+      "unknown_fraction": 0.0937078737745098,
+      "repaint_fraction_core": 0.11475566789215687,
+      "repaint_fraction_padded": 0.17839291221217105
+    },
+    {
+      "frame": 35,
+      "unknown_fraction": 0.09885876225490196,
+      "repaint_fraction_core": 0.1198452818627451,
+      "repaint_fraction_padded": 0.18286775287828946
+    },
+    {
+      "frame": 36,
+      "unknown_fraction": 0.10495174632352941,
+      "repaint_fraction_core": 0.1258157169117647,
+      "repaint_fraction_padded": 0.1879786441200658
+    },
+    {
+      "frame": 37,
+      "unknown_fraction": 0.11010263480392157,
+      "repaint_fraction_core": 0.13090533088235295,
+      "repaint_fraction_padded": 0.1924534847861842
+    },
+    {
+      "frame": 38,
+      "unknown_fraction": 0.1161688112745098,
+      "repaint_fraction_core": 0.1368795955882353,
+      "repaint_fraction_padded": 0.19767038445723684
+    },
+    {
+      "frame": 39,
+      "unknown_fraction": 0.12130438112745098,
+      "repaint_fraction_core": 0.1419232536764706,
+      "repaint_fraction_padded": 0.20200388055098684
+    },
+    {
+      "frame": 40,
+      "unknown_fraction": 0.12734375,
+      "repaint_fraction_core": 0.1478707107843137,
+      "repaint_fraction_padded": 0.20719829358552633
+    },
+    {
+      "frame": 41,
+      "unknown_fraction": 0.1333639705882353,
+      "repaint_fraction_core": 0.15376838235294119,
+      "repaint_fraction_padded": 0.21224814967105263
+    },
+    {
+      "frame": 42,
+      "unknown_fraction": 0.1384765625,
+      "repaint_fraction_core": 0.15881969975490196,
+      "repaint_fraction_padded": 0.21669086657072367
+    },
+    {
+      "frame": 43,
+      "unknown_fraction": 0.14443933823529412,
+      "repaint_fraction_core": 0.16465992647058825,
+      "repaint_fraction_padded": 0.22169253700657895
+    },
+    {
+      "frame": 44,
+      "unknown_fraction": 0.150405943627451,
+      "repaint_fraction_core": 0.1705346200980392,
+      "repaint_fraction_padded": 0.22682591488486842
+    },
+    {
+      "frame": 45,
+      "unknown_fraction": 0.15544577205882354,
+      "repaint_fraction_core": 0.17548253676470588,
+      "repaint_fraction_padded": 0.2310791015625
+    },
+    {
+      "frame": 46,
+      "unknown_fraction": 0.16135876225490195,
+      "repaint_fraction_core": 0.18130361519607843,
+      "repaint_fraction_padded": 0.23616750616776316
+    },
+    {
+      "frame": 47,
+      "unknown_fraction": 0.1672487745098039,
+      "repaint_fraction_core": 0.1871017156862745,
+      "repaint_fraction_padded": 0.24123663651315788
+    },
+    {
+      "frame": 48,
+      "unknown_fraction": 0.17222732843137256,
+      "repaint_fraction_core": 0.19198835784313725,
+      "repaint_fraction_padded": 0.24543842516447367
+    },
+    {
+      "frame": 49,
+      "unknown_fraction": 0.17806372549019608,
+      "repaint_fraction_core": 0.1977328431372549,
+      "repaint_fraction_padded": 0.2504625822368421
+    },
+    {
+      "frame": 50,
+      "unknown_fraction": 0.18386948529411765,
+      "repaint_fraction_core": 0.20341605392156864,
+      "repaint_fraction_padded": 0.25533254523026316
+    },
+    {
+      "frame": 51,
+      "unknown_fraction": 0.18963694852941176,
+      "repaint_fraction_core": 0.20909160539215688,
+      "repaint_fraction_padded": 0.2602988795230263
+    },
+    {
+      "frame": 52,
+      "unknown_fraction": 0.19453125,
+      "repaint_fraction_core": 0.21389399509803922,
+      "repaint_fraction_padded": 0.2644299958881579
+    },
+    {
+      "frame": 53,
+      "unknown_fraction": 0.20024892769607844,
+      "repaint_fraction_core": 0.21951976102941176,
+      "repaint_fraction_padded": 0.2693545692845395
+    },
+    {
+      "frame": 54,
+      "unknown_fraction": 0.20507429534313726,
+      "repaint_fraction_core": 0.2242532169117647,
+      "repaint_fraction_padded": 0.27342786287006576
+    },
+    {
+      "frame": 55,
+      "unknown_fraction": 0.21073835784313724,
+      "repaint_fraction_core": 0.22982536764705883,
+      "repaint_fraction_padded": 0.2783074629934211
+    },
+    {
+      "frame": 56,
+      "unknown_fraction": 0.2163717830882353,
+      "repaint_fraction_core": 0.235366881127451,
+      "repaint_fraction_padded": 0.2831613641036184
+    },
+    {
+      "frame": 57,
+      "unknown_fraction": 0.22111672794117648,
+      "repaint_fraction_core": 0.24001991421568628,
+      "repaint_fraction_padded": 0.28716719777960525
+    },
+    {
+      "frame": 58,
+      "unknown_fraction": 0.22667738970588236,
+      "repaint_fraction_core": 0.24548866421568627,
+      "repaint_fraction_padded": 0.29196006373355265
+    },
+    {
+      "frame": 59,
+      "unknown_fraction": 0.23137254901960785,
+      "repaint_fraction_core": 0.2500919117647059,
+      "repaint_fraction_padded": 0.2959241365131579
+    },
+    {
+      "frame": 60,
+      "unknown_fraction": 0.2360485600490196,
+      "repaint_fraction_core": 0.2547066482843137,
+      "repaint_fraction_padded": 0.3000006424753289
+    },
+    {
+      "frame": 61,
+      "unknown_fraction": 0.24150582107843138,
+      "repaint_fraction_core": 0.2600413602941177,
+      "repaint_fraction_padded": 0.3045782791940789
+    },
+    {
+      "frame": 62,
+      "unknown_fraction": 0.24611672794117648,
+      "repaint_fraction_core": 0.2645909926470588,
+      "repaint_fraction_padded": 0.3086001747532895
+    },
+    {
+      "frame": 63,
+      "unknown_fraction": 0.25067976409313725,
+      "repaint_fraction_core": 0.2690621170343137,
+      "repaint_fraction_padded": 0.3124534205386513
+    },
+    {
+      "frame": 64,
+      "unknown_fraction": 0.25606234681372547,
+      "repaint_fraction_core": 0.2743527879901961,
+      "repaint_fraction_padded": 0.3170969109786184
+    },
+    {
+      "frame": 65,
+      "unknown_fraction": 0.26057751225490194,
+      "repaint_fraction_core": 0.27880667892156863,
+      "repaint_fraction_padded": 0.3210384971217105
+    },
+    {
+      "frame": 66,
+      "unknown_fraction": 0.26507735906862745,
+      "repaint_fraction_core": 0.2832146139705882,
+      "repaint_fraction_padded": 0.32483873869243424
+    },
+    {
+      "frame": 67,
+      "unknown_fraction": 0.26954656862745097,
+      "repaint_fraction_core": 0.2876225490196078,
+      "repaint_fraction_padded": 0.3287417763157895
+    },
+    {
+      "frame": 68,
+      "unknown_fraction": 0.2739736519607843,
+      "repaint_fraction_core": 0.29195772058823527,
+      "repaint_fraction_padded": 0.33248098273026316
+    },
+    {
+      "frame": 69,
+      "unknown_fraction": 0.27837392769607844,
+      "repaint_fraction_core": 0.2962967218137255,
+      "repaint_fraction_padded": 0.33632619757401316
+    },
+    {
+      "frame": 70,
+      "unknown_fraction": 0.28274356617647056,
+      "repaint_fraction_core": 0.3005744485294118,
+      "repaint_fraction_padded": 0.34001721833881576
+    },
+    {
+      "frame": 71,
+      "unknown_fraction": 0.28708639705882355,
+      "repaint_fraction_core": 0.3048560049019608,
+      "repaint_fraction_padded": 0.34381424753289475
+    },
+    {
+      "frame": 72,
+      "unknown_fraction": 0.29139476102941175,
+      "repaint_fraction_core": 0.30907245710784315,
+      "repaint_fraction_padded": 0.3474538702713816
+    },
+    {
+      "frame": 73,
+      "unknown_fraction": 0.29489889705882355,
+      "repaint_fraction_core": 0.31254595588235295,
+      "repaint_fraction_padded": 0.3505730879934211
+    },
+    {
+      "frame": 74,
+      "unknown_fraction": 0.2991498161764706,
+      "repaint_fraction_core": 0.3167049632352941,
+      "repaint_fraction_padded": 0.35416452508223684
+    },
+    {
+      "frame": 75,
+      "unknown_fraction": 0.30336435355392155,
+      "repaint_fraction_core": 0.3208582261029412,
+      "repaint_fraction_padded": 0.3578539396587171
+    },
+    {
+      "frame": 76,
+      "unknown_fraction": 0.30678998161764703,
+      "repaint_fraction_core": 0.32422257965686274,
+      "repaint_fraction_padded": 0.36077880859375
+    },
+    {
+      "frame": 77,
+      "unknown_fraction": 0.31093367034313724,
+      "repaint_fraction_core": 0.32827435661764703,
+      "repaint_fraction_padded": 0.36428029913651316
+    },
+    {
+      "frame": 78,
+      "unknown_fraction": 0.31431142769607845,
+      "repaint_fraction_core": 0.33162147671568626,
+      "repaint_fraction_padded": 0.3672935084292763
+    },
+    {
+      "frame": 79,
+      "unknown_fraction": 0.31839767156862747,
+      "repaint_fraction_core": 0.3356158088235294,
+      "repaint_fraction_padded": 0.3707468133223684
+    },
+    {
+      "frame": 80,
+      "unknown_fraction": 0.3217064950980392,
+      "repaint_fraction_core": 0.3388939950980392,
+      "repaint_fraction_padded": 0.3737021998355263
+    },
+    {
+      "frame": 81,
+      "unknown_fraction": 0.32498468137254904,
+      "repaint_fraction_core": 0.3421109068627451,
+      "repaint_fraction_padded": 0.37650339226973684
+    },
+    {
+      "frame": 82,
+      "unknown_fraction": 0.32823988970588236,
+      "repaint_fraction_core": 0.3453048406862745,
+      "repaint_fraction_padded": 0.3792853104440789
+    },
+    {
+      "frame": 83,
+      "unknown_fraction": 0.331460631127451,
+      "repaint_fraction_core": 0.3484949448529412,
+      "repaint_fraction_padded": 0.3821668122944079
+    },
+    {
+      "frame": 84,
+      "unknown_fraction": 0.33465073529411765,
+      "repaint_fraction_core": 0.3516237745098039,
+      "repaint_fraction_padded": 0.3848941200657895
+    },
+    {
+      "frame": 85,
+      "unknown_fraction": 0.33781786151960785,
+      "repaint_fraction_core": 0.3547296262254902,
+      "repaint_fraction_padded": 0.38760215357730265
+    },
+    {
+      "frame": 86,
+      "unknown_fraction": 0.34095435049019607,
+      "repaint_fraction_core": 0.3578048406862745,
+      "repaint_fraction_padded": 0.3902844880756579
+    },
+    {
+      "frame": 87,
+      "unknown_fraction": 0.3440563725490196,
+      "repaint_fraction_core": 0.3608762254901961,
+      "repaint_fraction_padded": 0.39306640625
+    },
+    {
+      "frame": 88,
+      "unknown_fraction": 0.34713541666666664,
+      "repaint_fraction_core": 0.3638939950980392,
+      "repaint_fraction_padded": 0.39570055509868424
+    },
+    {
+      "frame": 89,
+      "unknown_fraction": 0.35018382352941174,
+      "repaint_fraction_core": 0.3668811274509804,
+      "repaint_fraction_padded": 0.3983090049342105
+    },
+    {
+      "frame": 90,
+      "unknown_fraction": 0.35245863970588237,
+      "repaint_fraction_core": 0.36912530637254903,
+      "repaint_fraction_padded": 0.4002942537006579
+    },
+    {
+      "frame": 91,
+      "unknown_fraction": 0.35544577205882355,
+      "repaint_fraction_core": 0.3720511642156863,
+      "repaint_fraction_padded": 0.4028513055098684
+    },
+    {
+      "frame": 92,
+      "unknown_fraction": 0.35767463235294117,
+      "repaint_fraction_core": 0.374249387254902,
+      "repaint_fraction_padded": 0.4047980057565789
+    },
+    {
+      "frame": 93,
+      "unknown_fraction": 0.35986519607843137,
+      "repaint_fraction_core": 0.3764093137254902,
+      "repaint_fraction_padded": 0.4067125822368421
+    },
+    {
+      "frame": 94,
+      "unknown_fraction": 0.36276424632352944,
+      "repaint_fraction_core": 0.37924708946078434,
+      "repaint_fraction_padded": 0.4091957493832237
+    },
+    {
+      "frame": 95,
+      "unknown_fraction": 0.36491651348039217,
+      "repaint_fraction_core": 0.3813687193627451,
+      "repaint_fraction_padded": 0.4110782020970395
+    },
+    {
+      "frame": 96,
+      "unknown_fraction": 0.367007506127451,
+      "repaint_fraction_core": 0.38342907475490196,
+      "repaint_fraction_padded": 0.4129092567845395
+    },
+    {
+      "frame": 97,
+      "unknown_fraction": 0.3690908394607843,
+      "repaint_fraction_core": 0.38548177083333335,
+      "repaint_fraction_padded": 0.41473388671875
+    },
+    {
+      "frame": 98,
+      "unknown_fraction": 0.3711358762254902,
+      "repaint_fraction_core": 0.38749617034313727,
+      "repaint_fraction_padded": 0.41652639288651316
+    },
+    {
+      "frame": 99,
+      "unknown_fraction": 0.3731541053921569,
+      "repaint_fraction_core": 0.38948376225490194,
+      "repaint_fraction_padded": 0.41829641241776316
+    },
+    {
+      "frame": 100,
+      "unknown_fraction": 0.37442555147058826,
+      "repaint_fraction_core": 0.3907552083333333,
+      "repaint_fraction_padded": 0.41946571751644735
+    },
+    {
+      "frame": 101,
+      "unknown_fraction": 0.376382506127451,
+      "repaint_fraction_core": 0.39268152573529413,
+      "repaint_fraction_padded": 0.4211843390213816
+    },
+    {
+      "frame": 102,
+      "unknown_fraction": 0.37830116421568627,
+      "repaint_fraction_core": 0.3945389093137255,
+      "repaint_fraction_padded": 0.4227423416940789
+    },
+    {
+      "frame": 103,
+      "unknown_fraction": 0.37948069852941174,
+      "repaint_fraction_core": 0.39571844362745096,
+      "repaint_fraction_padded": 0.4238345497532895
+    },
+    {
+      "frame": 104,
+      "unknown_fraction": 0.3806104473039216,
+      "repaint_fraction_core": 0.3968481924019608,
+      "repaint_fraction_padded": 0.4248849969161184
+    },
+    {
+      "frame": 105,
+      "unknown_fraction": 0.3824486825980392,
+      "repaint_fraction_core": 0.3986251531862745,
+      "repaint_fraction_padded": 0.4263755396792763
+    },
+    {
+      "frame": 106,
+      "unknown_fraction": 0.3835401348039216,
+      "repaint_fraction_core": 0.39971660539215687,
+      "repaint_fraction_padded": 0.4273938630756579
+    },
+    {
+      "frame": 107,
+      "unknown_fraction": 0.3845703125,
+      "repaint_fraction_core": 0.4007161458333333,
+      "repaint_fraction_padded": 0.42823229337993424
+    },
+    {
+      "frame": 108,
+      "unknown_fraction": 0.38561963848039216,
+      "repaint_fraction_core": 0.4017654718137255,
+      "repaint_fraction_padded": 0.4292152806332237
+    },
+    {
+      "frame": 109,
+      "unknown_fraction": 0.3865310968137255,
+      "repaint_fraction_core": 0.40264629289215687,
+      "repaint_fraction_padded": 0.42995412726151316
+    },
+    {
+      "frame": 110,
+      "unknown_fraction": 0.3868183210784314,
+      "repaint_fraction_core": 0.40293351715686276,
+      "repaint_fraction_padded": 0.4301950555098684
+    },
+    {
+      "frame": 111,
+      "unknown_fraction": 0.38771063112745097,
+      "repaint_fraction_core": 0.40382582720588234,
+      "repaint_fraction_padded": 0.4310463353207237
+    },
+    {
+      "frame": 112,
+      "unknown_fraction": 0.3878714767156863,
+      "repaint_fraction_core": 0.40398667279411765,
+      "repaint_fraction_padded": 0.43118125513980265
+    },
+    {
+      "frame": 113,
+      "unknown_fraction": 0.38872549019607844,
+      "repaint_fraction_core": 0.4048100490196078,
+      "repaint_fraction_padded": 0.4318719161184211
+    },
+    {
+      "frame": 114,
+      "unknown_fraction": 0.3888174019607843,
+      "repaint_fraction_core": 0.40490196078431373,
+      "repaint_fraction_padded": 0.43194901315789475
+    },
+    {
+      "frame": 115,
+      "unknown_fraction": 0.38887484681372547,
+      "repaint_fraction_core": 0.4049594056372549,
+      "repaint_fraction_padded": 0.43199719880756576
+    },
+    {
+      "frame": 116,
+      "unknown_fraction": 0.388897824754902,
+      "repaint_fraction_core": 0.40498238357843136,
+      "repaint_fraction_padded": 0.43201647306743424
+    },
+    {
+      "frame": 117,
+      "unknown_fraction": 0.388897824754902,
+      "repaint_fraction_core": 0.40498238357843136,
+      "repaint_fraction_padded": 0.43201647306743424
+    },
+    {
+      "frame": 118,
+      "unknown_fraction": 0.388897824754902,
+      "repaint_fraction_core": 0.40498238357843136,
+      "repaint_fraction_padded": 0.43201647306743424
+    },
+    {
+      "frame": 119,
+      "unknown_fraction": 0.388897824754902,
+      "repaint_fraction_core": 0.40498238357843136,
+      "repaint_fraction_padded": 0.43201647306743424
+    },
+    {
+      "frame": 120,
+      "unknown_fraction": 0.388897824754902,
+      "repaint_fraction_core": 0.40498238357843136,
+      "repaint_fraction_padded": 0.43201647306743424
+    },
+    {
+      "frame": 121,
+      "unknown_fraction": 0.388897824754902,
+      "repaint_fraction_core": 0.40498238357843136,
+      "repaint_fraction_padded": 0.43201647306743424
+    },
+    {
+      "frame": 122,
+      "unknown_fraction": 0.388897824754902,
+      "repaint_fraction_core": 0.40498238357843136,
+      "repaint_fraction_padded": 0.43201647306743424
+    },
+    {
+      "frame": 123,
+      "unknown_fraction": 0.388897824754902,
+      "repaint_fraction_core": 0.40498238357843136,
+      "repaint_fraction_padded": 0.43201647306743424
+    }
+  ],
+  "source_reference": "accepted round7 attempt002 F123 i7 only; no rejected result used",
+  "method_change": true,
+  "actual_inference_started": false
+}

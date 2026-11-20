@@ -1,0 +1,6 @@
+{
+  "base": "round4/05_cvm/attempt_002/inputs/prompt.txt",
+  "reason": "Accepted round4 retry explicitly fills rear-wall, ceiling and floor holes. Still appropriate for -120 -> -150 rearward exploration.",
+  "prompt_changed_from_parent_accepted": false,
+  "sampling_changed": false
+}

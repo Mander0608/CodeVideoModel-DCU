@@ -1,0 +1,81 @@
+{
+  "scene": "temple",
+  "scene_id": "ba55c875d20c34ee85ffc72264c4d77710852e5fb7d9ce4b9c26a8442850e98f",
+  "status": "planned_inputs_prepared_no_inference",
+  "start_index": 115,
+  "end_index_inclusive": 238,
+  "frame_count": 124,
+  "source_first": "frame_00116.png",
+  "source_last": "frame_00239.png",
+  "proxy_first": "00115.png",
+  "proxy_last": "00238.png",
+  "references": [
+    {
+      "reference": 1,
+      "camera_index": 115,
+      "source_filename": "frame_00116.png",
+      "clip_index": 0,
+      "original_path": "D:\\Datasets\\DL3DV-10K-Sample\\ba55c875d20c34ee85ffc72264c4d77710852e5fb7d9ce4b9c26a8442850e98f\\colmap\\images_4\\frame_00116.png",
+      "original_sha256": "4650240227404f8c510bfe05ef185e301def0def6e67e6d5ab6260eff38767c6",
+      "undistorted_path": "D:\\Experiments\\DL3DV-Blender-20261116\\temple\\inputs\\frame_00116.png",
+      "padded_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\DL3DV-CVM-Plan-20261117\\cases\\temple\\ref1_frame_00116.png",
+      "padded_sha256": "8aa23622b930d6b8151fcd9de0a3cd0976636ff5caf7cf25280cb62451eda450",
+      "already_used_for_blender": true
+    },
+    {
+      "reference": 2,
+      "camera_index": 229,
+      "source_filename": "frame_00230.png",
+      "clip_index": 114,
+      "original_path": "D:\\Datasets\\DL3DV-10K-Sample\\ba55c875d20c34ee85ffc72264c4d77710852e5fb7d9ce4b9c26a8442850e98f\\colmap\\images_4\\frame_00230.png",
+      "original_sha256": "12fe57aaf9df6e0e3f8f7ab719dbe392b4e18a9981add7e3aea4a5ee88c81717",
+      "undistorted_path": "D:\\Experiments\\DL3DV-Blender-20261116\\temple\\inputs\\frame_00230.png",
+      "padded_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\DL3DV-CVM-Plan-20261117\\cases\\temple\\ref2_frame_00230.png",
+      "padded_sha256": "31d067f37582840d3e92cfb26e78e380372abeabfccc2880157ea2e246c6e218",
+      "already_used_for_blender": true
+    }
+  ],
+  "reason": "首帧展示雕像和香炉，覆盖庭院另一侧；相较前段，首尾方向差较小。雕像与背景几何仍粗糙。",
+  "resolution": [
+    960,
+    544
+  ],
+  "fps": 24,
+  "seed": 42,
+  "updates": 20,
+  "keep_steps": 5,
+  "padding": {
+    "top": 2,
+    "bottom": 2,
+    "left": 0,
+    "right": 0,
+    "mode": "edge_replicate"
+  },
+  "K_after_padding": [
+    [
+      419.66089362297487,
+      0.0,
+      480.0
+    ],
+    [
+      0.0,
+      420.3247459980129,
+      272.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "proxy_preparation": "Encode listed PNGs in order using identical edge padding; no interpolation or frame skipping; original v10 frozen.",
+  "frame_map": "frame_map.csv",
+  "source_scene_sha256": "c17c4803838a50d25db67af572116c81fc3709f424b07fdf671332be16521eca",
+  "source_cameras_sha256": "0245edc9bb79216a79323452b84161b8fa1971ec8f80b2f6d8fd212c440c45e7",
+  "evaluation_exclude_indices": [
+    115,
+    150,
+    212,
+    229
+  ]
+}

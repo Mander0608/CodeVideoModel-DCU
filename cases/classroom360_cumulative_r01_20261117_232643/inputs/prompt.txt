@@ -1,0 +1,20 @@
+subject_definitions:
+<Subject 1> is the same empty classroom shown in <Picture 1>. <Picture 1> is the actual starting view for this shot.
+<Video 1> is the partial classroom preview rendered from the current accumulated scene; uniform gray regions indicate missing appearance, not physical gray objects.
+
+summary:
+[video editing + reference generation] Edit <Video 1> to complete its missing regions while preserving its camera motion and known layout, with the realistic appearance of <Subject 1>.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - classroom identity, materials and lighting.
+<Video 1>: partially_preserved - preserve camera motion, stationary objects and visible layout; replace gray regions and their boundaries with coherent classroom content.
+
+detailed_description:
+Photorealistic interior with natural daylight.
+[Shot 1] Begin from the view in <Picture 1>. Following <Video 1>, briefly hold the starting view, smoothly turn left by 30 degrees from a fixed position, and briefly hold the final view. This is segment 1 of a continuous leftward turn. Continue in the direction shown by the preview; do not reverse, translate, cut, or recenter on a previously seen object. The picture is the starting appearance reference, not a target endpoint. Known walls, desks, windows and wall-mounted objects remain stationary in the room. Complete every gray missing region with plausible continuous classroom surfaces and details, consistent perspective, lighting and occlusion. Do not copy foreground textures onto distant surfaces or duplicate known objects merely to keep them visible. Content outside the current camera view should remain outside it. Maintain a stable room throughout the unbroken shot.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

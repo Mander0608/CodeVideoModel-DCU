@@ -1,0 +1,7 @@
+{
+  "baseline": "../attempt_002/inputs/prompt.txt",
+  "changed_condition": "prompt only",
+  "reason": "Both previous runs overrotate. Anchor board right-edge screen position from input preview and retain oblique view/rear corner; no new window/clock.",
+  "keep_steps": 10,
+  "guaranteed_success": false
+}

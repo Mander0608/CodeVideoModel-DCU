@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "queued_at": "2026-11-17T17:51:20+08:00",
+  "free_GiB": [
+    63.640625,
+    63.640625
+  ],
+  "last_resource_check": "2026-11-17T17:52:04+08:00",
+  "queue_seconds": 43.288537374697626,
+  "inference_started_at": "2026-11-17T17:52:10+08:00",
+  "inference_pid": 1903568,
+  "exit_code": 0,
+  "elapsed_seconds": 2022.318215395324,
+  "finished_at": "2026-11-17T18:25:52+08:00",
+  "denoise_steps": 20,
+  "visual_review": "pending"
+}

@@ -1,0 +1,13 @@
+{
+  "base": "round9/provenance/cvm_prompt.txt",
+  "reason": "Return toward original front wall; retain original raw RGB editing protocol and forbid duplication observed in rejected round9 trials.",
+  "actual_model_conditions": "Corrected-composite i9 boundaryF123, partial raw Blender RGB video, prompt. No mask or pasteback.",
+  "sampling": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5
+  },
+  "original_i0_return_is_supplied_via_geometry": true,
+  "corrected_reference": true,
+  "pose_alignment": "i9 F123=-270; coverageF74 retained at true pose, not used as start image."
+}

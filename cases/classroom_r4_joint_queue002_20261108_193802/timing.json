@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-08T19:38:46+08:00",
+  "host": "m09r2n04",
+  "devices": [
+    0,
+    1
+  ],
+  "supervisor_pid": 997376,
+  "inference_started_at": "2026-11-08T19:40:02+08:00",
+  "finished_at": "2026-11-08T20:08:13+08:00",
+  "total_elapsed_seconds": 1766.460262902081,
+  "inference_process_elapsed_seconds": 1690.9686073604971,
+  "timing_scope": "Total includes resource queue/preflight. Inference process includes loading/sampling/decoding.",
+  "queue_max_seconds": 14400,
+  "last_resource_check": "2026-11-08T19:39:09+08:00",
+  "free_GiB": [
+    63.640625,
+    63.640625
+  ],
+  "queue_reason": "Need >60 GiB free on each DCU",
+  "queue_elapsed_seconds": 66.45832835324109,
+  "resources_ready_at": "2026-11-08T19:39:53+08:00",
+  "inference_pid": 1011573,
+  "command": [
+    "bash",
+    "/public/home/lixin1/chenxy/run_cvm_dcu.sh",
+    "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom_r4_joint_queue002_20261108_193802/run_cvm.py",
+    "--project-root",
+    "/public/home/lixin1/chenxy/CodeVideoModel",
+    "--execute"
+  ],
+  "exit_code": 0,
+  "runner_reported_elapsed_seconds": 1658.864762576297
+}

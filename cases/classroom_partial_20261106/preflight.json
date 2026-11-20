@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "inputs_sha256_match": true,
+  "proxy_format_valid": true,
+  "free_GiB": [
+    63.640625,
+    63.640625
+  ],
+  "cleanup_probe": "passed",
+  "torch": "2.7.1",
+  "hip": "6.3.26093"
+}

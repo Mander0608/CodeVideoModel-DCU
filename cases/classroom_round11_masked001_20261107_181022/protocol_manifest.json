@@ -1,0 +1,10 @@
+{
+  "parent_method": "round10/05_cvm/attempt_004_masked_original_i9",
+  "same_masked_core_algorithm": true,
+  "same_sampling": true,
+  "trajectory_changed": true,
+  "prompt_adapted_to_actual_view": true,
+  "source_reference_changed": true,
+  "not_paired_single_variable_control": true,
+  "known_pixels_supplied": true
+}

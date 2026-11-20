@@ -1,0 +1,10 @@
+{
+  "endpoint_interior_roi_xyxy": [
+    10,
+    140,
+    260,
+    350
+  ],
+  "repaint_fraction": 0.0,
+  "scope": "Interior ROI only; visual inspection also needed. Board is supplied i0, not model memory."
+}

@@ -1,0 +1,22 @@
+{
+  "baseline_attempt": "../attempt_001",
+  "changed_model_conditions": [
+    "prompt.txt"
+  ],
+  "same_inputs": {
+    "partial_proxy.mp4": "c2a7a0a02566f623bfd01555fe4d644595b861ef65dcf4c2daeb67ac0969aee4",
+    "reference.png": "01ea6eeb9fc776014651a5fc349ca66883569d6dbc6c4a97c7d11326dec561de",
+    "camera_trajectory.json": "5b95d418ffaf1576dcfbabfb94a565970e9aef6f4570dbd70bb9caf7259db6ce"
+  },
+  "same_runner": true,
+  "parameters": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  },
+  "retry_limit": "One prompt-only retry; inspect result before any further adaptation."
+}

@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the empty classroom in <Picture 1>: a green chalkboard labeled MEMORY TEST with drawings of a red apple, a white coffee mug and a leafy green tree, wooden desks with metal frames, pale walls and broad windows overlooking trees.
+<Video 1> is the partial Blender preview. Uniform gray regions indicate unknown content to complete.
+
+summary:
+[video editing + reference generation] Complete the missing regions of <Video 1> as a photorealistic, continuous exploration of <Subject 1>, matching the classroom appearance in <Picture 1>.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - classroom identity, board text and drawings, materials and daylight.
+<Video 1>: partially_preserved - preserve the camera path and visible object layout; replace gray regions and their boundaries with coherent classroom content.
+
+detailed_description:
+[Shot 1] One continuous shot starts facing the chalkboard, smoothly turns left from a fixed camera position, briefly pauses, then returns to the exact initial front view. Follow the timing and camera motion of <Video 1>, without translation or zoom. Rows of desks, clear aisles, chalk, erasers, the board tray, pale walls and windows remain stationary. Complete newly revealed areas with plausible classroom surfaces and details, consistent perspective, occlusion and soft daylight. Keep the room unchanged during the return: the same desks, windows, MEMORY TEST lettering, apple, mug and tree reappear in their original positions. Fill the entire image naturally, with no remaining gray placeholders. No people enter.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

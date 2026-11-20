@@ -1,0 +1,45 @@
+{
+  "baseline_attempt": "../attempt_001",
+  "changed_model_conditions": [
+    "prompt.txt"
+  ],
+  "all_other_input_files_identical": {
+    "camera_trajectory.csv": "c0bf1d59cea7980925ac1f61b768b450648660892963cdb16dc0ba3ca2860b85",
+    "camera_trajectory.json": "7f860021df69b7aed4e2f4294d5f1e2fcac2e97f3035b45da096fa6263d9abec",
+    "coverage.json": "50ea207342b335f0b82f532009910499dc35e1bec84e0763d4e808459d26b374",
+    "i8_composite_sources.json": "995ab065b0158308f86f5da67eec7c0f557f271972f1aa3371041b6f219d92d5",
+    "i8_original_unknown_mask.png": "cc66741923cb6dec010c553741a7769966c8140b643f4851fc9b64a8d20a2964",
+    "i8_repaint_mask.png": "1b867fc48411dd6817106fe8f4b70f2f480bea7137d261cbeaecd7c48a88011b",
+    "partial_proxy.mp4": "c8a765ea909f10aa9d898a1fb267ae2f218a0ef98e2b1f39a92578f0600574b2",
+    "reference.png": "b5b249963b2901dba172e775d4c320d9d075a720072282f4404112ef85243f4b",
+    "reference_i0.png": "8689da6857c812efccf7078c5b73e3688b18e00de00286d5c09052cdc42046dd",
+    "reference_i1.png": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+    "reference_i2.png": "09e7ce448451b1db2e1f3f32adfbed28113365bc1841a6e288c4bec71a8635ed",
+    "reference_i3.png": "f1040e628f0bddac63a71585c2672664274baebdf3ed5640ab9aa25a28858a69",
+    "reference_i4.png": "5b0da300dba1a92f86b9cca8f1b4f28d565daafbe70d6d018adb666e523c7084",
+    "reference_i5.png": "eaae4f6ace27acaa48eb9bdb4d853d9fe5db4528212660815fc649e83b789b69",
+    "reference_i6.png": "01ea6eeb9fc776014651a5fc349ca66883569d6dbc6c4a97c7d11326dec561de",
+    "reference_i7.png": "7c9a78f70eee56c90a55c9edf63bf134e4b198d3e306e4c42a79231f52ce6e2a",
+    "reference_i8.png": "b5b249963b2901dba172e775d4c320d9d075a720072282f4404112ef85243f4b",
+    "reference_protocol.json": "ff89cb8ea6c86ad015a2e4df627183adcd5970918059cc040735fcf22d2f8421"
+  },
+  "runner_identical": true,
+  "runner_sha256": "b5a249dd45b1980f250a6032518da728bc60b253ddb5b5c7cbdbb45b560ee010",
+  "parameters": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  },
+  "independent_reference_images": 1,
+  "reference": "i8 from round8",
+  "mask_input": false,
+  "camera_parameter_input": false,
+  "pasteback": false,
+  "baseline_prompt_sha256": "e304ed3629b172b5e4b8eab0f2f2fa2881cecb7d65d84cb2f32fec375572765c",
+  "candidate_prompt_sha256": "48c5532d57eab08aa6ffb40d68e3864bfe3393546c44856c5f5a6d4f78ed0900",
+  "limits": "One seed, multiple wording changes within the sole changed input prompt. Does not isolate individual sentences or establish general capability."
+}

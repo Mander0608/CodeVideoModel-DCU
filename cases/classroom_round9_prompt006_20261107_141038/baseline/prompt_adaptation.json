@@ -1,0 +1,9 @@
+{
+  "baseline_attempt": "attempt_001",
+  "changed_model_conditions": [
+    "prompt.txt"
+  ],
+  "user_requested": true,
+  "purpose": "Test explicit internal-hole and returned-known-strip semantics plus source-matched motion; no mask/reference/sampling change.",
+  "not_a_guarantee": "Text cannot enforce known-pixel preservation in original RGB CVM."
+}

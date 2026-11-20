@@ -1,0 +1,21 @@
+subject_definitions:
+<Subject 1> is the same empty classroom in <Picture 1>, with wooden desks, metal frames, pale walls and natural daylight.
+<Picture 1> shows the starting view.
+Picture 2 and Picture 3 show the two frames immediately preceding Picture 1 in the same clip. Their chronological order is Picture 2, Picture 3, Picture 1. Picture 1 remains the starting view for the new clip.
+<Video 1> specifies the camera motion and modeled layout; gray areas need scene completion.
+
+summary:
+[video editing + reference generation] Complete <Video 1> as a continuous photorealistic view of <Subject 1>.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - identity, fixed object layout, materials and daylight.
+<Video 1>: partially_preserved - retain chronological camera motion and modeled structure; replace gray areas with coherent classroom content.
+
+detailed_description:
+[Shot 1] Begin at <Picture 1>, matching its composition and brightness. Turn 30 degrees LEFT from a fixed position, following <Video 1>; existing features move RIGHT and newly revealed space enters from the LEFT. Explore newly revealed space following the proxy. Keep desks, chairs, windows and walls stationary with consistent perspective and occlusion. The green chalkboard with MEMORY TEST, an apple, a white mug and a tree remains on the original front wall and only appears when that wall is in view. Maintain steady daylight and color throughout. One unbroken shot, without translation, direction reversal, gray placeholders or gradual reconstruction.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

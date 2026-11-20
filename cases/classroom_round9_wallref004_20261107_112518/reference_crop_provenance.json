@@ -1,0 +1,24 @@
+{
+  "source": "../../00_input/i0.png",
+  "source_sha256": "8689da6857c812efccf7078c5b73e3688b18e00de00286d5c09052cdc42046dd",
+  "source_size": [
+    640,
+    384
+  ],
+  "crop_xyxy_exclusive": [
+    544,
+    24,
+    632,
+    168
+  ],
+  "crop_size": [
+    88,
+    144
+  ],
+  "crop_sha256": "10410d44dc7eb870eb11c0ad7937464423d3c306404ec6a2ee022968bb0c3029",
+  "model_reference": "references/wall_crop_i0.png",
+  "diagnostic_full_view_reference": "inputs/reference.png (accepted i8, NOT model Picture1)",
+  "supplied_original_memory": true,
+  "source_video_unchanged": true,
+  "interpretation": "Material-only crop from originally observed bare wall; no unseen texture generated offline."
+}

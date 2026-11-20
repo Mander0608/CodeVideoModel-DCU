@@ -1,0 +1,77 @@
+m09r2n04
+
+================================= System Management Interface ==================================
+================================================================================================
+HCU[0]		: HCU use (%): 0.0
+HCU[1]		: HCU use (%): 0.0
+HCU[2]		: HCU use (%): 0.0
+HCU[3]		: HCU use (%): 0.0
+HCU[4]		: HCU use (%): 0.0
+HCU[5]		: HCU use (%): 0.0
+HCU[6]		: HCU use (%): 0.0
+HCU[7]		: HCU use (%): 3.8
+================================================================================================
+================================================================================================
+HCU[0]		: vram Total Memory (MiB): 65520
+HCU[0]		: vram Total Used Memory (MiB): 3
+HCU[1]		: vram Total Memory (MiB): 65520
+HCU[1]		: vram Total Used Memory (MiB): 3
+HCU[2]		: vram Total Memory (MiB): 65520
+HCU[2]		: vram Total Used Memory (MiB): 8775
+HCU[3]		: vram Total Memory (MiB): 65520
+HCU[3]		: vram Total Used Memory (MiB): 8775
+HCU[4]		: vram Total Memory (MiB): 65520
+HCU[4]		: vram Total Used Memory (MiB): 3
+HCU[5]		: vram Total Memory (MiB): 65520
+HCU[5]		: vram Total Used Memory (MiB): 3
+HCU[6]		: vram Total Memory (MiB): 65520
+HCU[6]		: vram Total Used Memory (MiB): 32271
+HCU[7]		: vram Total Memory (MiB): 65520
+HCU[7]		: vram Total Used Memory (MiB): 32733
+================================================================================================
+================================================================================================
+PIDs for KFD processes:
+
+PID: 1800997
+	PASID: 32769
+	HCU Node(Include CPU sort): ['10'] 
+	HCU Index: ['2'] 
+	GPUID: ['20902'] 
+	PCI BUS: ['0000:55:00.0'] 
+	VRAM USED(MiB): 8774
+	VRAM USED(%): 13
+	SDMA USED: 0
+
+PID: 1898958
+	PASID: 32771
+	HCU Node(Include CPU sort): 
+	HCU Index: 
+	GPUID: 
+	PCI BUS: 
+	VRAM USED(MiB): 0
+	VRAM USED(%): inf
+	SDMA USED: 0
+
+PID: 1800998
+	PASID: 32770
+	HCU Node(Include CPU sort): ['11'] 
+	HCU Index: ['3'] 
+	GPUID: ['20996'] 
+	PCI BUS: ['0000:77:00.0'] 
+	VRAM USED(MiB): 8774
+	VRAM USED(%): 13
+	SDMA USED: 0
+
+PID: 2321132
+	PASID: 32768
+	HCU Node(Include CPU sort): ['14'] ['15'] 
+	HCU Index: ['6'] ['7'] 
+	GPUID: ['45786'] ['32229'] 
+	PCI BUS: ['0000:d5:00.0'] ['0000:f5:00.0'] 
+	VRAM USED(MiB): 65001
+	VRAM USED(%): 50
+	SDMA USED: 0
+
+================================================================================================
+======================================== End of SMI Log ========================================
+

@@ -1,0 +1,19 @@
+subject_definitions:
+<Picture 1> shows the exact initial camera view of a furnished dining room connected to a living room.
+<Video 1> is a complete Blender preview specifying the room geometry, furniture arrangement, camera path and occlusions throughout the shot.
+
+summary:
+[video editing + reference generation] Create one photorealistic interior walkthrough following <Video 1>, beginning with the composition and appearance of <Picture 1>.
+
+retention_analysis:
+<Picture 1>: preserve the initial composition, object identities, material colors and natural daylight.
+<Video 1>: preserve the continuous camera movement, perspective, room proportions, doorways, furniture positions and visibility. All scene objects remain static.
+
+detailed_description:
+[Shot 1] The camera starts beside a dark dining table and green chairs, facing a hexagonal-patterned wall, colorful framed artwork and a low cabinet with stacked magazines and a mirror. It smoothly turns toward the open doorway and moves through into the adjacent living room, revealing dark wood flooring, a pink circular patterned rug, a pale sofa, a small console table and lamp beneath a wall mirror, and fixed ceiling lights. Follow the supplied preview's exact progression and ending view. Render believable painted plaster, fabric, wood grain, glass reflections and soft daylight with stable exposure. Keep artwork, wall patterns and furniture consistent as perspective changes. No people, no object movement, no cuts, no zoom jumps or added furnishings. Natural interior photography with realistic materials and illumination, without flickering or melting surfaces.
+
+overall_soundscape:
+Quiet indoor room tone.
+
+non_diegetic_music:
+N/A

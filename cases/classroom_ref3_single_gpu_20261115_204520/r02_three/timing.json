@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "queued_at": "2026-11-15T20:45:34+08:00",
+  "free_GiB": [
+    30.55859375
+  ],
+  "last_resource_check": "2026-11-15T20:55:39+08:00",
+  "queue_reason": "Single-card trial: need >=55 GiB free on DCU0",
+  "error": "Batch resource queue budget expired; no inference launched for r02_three"
+}

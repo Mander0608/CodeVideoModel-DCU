@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>, including the dark navy board on the left side wall and the desks in front of it.
+<Video 1> is the exact camera-motion guide. Its gray pixels are missing room content.
+
+summary:
+[video editing + reference generation] Complete the gray areas of <Video 1> while keeping its slow, small camera movement and existing classroom layout.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - same stationary board, desks, walls and daylight.
+<Video 1>: partially_preserved - follow the position and movement of each visible surface throughout the video; replace gray pixels with connected room content.
+
+detailed_description:
+[Shot 1] Begin at <Picture 1>. From a fixed position, the camera makes only the small, slow LEFT pan shown in <Video 1>, totaling 30 degrees. Keep the same oblique view of the dark board and the same rear corner throughout. The board slides gradually to the RIGHT: its right edge starts about one-third across the image and ends only slightly right of the image center, exactly as in <Video 1>. The board remains on the same side wall; the camera never turns to face it squarely and never passes it. The clock exits through the right border and does not reappear elsewhere. Existing desks stay fixed and follow the preview positions. Only a narrow additional section of the same cream side wall and continuous floor and ceiling becomes visible on the left. Fill all gray areas, including the upper and lower wedges, with these connected, naturally lit surfaces. No gray background or cutout border remains. One continuous small pan with the same initial and final holds as the guide. No room tour, large sweep, new corner, extra clock, new window, camera translation, cut or return turn.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

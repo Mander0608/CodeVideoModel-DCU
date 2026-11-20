@@ -1,0 +1,14 @@
+{
+  "baseline": "round8/provenance/cvm_prompt.txt",
+  "prompt_changed": false,
+  "reason": "Current i8 still shows sidewall board, cream walls and desks; retain original raw RGB completion wording for first round9 attempt.",
+  "model_conditions": "One image (i8 composite synthetic prior), raw material Blender RGB partial video, prompt only. No masks or poses supplied to original CVM.",
+  "sampling": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5
+  },
+  "protocol_policy": "Resume original CVM raw Blender RGB; do not carry forward masked denoising/pasteback.",
+  "reference_limitations": "i8 contains explicitly supplied preserved-source appearance plus generated new region. This is not an end-to-end original CVM success chain.",
+  "no_early_image_reconditioning": true
+}

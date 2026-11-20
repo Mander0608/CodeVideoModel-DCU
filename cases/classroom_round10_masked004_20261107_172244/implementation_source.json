@@ -1,0 +1,11 @@
+{
+  "baseline": "round8/05_cvm/attempt_006_masked",
+  "baseline_runner_sha256": "c1ebaa2ab28ae120bc94c6d9c689a86ee052006a880ece9b2af9c6bf5102643b",
+  "changes": [
+    "reference i7 to raw i9",
+    "source provenance i0/rawi9/history",
+    "round10 case/output names",
+    "collector DENOISE regex"
+  ],
+  "masked_core_algorithm_changed": false
+}

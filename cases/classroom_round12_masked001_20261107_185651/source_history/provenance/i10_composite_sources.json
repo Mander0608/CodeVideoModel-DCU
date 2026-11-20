@@ -1,0 +1,62 @@
+{
+  "protocol": "explicit_masked_completion_original_i9_i0_first",
+  "source_round": 10,
+  "attempt": "attempt_004_masked_original_i9",
+  "selected_frame": 116,
+  "nominal_yaw": -300,
+  "original_CVM_baseline_passed": false,
+  "composite_sha256": "9f5e50a7f67e472ccf7dbf508abcfad9adbeb524b33d1b428be81ab4b355eb6f",
+  "raw_generated_sha256": "ee3bc709eb4776b3cf7d5c431ed67870c2751ca2a53444c8c0c6082f417a8e49",
+  "pixel_labels": {
+    "0": "unused_unknown",
+    "1": "original_i0_supplied",
+    "2": "i8_preserved_earlier_generated",
+    "3": "i8_masked_generated",
+    "4": "other_accepted_generated_prior",
+    "5": "round10_masked_generated_gaps_and_seams"
+  },
+  "source_labels": {
+    "1": "i0",
+    "2": "i1",
+    "3": "i2",
+    "4": "i3",
+    "5": "i4",
+    "6": "i5",
+    "7": "i6",
+    "8": "i7",
+    "9": "i8",
+    "10": "i9_coverage",
+    "11": "i9"
+  },
+  "maps": [
+    "i10_inherited_origin.png",
+    "i10_original_unknown_mask.png",
+    "i10_pixel_provenance.png",
+    "i10_repaint_mask.png",
+    "i10_source_labels.png",
+    "terminal_inherited_origin.png",
+    "terminal_original_unknown_mask.png",
+    "terminal_pixel_provenance.png",
+    "terminal_repaint_mask.png",
+    "terminal_source_labels.png"
+  ],
+  "raw_reference_source": "round9/05_cvm/attempt_001 F123",
+  "manual_correction_inherited": false,
+  "limits": "Labels describe conditioning lineage; compression modifies pixel values. Fixed-center nominal projection, not calibrated pose/depth/translation.",
+  "repaint_mask": "00_input/i10_repaint_mask.png",
+  "original_unknown_mask": "00_input/i10_original_unknown_mask.png",
+  "final_pixel_labels": "00_input/i10_pixel_provenance.png",
+  "extra_provenance_files": [
+    "00_input/i10_inherited_origin.png",
+    "00_input/i10_original_unknown_mask.png",
+    "00_input/i10_pixel_provenance.png",
+    "00_input/i10_repaint_mask.png",
+    "00_input/i10_source_labels.png",
+    "00_input/terminal_inherited_origin.png",
+    "00_input/terminal_original_unknown_mask.png",
+    "00_input/terminal_pixel_provenance.png",
+    "00_input/terminal_repaint_mask.png",
+    "00_input/terminal_source_labels.png",
+    "provenance/i10_selection.json"
+  ]
+}

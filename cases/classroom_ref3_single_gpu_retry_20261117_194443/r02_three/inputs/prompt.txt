@@ -1,0 +1,20 @@
+subject_definitions:
+<Subject 1> is the same classroom in <Picture 1>, <Picture 2> and <Picture 3>.
+<Picture 1>, <Picture 2> and <Picture 3> are the final three consecutive frames of the preceding shot, in chronological order. <Picture 3> is the immediate starting-view reference for this shot. They are not three camera destinations.
+<Video 1> specifies the camera motion and visible layout; gray regions are missing scene content.
+
+summary:
+[video editing + reference generation] Complete <Video 1> as a photorealistic classroom shot, preserving its chronological camera path.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - room identity, wooden furniture, window frames, materials and daylight.
+<Video 1>: partially_preserved - preserve the camera direction, timing and visible geometry; replace all gray regions with coherent classroom content.
+
+detailed_description:
+[Shot 1] Begin at the view in <Picture 3>. From this fixed position, turn the camera another 30 degrees LEFT, following <Video 1> from its first frame to its last. The existing windows and chalkboard move toward the RIGHT edge and may leave the frame, while previously unseen classroom space enters from the LEFT. Desks and walls stay stationary. The entire image shows a finished realistic room from the first frame onward, with consistent perspective, daylight and occlusion. One continuous shot, with no return to the starting view and no gradual reconstruction or gray placeholders.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

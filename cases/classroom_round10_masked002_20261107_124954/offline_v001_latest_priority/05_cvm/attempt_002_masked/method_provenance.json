@@ -1,0 +1,13 @@
+{
+  "protocol": "explicit_masked_completion_branch",
+  "original_cvm_baseline_passed": false,
+  "source_reference_sha256": "fc2ab5d08667cd4622483186e6206812aa9dc49c6c5ae3b0d7fdfa6f40e86948",
+  "source_video_sha256": "ca73e44864014567efabebaddc7f8ca25e028832b298cbfb4f26dad2ed6d4c95",
+  "source_policy": "Latest accepted corrected i9 then i9_coverage and older fallback; original i0 returns explicitly. No rejected result used.",
+  "original_i0_supplied_memory": true,
+  "known_pixel_motion_is_supplied": true,
+  "raw_generated_before_paste_back_required": true,
+  "turbo": false,
+  "intended_actual_updates": 20,
+  "seed": 42
+}

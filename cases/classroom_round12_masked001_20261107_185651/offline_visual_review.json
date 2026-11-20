@@ -1,0 +1,19 @@
+{
+  "accepted_for_inference": true,
+  "accepted_for_next_round": false,
+  "reviewed_at": "2026-11-07T18:56:51.247870+08:00",
+  "observations": [
+    "Inspected Blender renders and actual source full-resolution F0/31/62/92/123, independent i11 reference, unknown-only and seam overlays.",
+    "Greenboard becomes frontal and centered, with original apple/cup/tree and MEMORY TEST lettering; window/outdoor foliage and radiator enter from left. Right darkboard absent throughout.",
+    "Actual source has inherited exposure/desk splices near its right boundary; 24px seam band covers these transitions. Board interior preserved. Small ceiling/floor unknown regions are dilated8px.",
+    "Reference shows oblique starting view without the full window; prompt explicitly prioritizes later source-video content. Blender geometry/desks/lighting differ from photo sources; actual masked conditioning is separate from the Blender audit package, not claimed geometrically identical.",
+    "Endpoint uses100percent originali0, zero unknown and zero repaint. Whole-clip max unknown0.02948836percent; final similarity is forced supplied-history closure, not autonomous recovery.",
+    "Canonical i11F123=-330 and supplementalF87=-324.75929110467797 separately retained with origin maps; source preparation inherits each available final_pixel_labels0..6. No manuali9/failed source.",
+    "No new geometry inferred; cumulative688mesh scene and14historicalview regressions passed. Nominal fixed-center yaw-330to-360,0.30recess depth assumed."
+  ],
+  "limits": [
+    "Inherited source exposure and desk splices",
+    "Endpoint entirely originali0 supplied",
+    "Nominal rotation and unmeasured depth"
+  ]
+}

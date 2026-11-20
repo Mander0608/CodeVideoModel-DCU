@@ -1,0 +1,651 @@
+{
+  "references": [
+    {
+      "id": "i0",
+      "path": "00_input/i0.png",
+      "yaw_degrees": 0,
+      "kind": "original_observation",
+      "sha256": "8689da6857c812efccf7078c5b73e3688b18e00de00286d5c09052cdc42046dd",
+      "vertical_extra_pixels_at_render_scale": 16
+    },
+    {
+      "id": "i1",
+      "path": "00_input/i1.png",
+      "yaw_degrees": -30,
+      "kind": "generated_prior",
+      "sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+      "vertical_extra_pixels_at_render_scale": 0
+    },
+    {
+      "id": "i2",
+      "path": "00_input/i2.png",
+      "yaw_degrees": -60,
+      "kind": "generated_prior",
+      "sha256": "a0b0c92da2f83c97a84b981e0c2f3869dfa02342799e1043d3a05c42eb663829",
+      "vertical_extra_pixels_at_render_scale": 0
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 1,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 2,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 3,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 4,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 5,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 6,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 7,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 8,
+      "yaw_degrees": -29.9924712110694,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 9,
+      "yaw_degrees": -29.970070168312834,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 10,
+      "yaw_degrees": -29.933074857783105,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 11,
+      "yaw_degrees": -29.881763265533046,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 12,
+      "yaw_degrees": -29.816413377615483,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 13,
+      "yaw_degrees": -29.73730318008322,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 14,
+      "yaw_degrees": -29.644710658989098,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 15,
+      "yaw_degrees": -29.538913800385934,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 16,
+      "yaw_degrees": -29.42019059032654,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 17,
+      "yaw_degrees": -29.28881901486375,
+      "unknown_fraction": 3.829656862745098e-06
+    },
+    {
+      "frame": 18,
+      "yaw_degrees": -29.14507706005039,
+      "unknown_fraction": 3.829656862745098e-05
+    },
+    {
+      "frame": 19,
+      "yaw_degrees": -28.989242711939262,
+      "unknown_fraction": 7.276348039215686e-05
+    },
+    {
+      "frame": 20,
+      "yaw_degrees": -28.821593956583207,
+      "unknown_fraction": 9.191176470588235e-05
+    },
+    {
+      "frame": 21,
+      "yaw_degrees": -28.64240878003504,
+      "unknown_fraction": 0.00011106004901960784
+    },
+    {
+      "frame": 22,
+      "yaw_degrees": -28.451965168347577,
+      "unknown_fraction": 0.00012254901960784314
+    },
+    {
+      "frame": 23,
+      "yaw_degrees": -28.25054110757365,
+      "unknown_fraction": 0.00013403799019607844
+    },
+    {
+      "frame": 24,
+      "yaw_degrees": -28.038414583766073,
+      "unknown_fraction": 0.00013786764705882353
+    },
+    {
+      "frame": 25,
+      "yaw_degrees": -27.815863582977677,
+      "unknown_fraction": 0.00014552696078431372
+    },
+    {
+      "frame": 26,
+      "yaw_degrees": -27.583166091261273,
+      "unknown_fraction": 0.00016084558823529412
+    },
+    {
+      "frame": 27,
+      "yaw_degrees": -27.340600094669693,
+      "unknown_fraction": 0.00017999387254901962
+    },
+    {
+      "frame": 28,
+      "yaw_degrees": -27.08844357925575,
+      "unknown_fraction": 0.0001991421568627451
+    },
+    {
+      "frame": 29,
+      "yaw_degrees": -26.826974531072274,
+      "unknown_fraction": 0.0002144607843137255
+    },
+    {
+      "frame": 30,
+      "yaw_degrees": -26.556470936172083,
+      "unknown_fraction": 0.00022212009803921568
+    },
+    {
+      "frame": 31,
+      "yaw_degrees": -26.277210780607998,
+      "unknown_fraction": 0.00023743872549019608
+    },
+    {
+      "frame": 32,
+      "yaw_degrees": -25.98947205043284,
+      "unknown_fraction": 0.0002412683823529412
+    },
+    {
+      "frame": 33,
+      "yaw_degrees": -25.693532731699438,
+      "unknown_fraction": 0.00024892769607843136
+    },
+    {
+      "frame": 34,
+      "yaw_degrees": -25.38967081046061,
+      "unknown_fraction": 0.0002565870098039216
+    },
+    {
+      "frame": 35,
+      "yaw_degrees": -25.078164272769175,
+      "unknown_fraction": 0.0002680759803921569
+    },
+    {
+      "frame": 36,
+      "yaw_degrees": -24.75929110467796,
+      "unknown_fraction": 0.00027573529411764705
+    },
+    {
+      "frame": 37,
+      "yaw_degrees": -24.433329292239783,
+      "unknown_fraction": 0.0002833946078431373
+    },
+    {
+      "frame": 38,
+      "yaw_degrees": -24.100556821507467,
+      "unknown_fraction": 0.00029105392156862745
+    },
+    {
+      "frame": 39,
+      "yaw_degrees": -23.761251678533835,
+      "unknown_fraction": 0.00029488357843137253
+    },
+    {
+      "frame": 40,
+      "yaw_degrees": -23.415691849371708,
+      "unknown_fraction": 0.00029488357843137253
+    },
+    {
+      "frame": 41,
+      "yaw_degrees": -23.06415532007391,
+      "unknown_fraction": 0.00029488357843137253
+    },
+    {
+      "frame": 42,
+      "yaw_degrees": -22.706920076693258,
+      "unknown_fraction": 0.00029488357843137253
+    },
+    {
+      "frame": 43,
+      "yaw_degrees": -22.344264105282576,
+      "unknown_fraction": 0.00028722426470588236
+    },
+    {
+      "frame": 44,
+      "yaw_degrees": -21.976465391894692,
+      "unknown_fraction": 0.00029105392156862745
+    },
+    {
+      "frame": 45,
+      "yaw_degrees": -21.603801922582424,
+      "unknown_fraction": 0.00027956495098039214
+    },
+    {
+      "frame": 46,
+      "yaw_degrees": -21.22655168339859,
+      "unknown_fraction": 0.00027956495098039214
+    },
+    {
+      "frame": 47,
+      "yaw_degrees": -20.84499266039602,
+      "unknown_fraction": 0.0002680759803921569
+    },
+    {
+      "frame": 48,
+      "yaw_degrees": -20.459402839627522,
+      "unknown_fraction": 0.00026424632352941175
+    },
+    {
+      "frame": 49,
+      "yaw_degrees": -20.070060207145936,
+      "unknown_fraction": 0.0002565870098039216
+    },
+    {
+      "frame": 50,
+      "yaw_degrees": -19.67724274900407,
+      "unknown_fraction": 0.0002412683823529412
+    },
+    {
+      "frame": 51,
+      "yaw_degrees": -19.281228451254755,
+      "unknown_fraction": 0.000233609068627451
+    },
+    {
+      "frame": 52,
+      "yaw_degrees": -18.882295299950805,
+      "unknown_fraction": 0.0002182904411764706
+    },
+    {
+      "frame": 53,
+      "yaw_degrees": -18.480721281145055,
+      "unknown_fraction": 0.0002068014705882353
+    },
+    {
+      "frame": 54,
+      "yaw_degrees": -18.07678438089031,
+      "unknown_fraction": 0.00018765318627450981
+    },
+    {
+      "frame": 55,
+      "yaw_degrees": -17.6707625852394,
+      "unknown_fraction": 0.00017233455882352942
+    },
+    {
+      "frame": 56,
+      "yaw_degrees": -17.26293388024515,
+      "unknown_fraction": 0.00015701593137254903
+    },
+    {
+      "frame": 57,
+      "yaw_degrees": -16.853576251960373,
+      "unknown_fraction": 0.00013403799019607844
+    },
+    {
+      "frame": 58,
+      "yaw_degrees": -16.442967686437903,
+      "unknown_fraction": 0.00012254901960784314
+    },
+    {
+      "frame": 59,
+      "yaw_degrees": -16.031386169730556,
+      "unknown_fraction": 0.00010340073529411765
+    },
+    {
+      "frame": 60,
+      "yaw_degrees": -15.619109687891157,
+      "unknown_fraction": 9.191176470588235e-05
+    },
+    {
+      "frame": 61,
+      "yaw_degrees": -15.206416226972518,
+      "unknown_fraction": 7.276348039215686e-05
+    },
+    {
+      "frame": 62,
+      "yaw_degrees": -14.79358377302747,
+      "unknown_fraction": 5.361519607843137e-05
+    },
+    {
+      "frame": 63,
+      "yaw_degrees": -14.380890312108837,
+      "unknown_fraction": 3.829656862745098e-05
+    },
+    {
+      "frame": 64,
+      "yaw_degrees": -13.968613830269433,
+      "unknown_fraction": 3.0637254901960784e-05
+    },
+    {
+      "frame": 65,
+      "yaw_degrees": -13.55703231356208,
+      "unknown_fraction": 1.914828431372549e-05
+    },
+    {
+      "frame": 66,
+      "yaw_degrees": -13.14642374803962,
+      "unknown_fraction": 7.659313725490196e-06
+    },
+    {
+      "frame": 67,
+      "yaw_degrees": -12.737066119754843,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 68,
+      "yaw_degrees": -12.329237414760595,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 69,
+      "yaw_degrees": -11.923215619109683,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 70,
+      "yaw_degrees": -11.519278718854942,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 71,
+      "yaw_degrees": -11.117704700049181,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 72,
+      "yaw_degrees": -10.718771548745236,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 73,
+      "yaw_degrees": -10.322757250995915,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 74,
+      "yaw_degrees": -9.929939792854057,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 75,
+      "yaw_degrees": -9.540597160372467,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 76,
+      "yaw_degrees": -9.155007339603975,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 77,
+      "yaw_degrees": -8.773448316601401,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 78,
+      "yaw_degrees": -8.396198077417566,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 79,
+      "yaw_degrees": -8.023534608105297,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 80,
+      "yaw_degrees": -7.655735894717418,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 81,
+      "yaw_degrees": -7.293079923306729,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 82,
+      "yaw_degrees": -6.9358446799260856,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 83,
+      "yaw_degrees": -6.584308150628289,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 84,
+      "yaw_degrees": -6.238748321466156,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 85,
+      "yaw_degrees": -5.899443178492521,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 86,
+      "yaw_degrees": -5.566670707760211,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 87,
+      "yaw_degrees": -5.240708895322031,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 88,
+      "yaw_degrees": -4.921835727230814,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 89,
+      "yaw_degrees": -4.610329189539376,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 90,
+      "yaw_degrees": -4.306467268300555,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 91,
+      "yaw_degrees": -4.010527949567139,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 92,
+      "yaw_degrees": -3.722789219391997,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 93,
+      "yaw_degrees": -3.44352906382791,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 94,
+      "yaw_degrees": -3.1730254689277175,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 95,
+      "yaw_degrees": -2.911556420744243,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 96,
+      "yaw_degrees": -2.6593999053302966,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 97,
+      "yaw_degrees": -2.416833908738713,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 98,
+      "yaw_degrees": -2.1841364170223136,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 99,
+      "yaw_degrees": -1.9615854162339301,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 100,
+      "yaw_degrees": -1.7494588924263452,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 101,
+      "yaw_degrees": -1.5480348316524237,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 102,
+      "yaw_degrees": -1.3575912199649522,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 103,
+      "yaw_degrees": -1.1784060434167791,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 104,
+      "yaw_degrees": -1.010757288060723,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 105,
+      "yaw_degrees": -0.8549229399496042,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 106,
+      "yaw_degrees": -0.7111809851362375,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 107,
+      "yaw_degrees": -0.5798094096734419,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 108,
+      "yaw_degrees": -0.4610861996140508,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 109,
+      "yaw_degrees": -0.35528934101089427,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 110,
+      "yaw_degrees": -0.26269681991676713,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 111,
+      "yaw_degrees": -0.183586622384506,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 112,
+      "yaw_degrees": -0.11823673446695124,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 113,
+      "yaw_degrees": -0.06692514221689093,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 114,
+      "yaw_degrees": -0.029929831687156697,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 115,
+      "yaw_degrees": -0.007528788930591323,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 116,
+      "yaw_degrees": 4.2611352919058783e-16,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 117,
+      "yaw_degrees": 4.2611352919058783e-16,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 118,
+      "yaw_degrees": 4.2611352919058783e-16,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 119,
+      "yaw_degrees": 4.2611352919058783e-16,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 120,
+      "yaw_degrees": 4.2611352919058783e-16,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 121,
+      "yaw_degrees": 4.2611352919058783e-16,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 122,
+      "yaw_degrees": 4.2611352919058783e-16,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 123,
+      "yaw_degrees": 4.2611352919058783e-16,
+      "unknown_fraction": 0.0
+    }
+  ],
+  "meaning": "Nominal angular support, not calibrated geometry or generated camera."
+}

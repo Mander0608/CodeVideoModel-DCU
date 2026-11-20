@@ -1,0 +1,10 @@
+{
+  "scene": "../../01_blender/scene/classroom_v2.blend",
+  "sha256": "74dbabc8f4c8f57f0a0a6d8ac5a123ca875cc1395bdb36f0a247cb2a7ed97152",
+  "reference_source": "../../00_input/i1.png",
+  "trajectory": [
+    -60,
+    -30
+  ],
+  "scene_unchanged_from_baseline": true
+}

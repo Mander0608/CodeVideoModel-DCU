@@ -1,0 +1,23 @@
+{
+  "baseline_attempt": "../attempt_002",
+  "changed_model_conditions": [
+    "prompt.txt"
+  ],
+  "same_inputs": {
+    "partial_proxy.mp4": "dc42febb558a0c55edfd6cffdf6c0135f494ba604759cf08312636b4cff99b35",
+    "reference.png": "7c9a78f70eee56c90a55c9edf63bf134e4b198d3e306e4c42a79231f52ce6e2a",
+    "camera_trajectory.json": "35befa61fff75a090cdde7fa5c86f6ee0d2b892f59b790b4a8ab569715cc71cc"
+  },
+  "same_runner": true,
+  "parameters": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 10,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  },
+  "deviation_from_round1": "keep_steps10 retained; no longer baseline5",
+  "retry_limit": "One screen-anchored prompt control. On failure preserve diagnostics and reassess representation; no blind additional prompt/seed retries."
+}

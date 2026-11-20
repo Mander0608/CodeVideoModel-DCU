@@ -1,0 +1,41 @@
+{
+  "protocol": "explicit_masked_completion_branch",
+  "original_cvm_baseline_passed": false,
+  "source_reference_sha256": "523fc92999b997d1ec3b9cb4804e5794f7cde8c40d13593f91a297346a9dfa45",
+  "source_video_sha256": "e8fbb9f756570f4aee646877397eb471903ac40fb02a3466e8ff55a43033b66a",
+  "source_policy": "Original i0 first in valid angular support, otherwise latest accepted composite i11 then raw i9 and older accepted history; i11 per-pixel original/generated lineage is reprojected from its saved final origin map. No historical manually corrected i9 and no rejected output used.",
+  "source_labels": {
+    "1": "i0",
+    "2": "i1",
+    "3": "i2",
+    "4": "i3",
+    "5": "i4",
+    "6": "i5",
+    "7": "i6",
+    "8": "i7",
+    "9": "i8",
+    "10": "i9_coverage",
+    "11": "i9",
+    "12": "i10",
+    "13": "i11_coverageF87",
+    "14": "i11"
+  },
+  "inherited_origin_labels": {
+    "0": "unknown",
+    "1": "original_i0",
+    "2": "i8_preserved_earlier_generated",
+    "3": "i8_masked_generated",
+    "4": "other_accepted_generated_prior",
+    "5": "round10_masked_generated_gaps_and_seams",
+    "6": "round11_masked_generated_gaps_and_seams"
+  },
+  "original_i0_supplied_memory": true,
+  "known_pixel_motion_is_supplied": true,
+  "raw_generated_before_paste_back_required": true,
+  "turbo": false,
+  "intended_actual_updates": 20,
+  "seed": 42,
+  "limits": "Nominal rotation-only projection, approximate source poses and scene layout; no depth or translation evidence. Source priority is an explicit conditioning choice.",
+  "source_seam_policy": "24px each side of known-source identity transitions added to repaint mask; unknown dilated8px. Both mask revisions retained. Known interiors preserved, transition pixels may be generated.",
+  "prior_mask_revision": "offline_v001_unknown_only_mask"
+}

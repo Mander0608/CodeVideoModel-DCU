@@ -1,0 +1,12 @@
+{
+  "case": "B_dual",
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom_revisit_multiref_b_dual_20261112_010442",
+  "screen_session": "cvm_multiref_b_dual_20261112_010442",
+  "devices": [
+    6,
+    7
+  ],
+  "status": "prepared",
+  "submitted_at": null
+}

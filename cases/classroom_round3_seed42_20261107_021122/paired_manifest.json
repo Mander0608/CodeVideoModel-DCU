@@ -1,0 +1,15 @@
+{
+  "parent_round": 2,
+  "comparison_scope": "Sequential scene reconstruction, not single-variable ablation",
+  "same_model_and_sampling_as_round1": true,
+  "same_prompt_as_round2_success": false,
+  "parameters": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  }
+}

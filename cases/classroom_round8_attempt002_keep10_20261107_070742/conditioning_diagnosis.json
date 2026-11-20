@@ -1,0 +1,45 @@
+{
+  "failure": "Motion magnitude/timing and room layout drift; image completion succeeds.",
+  "verified_source": "outputs/generate_effective.py: condition = full if i < keep_steps else base",
+  "baseline": {
+    "keep_steps": 5,
+    "steps": 20,
+    "video_condition_updates": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "controlled_retry": {
+    "keep_steps": 10,
+    "steps": 20,
+    "video_condition_updates": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "unchanged": [
+    "prompt bytes",
+    "reference image",
+    "partial video",
+    "trajectory",
+    "Blender scene",
+    "runner",
+    "seed42",
+    "20 denoising updates",
+    "no appended style guidance"
+  ],
+  "tradeoff": "Longer video conditioning may improve motion adherence but may also preserve gray holes or proxy appearance. Both motion and completion must pass visual review.",
+  "interpretation": "This attempt deviates explicitly from round1 keep_steps5. It is a one-parameter diagnostic retry, not evidence that the baseline pipeline succeeded.",
+  "retry_limit": "One keep_steps10 control. If motion drift or gray-copy persists, preserve and diagnose before any further change; do not propagate bad frames."
+}

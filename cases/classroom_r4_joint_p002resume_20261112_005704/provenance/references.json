@@ -1,0 +1,384 @@
+{
+  "policy": "Union of i0/i1/i2 nominal frusta and five fitted Round3 observed frusta; original i3 F121 replaced by actual fitted views including F123. Coverage is angular image support, not geometry validation or pixel provenance. No reference pixels pasted into Blender RGB.",
+  "references": [
+    {
+      "id": "i0",
+      "file": "references\\i0.png",
+      "sha256": "8689da6857c812efccf7078c5b73e3688b18e00de00286d5c09052cdc42046dd",
+      "calibration": "historical nominal camera; not refitted",
+      "R_blender_to_world": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "K": [
+        [
+          402.7678229650944,
+          0,
+          480
+        ],
+        [
+          0,
+          402.7678229650944,
+          272
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "vertical_extra": 16,
+      "source_metadata": {
+        "id": "i0",
+        "path": "00_input/i0.png",
+        "type": "original_observation",
+        "yaw": 0,
+        "size": [
+          640,
+          384
+        ],
+        "vertical_extra_pixels_at_render_scale": 16,
+        "sha256": "8689da6857c812efccf7078c5b73e3688b18e00de00286d5c09052cdc42046dd"
+      }
+    },
+    {
+      "id": "i1",
+      "file": "references\\i1.png",
+      "sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+      "calibration": "historical nominal camera; not refitted",
+      "R_blender_to_world": [
+        [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994
+        ],
+        [
+          0.49999999999999994,
+          0.0,
+          -0.8660254037844387
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "K": [
+        [
+          402.7678229650944,
+          0,
+          480
+        ],
+        [
+          0,
+          402.7678229650944,
+          272
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "vertical_extra": 0,
+      "source_metadata": {
+        "id": "i1",
+        "path": "00_input/i1.png",
+        "type": "generated_prior",
+        "parent_round": 1,
+        "frame": 122,
+        "yaw": -30,
+        "size": [
+          960,
+          544
+        ],
+        "vertical_extra_pixels_at_render_scale": 0,
+        "sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94"
+      }
+    },
+    {
+      "id": "i2",
+      "file": "references\\i2.png",
+      "sha256": "09e7ce448451b1db2e1f3f32adfbed28113365bc1841a6e288c4bec71a8635ed",
+      "calibration": "historical nominal camera; not refitted",
+      "R_blender_to_world": [
+        [
+          0.5000000000000001,
+          0.0,
+          0.8660254037844386
+        ],
+        [
+          0.8660254037844386,
+          0.0,
+          -0.5000000000000001
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "K": [
+        [
+          402.7678229650944,
+          0,
+          480
+        ],
+        [
+          0,
+          402.7678229650944,
+          272
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "vertical_extra": 0,
+      "source_metadata": {
+        "id": "i2",
+        "path": "00_input/i2.png",
+        "type": "generated_prior",
+        "parent_round": 2,
+        "attempt": "attempt_002",
+        "frame": 123,
+        "yaw": -60,
+        "size": [
+          960,
+          544
+        ],
+        "vertical_extra_pixels_at_render_scale": 0,
+        "sha256": "09e7ce448451b1db2e1f3f32adfbed28113365bc1841a6e288c4bec71a8635ed"
+      }
+    },
+    {
+      "id": "round3_F000",
+      "file": "references\\round3_F000.png",
+      "sha256": "7b02ac54802a3bcf12ab5b022441a23ab392df6861eb3c89a10034793c6314da",
+      "calibration": "Round3 fitted shared intrinsics and per-observation rotation",
+      "R_blender_to_world": [
+        [
+          0.4522334428092384,
+          0.003853001056223272,
+          0.8918912868661539
+        ],
+        [
+          0.8913612851647736,
+          0.03278589827775603,
+          -0.4521063416758538
+        ],
+        [
+          -0.030983423218012947,
+          0.99945497110024,
+          0.01139246368052668
+        ]
+      ],
+      "K": [
+        [
+          469.59435156312617,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          469.59435156312617,
+          272.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertical_extra": 0,
+      "source_frame": 0,
+      "source_video_sha256": "a8ecbe3b47639fb50006d2e8169512e7976a69a2b0adab32fc175e7e1b5cc10e"
+    },
+    {
+      "id": "round3_F031",
+      "file": "references\\round3_F031.png",
+      "sha256": "2b37bb70acbf4e1f2400bb5bbda7ab3ced2bc832671b72ffba5374272318c355",
+      "calibration": "Round3 fitted shared intrinsics and per-observation rotation",
+      "R_blender_to_world": [
+        [
+          0.4019116324707512,
+          0.0038676616083041454,
+          0.9156702904858164
+        ],
+        [
+          0.9151988340145837,
+          0.030665148462625833,
+          -0.40183422314197137
+        ],
+        [
+          -0.02963332419831221,
+          0.9995222308000202,
+          0.008785000484288973
+        ]
+      ],
+      "K": [
+        [
+          469.59435156312617,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          469.59435156312617,
+          272.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertical_extra": 0,
+      "source_frame": 31,
+      "source_video_sha256": "a8ecbe3b47639fb50006d2e8169512e7976a69a2b0adab32fc175e7e1b5cc10e"
+    },
+    {
+      "id": "round3_F062",
+      "file": "references\\round3_F062.png",
+      "sha256": "399155014b8c090b11af122d7489ed10597faad158bda0ddb409ea8aa5df4e72",
+      "calibration": "Round3 fitted shared intrinsics and per-observation rotation",
+      "R_blender_to_world": [
+        [
+          0.24201103041902375,
+          0.0016376972621676852,
+          0.9702721160082876
+        ],
+        [
+          0.9699179988470384,
+          0.026659086547101397,
+          -0.24196770159885125
+        ],
+        [
+          -0.02626283815734559,
+          0.9996432418879005,
+          0.004863360954054992
+        ]
+      ],
+      "K": [
+        [
+          469.59435156312617,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          469.59435156312617,
+          272.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertical_extra": 0,
+      "source_frame": 62,
+      "source_video_sha256": "a8ecbe3b47639fb50006d2e8169512e7976a69a2b0adab32fc175e7e1b5cc10e"
+    },
+    {
+      "id": "round3_F092",
+      "file": "references\\round3_F092.png",
+      "sha256": "1ed4ed723fe066dfed908d89ee29a5df91f1c0f07f8e1449400be25bef353a83",
+      "calibration": "Round3 fitted shared intrinsics and per-observation rotation",
+      "R_blender_to_world": [
+        [
+          0.0700748059141894,
+          -0.0006719853859915628,
+          0.9975415129265197
+        ],
+        [
+          0.9973134974403012,
+          0.02143775342822358,
+          -0.07004434703347041
+        ],
+        [
+          -0.02133798021095802,
+          0.9997699591223932,
+          0.002172426506251026
+        ]
+      ],
+      "K": [
+        [
+          469.59435156312617,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          469.59435156312617,
+          272.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertical_extra": 0,
+      "source_frame": 92,
+      "source_video_sha256": "a8ecbe3b47639fb50006d2e8169512e7976a69a2b0adab32fc175e7e1b5cc10e"
+    },
+    {
+      "id": "round3_F123",
+      "file": "references\\round3_F123.png",
+      "sha256": "670f30c7a30cbe745eee9d494bbbaa5d77fe20def51624781a773ba8e643edc4",
+      "calibration": "Round3 fitted shared intrinsics and per-observation rotation",
+      "R_blender_to_world": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.9998476951563913,
+          0.01745240643728351,
+          0.0
+        ],
+        [
+          -0.01745240643728351,
+          0.9998476951563913,
+          0.0
+        ]
+      ],
+      "K": [
+        [
+          469.59435156312617,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          469.59435156312617,
+          272.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertical_extra": 0,
+      "source_frame": 123,
+      "source_video_sha256": "a8ecbe3b47639fb50006d2e8169512e7976a69a2b0adab32fc175e7e1b5cc10e"
+    }
+  ]
+}

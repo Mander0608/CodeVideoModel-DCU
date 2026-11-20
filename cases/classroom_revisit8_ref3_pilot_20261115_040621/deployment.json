@@ -1,0 +1,9 @@
+{
+  "status": "prepared_to_launch",
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom_revisit8_ref3_pilot_20261115_040621",
+  "screen_session": "cvm_revisit8_ref3_20261115_040621",
+  "local_pilot": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Revisit8-Ref3-20261115\\pilot_001",
+  "prepared_at": "2026-11-15T04:06:21.686466+08:00",
+  "scope": "Four independent frozen-input paired cases, serial; stop on technical failure; no later rounds without review"
+}

@@ -1,0 +1,42 @@
+{
+  "card0": {
+    "HCU use (%)": "100.0",
+    "vram Total Memory (MiB)": "65520",
+    "vram Total Used Memory (MiB)": "31114"
+  },
+  "card1": {
+    "HCU use (%)": "0.0",
+    "vram Total Memory (MiB)": "65520",
+    "vram Total Used Memory (MiB)": "12257"
+  },
+  "card2": {
+    "HCU use (%)": "0.0",
+    "vram Total Memory (MiB)": "65520",
+    "vram Total Used Memory (MiB)": "4"
+  },
+  "card3": {
+    "HCU use (%)": "0.0",
+    "vram Total Memory (MiB)": "65520",
+    "vram Total Used Memory (MiB)": "4"
+  },
+  "card4": {
+    "HCU use (%)": "0.0",
+    "vram Total Memory (MiB)": "65520",
+    "vram Total Used Memory (MiB)": "4"
+  },
+  "card5": {
+    "HCU use (%)": "0.0",
+    "vram Total Memory (MiB)": "65520",
+    "vram Total Used Memory (MiB)": "4"
+  },
+  "card6": {
+    "HCU use (%)": "0.0",
+    "vram Total Memory (MiB)": "65520",
+    "vram Total Used Memory (MiB)": "32523"
+  },
+  "card7": {
+    "HCU use (%)": "0.0",
+    "vram Total Memory (MiB)": "65520",
+    "vram Total Used Memory (MiB)": "32928"
+  }
+}

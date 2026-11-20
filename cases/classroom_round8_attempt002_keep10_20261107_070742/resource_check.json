@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-11-07T07:08:31.517715+08:00",
+  "remote_host": "scnet2",
+  "devices": 2,
+  "free_GiB": [
+    63.640625,
+    63.640625
+  ],
+  "command_exit_code": 0
+}

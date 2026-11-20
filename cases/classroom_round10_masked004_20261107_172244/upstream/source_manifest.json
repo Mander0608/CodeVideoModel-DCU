@@ -1,0 +1,37 @@
+{
+  "revision": "1c0ab6b0b8a2e1bed7c20205050e07d1ba868837",
+  "files": {
+    "app.py": {
+      "sha256": "4d63127137024ac9a6b72178d61b20a0e4375704916db9d035dccad4126903ea",
+      "url": "https://huggingface.co/spaces/linoyts/minimax-h3-inpainting/resolve/1c0ab6b0b8a2e1bed7c20205050e07d1ba868837/app.py"
+    },
+    "README.md": {
+      "sha256": "aad86b4c5b68514388055d80fc1f0c6a8a59ca07dfccfc6d61338ad44a74bae1",
+      "url": "https://huggingface.co/spaces/linoyts/minimax-h3-inpainting/resolve/1c0ab6b0b8a2e1bed7c20205050e07d1ba868837/README.md"
+    },
+    "requirements.txt": {
+      "sha256": "2bdf29518e1759b906e5927b367b9c23bbb0abb57041d81247e1fd57acf5ef09",
+      "url": "https://huggingface.co/spaces/linoyts/minimax-h3-inpainting/resolve/1c0ab6b0b8a2e1bed7c20205050e07d1ba868837/requirements.txt"
+    },
+    "h3_inpaint_blocks.py": {
+      "sha256": "655723ecb282610658d24baece1482f46e4290508459092b3dc29908c101030c",
+      "url": "https://huggingface.co/spaces/linoyts/minimax-h3-inpainting/resolve/1c0ab6b0b8a2e1bed7c20205050e07d1ba868837/h3_inpaint_blocks.py"
+    },
+    "h3_inpaint_masks.py": {
+      "sha256": "ae67374e9a5748be2762c8fd41be0af80b7a5dba23714f036d37de20abd46a2d",
+      "url": "https://huggingface.co/spaces/linoyts/minimax-h3-inpainting/resolve/1c0ab6b0b8a2e1bed7c20205050e07d1ba868837/h3_inpaint_masks.py"
+    },
+    "h3_inpaint_crop.py": {
+      "sha256": "248edad27414e54843802ecf68265ca24193d1ba5ad981111879ad6d271db550",
+      "url": "https://huggingface.co/spaces/linoyts/minimax-h3-inpainting/resolve/1c0ab6b0b8a2e1bed7c20205050e07d1ba868837/h3_inpaint_crop.py"
+    },
+    "h3_aoti.py": {
+      "sha256": "c64fab4aacfca4d809b1fea7be7e2e170c285a633285ce8cb4e9fab1c7d85538",
+      "url": "https://huggingface.co/spaces/linoyts/minimax-h3-inpainting/resolve/1c0ab6b0b8a2e1bed7c20205050e07d1ba868837/h3_aoti.py"
+    },
+    "test_app_cpu.py": {
+      "sha256": "4f9b6edfd7cdc95725cc993a9bfb3971a6cb2dadcb882b8fcd95b0ba3b58bd98",
+      "url": "https://huggingface.co/spaces/linoyts/minimax-h3-inpainting/resolve/1c0ab6b0b8a2e1bed7c20205050e07d1ba868837/test_app_cpu.py"
+    }
+  }
+}

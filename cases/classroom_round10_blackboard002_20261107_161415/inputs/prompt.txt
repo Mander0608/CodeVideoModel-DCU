@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>, with cream walls, wooden desks, a dark wall board and soft daylight.
+<Video 1> defines the visible classroom layout and the left-turn camera path. It contains TWO DISTINCT boards: the dark board on the right-hand wall and the green chalkboard on the adjoining left-hand wall, with its existing leafy tree drawing and light-colored frame. The green chalkboard is known scene content supplied in the video, not an empty region to invent.
+
+summary:
+[video editing + reference generation] Complete the gray gaps in <Video 1> as one continuous classroom while preserving its visible objects, including the green chalkboard and tree drawing progressively revealed on the left.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): preserve classroom appearance, furnishings and lighting. Use <Picture 1> as the starting appearance reference, not as a complete inventory of objects outside its field of view.
+<Video 1>: preserve the visible layout, camera motion, both distinct boards, tree drawing, board frames, wall junctions and desk arrangement. Generate missing content only in the flat gray gaps and blend their boundaries naturally with the known surfaces. A board absent from <Picture 1> but visible in <Video 1> must remain present.
+
+detailed_description:
+[Shot 1] Begin with the classroom view at the start of <Video 1>, using <Picture 1> for appearance. The camera stays at the same position and turns LEFT by 30 degrees, following the timing and framing in <Video 1>. Existing stationary objects move RIGHT across the image. The dark board shifts toward the right edge and becomes cropped as shown in the video. At the same time, the separate GREEN CHALKBOARD enters from the left edge and progressively reveals its existing leafy TREE DRAWING and light-colored frame. Preserve their identity, placement, proportions and visibility throughout this reveal. In the final view, the green chalkboard and tree remain visible on the left, the adjoining wall corner lies between the two boards, and the dark board is partly cropped on the right, matching <Video 1>. Do not replace the green chalkboard or tree with a blank cream wall, erase them, merge the two boards, or invent a different board design. Continue cream wall surfaces only where the video shows wall; preserve the known board surfaces and desk layout. Fill the upper gray wedge with a connected ceiling and the lower gray wedge with continuous classroom floor. Match perspective, surface appearance, occlusion and lighting at each boundary, so the completed areas join the known classroom naturally. The final video is an edge-to-edge classroom scene without gray cutouts. No cut, return turn or camera translation.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

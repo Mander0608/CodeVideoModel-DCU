@@ -1,0 +1,7 @@
+{
+  "cvm/video.py": "98b451d987812d6f1caec3c36208fa280866bf40be803cd4474813ad0db40e4c",
+  "cvm/__init__.py": "ff65cec5b4a5911bc86f8229379cb746a399cfce9394e3248a8120b09f072997",
+  "cvm/dcu_runtime.py": "ee439ca1522a049623aa2deec7442dd74d484b54916fa3687575258dbfd19381",
+  "run_dcu.py": "a46644c0e095eff2ee9046b08c1cb1d3096b3e61d0232dd5783fbea42e6d671f",
+  "inference/generate_video.py": "02155b3d94a4196af78495be6a32b60a5f283bd6b8c38db0fabdc21d75d063df"
+}

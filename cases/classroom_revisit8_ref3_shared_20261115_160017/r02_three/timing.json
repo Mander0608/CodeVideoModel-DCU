@@ -1,0 +1,17 @@
+{
+  "status": "failed",
+  "queued_at": "2026-11-15T16:02:14+08:00",
+  "free_GiB": [
+    30.55859375,
+    63.640625
+  ],
+  "last_resource_check": "2026-11-15T16:06:55+08:00",
+  "queue_reason": "Authorized bounded trial: need >=28/22 GiB free on DCU0/1",
+  "queue_seconds": 280.71626252681017,
+  "inference_started_at": "2026-11-15T16:07:03+08:00",
+  "inference_pid": 4142923,
+  "exit_code": 1,
+  "finished_at": "2026-11-15T16:21:53+08:00",
+  "elapsed_seconds": 889.1855414984748,
+  "error": "Inference failed; stopping batch at r02_three"
+}

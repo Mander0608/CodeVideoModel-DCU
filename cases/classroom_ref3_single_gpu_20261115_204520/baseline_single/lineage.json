@@ -1,0 +1,16 @@
+{
+  "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Revisit8-Ref3-20261115\\pilot_001\\r02_single",
+  "collection_status": {
+    "status": "completed",
+    "remote_output_files": 6,
+    "all_remote_output_hashes_match": true,
+    "collected_at": "2026-11-15T06:31:58.401191+08:00",
+    "visual_acceptance": "pending"
+  },
+  "files": {
+    "condition_audit.json": "bc4ac3c32bce46689385420da0ec9f0d0a495ca72d50e1ce40349bf24d158184",
+    "launch_record.json": "971e7f2dc6a4e0df864a51431a3800b82fd59a492b46c7db3ad9af52df9092bf",
+    "result.run.json": "6e897b4279ce3368e731a94fb3cf90ec579e0fdfbd6470bd222c2796743fcd43"
+  },
+  "purpose": "Pair audit only; do not rerun completed baseline"
+}

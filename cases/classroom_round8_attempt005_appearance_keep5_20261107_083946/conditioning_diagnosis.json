@@ -1,0 +1,21 @@
+{
+  "observation": "Appearance-only video replacement vs003 restores valid reference matching and approximately correct motion, but gray completion still fails.",
+  "source_evidence": {
+    "path": "outputs/generate_effective.py",
+    "sha256": "c927c0af95511f3f7086c41698cac8e07760684f89d2a26b2f0770baaf1a9351",
+    "video_encoding_line": 21,
+    "full_condition_lines": [
+      31,
+      32
+    ],
+    "condition_switch_line": 48,
+    "expression": "condition = full if i < keep_steps else base",
+    "spatial_mask_input": false
+  },
+  "mechanism_limit": "All gray pixels are part of ordinary RGB video conditioning; there is no spatial inpainting mask or hard geometry constraint. Text requests completion but cannot guarantee it. This is a code observation, not proof of why gray is retained.",
+  "hypothesis": "With appearance conflict reduced, lowering whole-video conditioning from10 to baseline5 updates may allow missing-region completion while retaining limited motion. Motion may deteriorate; unproven.",
+  "controlled_retry": "Only keep_steps10->5 vs004. Same appearance video, prompt bytes, reference, camera matrices, scene provenance, seed42,20 total steps, model and runner.",
+  "interpretation": "Restores round1 sampling parameters but remains an appearance-reprojection diagnostic branch, NOT raw Blender RGB baseline. Not a full factorial comparison because earlier prompts differ.",
+  "acceptance": "Require full coherent completion and stable layout, plausible motion/direct or explicitly validated chained correspondence, visually inspect before accepting any frame.",
+  "retry_limit": "One baseline-conditioning test on this representation. If it fails, consolidate all five results and inspect alternatives; do not make further blind prompt/seed/keep sweeps."
+}

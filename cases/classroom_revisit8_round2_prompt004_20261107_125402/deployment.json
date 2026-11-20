@@ -1,0 +1,16 @@
+{
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom_revisit8_round2_prompt004_20261107_125402",
+  "screen_session": "cvm_revisit8_r2_prompt004_20261107_125402",
+  "physical_devices": [
+    4,
+    5
+  ],
+  "generation_physical_device": 4,
+  "text_physical_device": 5,
+  "status": "prepared_to_launch",
+  "prepared_at": "2026-11-07T12:54:02.440790+08:00",
+  "attempt": "attempt_004",
+  "comparison_attempt": "attempt_003",
+  "prompt_source_attempt": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Iterative-20261106\\round2\\05_cvm\\attempt_002"
+}

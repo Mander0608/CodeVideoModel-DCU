@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "free_GiB": [
+    30.55859375,
+    63.640625
+  ],
+  "image_count": 3,
+  "input_checksums_match": true,
+  "shared_source_sha256": {
+    "cvm/video.py": "98b451d987812d6f1caec3c36208fa280866bf40be803cd4474813ad0db40e4c",
+    "run_dcu.py": "a46644c0e095eff2ee9046b08c1cb1d3096b3e61d0232dd5783fbea42e6d671f"
+  }
+}

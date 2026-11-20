@@ -1,0 +1,14 @@
+{
+  "status": "mismatch_not_valid_strict_pair",
+  "target_audio_noise_identical": true,
+  "shared_reference_checks": [
+    {
+      "image_sha256": "a3650372fbcc578d89ba0019174734da3aae6e5fc130e0cb4b61475b0bfffff1",
+      "seed_identical": true,
+      "rows_identical": false,
+      "baseline_rows_sha256": "4bae33338561bf3ecbc436903b0dd7884206cff98f7af7f14b7aac06c04aebad",
+      "trial_rows_sha256": "2379e04df1a808cf1fdfd4531c871b3b7de2cde4c4edfb310a3d2c8d2d575cf9"
+    }
+  ],
+  "interpretation": "Single-card feasibility is separate from causal effect comparison."
+}

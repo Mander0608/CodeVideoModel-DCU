@@ -1,0 +1,19 @@
+{
+  "remote_time": "2026-11-07T13:20:24.851039+08:00",
+  "host": "m09r2n04",
+  "free_GiB": [
+    63.640625,
+    63.640625
+  ],
+  "locks_available_at_check": true,
+  "torch": "2.7.1",
+  "hip": "6.3.26093",
+  "source_sha256": {
+    "cvm/video.py": "98b451d987812d6f1caec3c36208fa280866bf40be803cd4474813ad0db40e4c",
+    "run_dcu.py": "a46644c0e095eff2ee9046b08c1cb1d3096b3e61d0232dd5783fbea42e6d671f"
+  },
+  "checked_at": "2026-11-07T13:20:27.705995+08:00",
+  "remote_host": "scnet2",
+  "exit_code": 0,
+  "scope": "Read-only prelaunch probe; locks released after check. Supervisor reacquires atomically before launch."
+}

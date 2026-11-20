@@ -1,0 +1,8 @@
+{
+  "scene": "../01_blender/scene/cabazon_v0.blend",
+  "sha256": "b06fe34901d8261cf84fe092ee17b422eeeea9fb3b8f8543ab50988fef0b54da",
+  "trajectory": [
+    "A",
+    "B"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "comparison_run": "round000_shortprompt_seed42_20261106_162713",
+  "changed_variable": "detailed_description only",
+  "changed_prompt_fields": [
+    "detailed_description"
+  ],
+  "unchanged_prompt_fields": [
+    "subject_definitions",
+    "summary",
+    "retention_analysis",
+    "overall_soundscape",
+    "non_diegetic_music"
+  ],
+  "identical_inputs_sha256": {
+    "partial_proxy.mp4": "43e61d99165aa4a2de847c1b5fac03c32d0bd9048ae0851b7143fb3f68cfc300",
+    "reference.png": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d",
+    "camera_trajectory.json": "739fbcca976464abb9c2aad1d3851c2ab6a865cd9d7642a26b35382315e963d4"
+  },
+  "identical_sampling": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124
+  },
+  "no_appended_style_reference_guidance_in_either_run": true,
+  "runner_identical": true,
+  "old_prompt_sha256": "4e9278897013da9312889add4465de16786a85b58b1e17d87ce80ab59bfa7a46",
+  "new_prompt_sha256": "35cbdeefd199fb7e12bf2fa38e734f08f5243a4f391c77319e3e0c34ea731b23",
+  "scope": "Single paired seed. No change to mask interface, video, scene, reference, model, sampler or other five prompt sections."
+}

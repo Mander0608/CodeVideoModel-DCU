@@ -1,0 +1,6 @@
+{
+  "base": "round2/05_cvm/attempt_002/inputs/prompt.txt",
+  "reason": "The front chalkboard is outside the current view; motion wording refers to visible fixtures without requiring it to reappear.",
+  "replacement": "existing windows and chalkboard -> visible windows and furniture",
+  "sampling_changed": false
+}

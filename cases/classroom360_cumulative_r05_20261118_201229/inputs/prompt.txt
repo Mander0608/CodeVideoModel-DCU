@@ -1,0 +1,22 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>, which is the actual starting view.
+<Video 1> is a partial classroom proxy. Its textured regions show existing scene content. Its uniform untextured gray wedges and holes are missing-data placeholders, not real surfaces or objects.
+
+summary:
+[video editing + reference generation] Preserve the existing structure and camera path in <Video 1>, and replace every missing gray region with a plausible photorealistic continuation of the same classroom. Deliver a complete rectangular video with no missing-data mask visible.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - classroom identity, existing furniture, materials and daylight.
+<Video 1>: partially_preserved - KEEP the camera trajectory and the shapes, positions, depth ordering and appearance of already textured windows, whiteboards, desks and chairs. REPLACE the uniform gray missing-data regions and their artificial boundaries. Do not preserve or reproduce the gray placeholder pixels. Naturally gray objects already present in the textured classroom, such as the whiteboard, remain intact.
+
+detailed_description:
+Photorealistic classroom interior with consistent daylight and exposure.
+[Shot 1] Start with the composition of <Picture 1>. Follow the same small 30-degree left rotation as <Video 1>, with the same timing and final direction. Keep visible window frames, whiteboard edges and furniture corners aligned with their corresponding positions in the textured proxy throughout the shot. Preserve independent tabletops, thin desk legs, open undersides, chair backs and spacing; do not replace existing desks with cabinets or rearrange them.
+At this unchanged camera path, actively generate the content that is missing inside the uniform gray mask: continue the cream classroom walls, ceiling and floor, and add only plausible newly exposed furnishings with coherent perspective, occlusion, lighting and materials. Extend real surfaces continuously across the artificial mask boundary until the entire frame is a complete classroom view. The gray wedges are holes in the preview, not gray walls, screens or objects to retain. No flat gray filler, mask edges, blank strips or holes should remain in any output frame.
+Complete the unseen area without turning the camera farther or changing the zoom. Retain the window portions still visible in the proxy's final frame. Stop when the proxy stops and hold that same final view.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

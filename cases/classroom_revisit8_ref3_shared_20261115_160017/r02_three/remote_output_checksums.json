@@ -1,0 +1,6 @@
+{
+  "outputs/launch_record.json": "67a86e1e5057cd43773f745ad84b99b79dc1c3be008b8b0e16d5958c611eced9",
+  "outputs/generate_effective.py": "b461c724ed1d095b903f50daa750867b4a48b99510fecceac590666d9e8d3c2f",
+  "outputs/effective_prompt.txt": "340a2ecd1d6c164b94bbcbdbddc9b872efdab8cd5504f1b9232eff06eeb2b287",
+  "outputs/condition_audit.json": "18490d65e81e1c841c493c4ab4ed09dbc4dd9526e87bafa439f09678a1bb9a40"
+}

@@ -1,0 +1,11 @@
+{
+  "config.json": "7b78631c523f56e44da51ba1adf4cef866fa41531258a513149094a37781310a",
+  "launch.sh": "5586fa3609cc8e1d9a0bea7a87cf4acd8718cd41e1c2dc07a18d12deae6eb345",
+  "preflight.py": "013c0f7bebbac736cc01c8e7aacbb25fa0a7ed927edb2a4fe0a154bc7f6c350f",
+  "run_cvm.py": "4a38ac613e8cad37ce70675afe4a3ad2d8716b0bbc92c63e22a5cb4732e341c8",
+  "supervise.py": "283a400d8bd8a8b02fbad0cb191ca1d0052b6f3c9a8c6b51d7941785319d04d8",
+  "inputs/destination_round1_F122.png": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+  "inputs/partial_proxy.mp4": "7755eaa4b2e4d71d2c8cf92a17e77609c71dc15f259f8147bec43ce41657a713",
+  "inputs/prompt.txt": "53f217e2f1e0552041bbb69a0531aaf201abd645b92c29de37318dedb1ac8e10",
+  "inputs/start_round2_F123.png": "a0b0c92da2f83c97a84b981e0c2f3869dfa02342799e1043d3a05c42eb663829"
+}

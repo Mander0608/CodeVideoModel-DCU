@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>. This picture shows the FINAL frontal view.
+<Video 1> shows the required shot from a left-oblique view to the frontal view.
+
+summary:
+[video editing + reference generation] Render <Video 1> photorealistically, matching its first-frame and last-frame compositions.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): partially_preserved - preserve classroom identity, chalkboard drawings, furniture, materials and daylight; its frontal viewpoint occurs only at the end.
+<Video 1>: partially_preserved - retain the complete camera path and visible layout; replace unfinished appearance with realistic surfaces.
+
+detailed_description:
+[Shot 1] Start at the first frame of <Video 1>: two left-side window sections are visible, and the chalkboard is oblique on the right. Slowly pan RIGHT from this fixed position. The left windows move out toward the left edge while the chalkboard becomes frontal and centered. End at the last frame of <Video 1>, matching the frontal composition of <Picture 1>, then hold. Stop before turning toward the right wall. The apple, mug, tree and MEMORY TEST stay attached to the same chalkboard throughout. Desks and fixtures remain stationary. One continuous shot with natural daylight and consistent perspective.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,14 @@
+{
+  "snapshot_files": 2175,
+  "snapshot_hash_mismatches": [],
+  "python_files": 573,
+  "python_syntax_errors": [],
+  "dedented_class_method_excerpts": [
+    "cases/classroom_revisit8_ref3_pilot_20261115_040621/provenance/layout_source.py",
+    "cases/classroom_revisit8_ref3_pilot_20261115_040621/provenance/presentation_source.py",
+    "cases/classroom_revisit8_ref3_shared_20261115_160017/provenance/layout_source.py",
+    "cases/classroom_revisit8_ref3_shared_20261115_160017/provenance/presentation_source.py"
+  ],
+  "broken_local_links": [],
+  "scope": "Static source snapshot validation only; no GPU inference rerun."
+}

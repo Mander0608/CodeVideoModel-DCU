@@ -1,0 +1,27 @@
+{
+  "parent_attempt": "round10/05_cvm/attempt_001",
+  "comparison_scope": "Prompt-only paired experiment, one seed; multiple wording edits do not isolate sentence-level causality.",
+  "only_model_condition_change": "prompt",
+  "identical_input_hashes": {
+    "partial_proxy.mp4": true,
+    "reference.png": true,
+    "camera_trajectory.json": true,
+    "camera_trajectory.csv": true,
+    "coverage.json": true
+  },
+  "identical_sampling": {
+    "seed": true,
+    "steps": true,
+    "keep_steps": true,
+    "frames": true,
+    "fps": true,
+    "width": true,
+    "height": true
+  },
+  "parent_prompt_sha256": "e304ed3629b172b5e4b8eab0f2f2fa2881cecb7d65d84cb2f32fec375572765c",
+  "new_prompt_sha256": "d4f68a516210b1e42ad8974ed6034190cafe01cfc4ab8cfa56ecd2429d0c6096",
+  "runner_sha256": "b5a249dd45b1980f250a6032518da728bc60b253ddb5b5c7cbdbb45b560ee010",
+  "runner_identical": true,
+  "scene_snapshot_identical": true,
+  "administrative_changes": "New case/screen, launch/watcher remote paths, review metadata and manifests; not model conditions."
+}

@@ -1,0 +1,14 @@
+{
+  "comparison_scope": "Sequential masked fallback, not a single-variable ablation",
+  "original_CVM_baseline_passed": false,
+  "same_base_weights_as_round1": true,
+  "same_seed_and_actual_updates_as_round1": true,
+  "same_conditioning_algorithm_as_round1": false,
+  "same_proxy_representation_as_round1": false,
+  "explicit_original_i0_pixels_return": true,
+  "raw_Blender_scene_unchanged": true,
+  "nominal_trajectory": [
+    -240,
+    -270
+  ]
+}

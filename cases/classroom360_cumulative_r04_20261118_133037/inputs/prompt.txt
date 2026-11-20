@@ -1,0 +1,21 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>, with wooden desks and soft daylight. <Picture 1> is the actual starting view of this segment.
+<Video 1> is the partial classroom preview; uniform gray regions indicate missing content.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>, completing its missing regions and matching the realistic appearance of <Subject 1>.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - classroom identity, materials and lighting.
+<Video 1>: partially_preserved - retain camera motion and visible object layout; replace gray regions and their boundaries with coherent room content.
+
+detailed_description:
+Photorealistic interior with natural daylight.
+[Shot 1] Begin with the intact classroom shown in <Picture 1>. In one continuous shot, the camera rotates left from this starting direction, exactly following the changing view in <Video 1>. The windows and desks remain fixed in the room and move steadily toward the right side of the image as the camera turns. The rightmost windows leave the frame while previously unseen rearward classroom wall and furniture enter from the left. Complete every gray region with plausible cream walls, flooring and classroom details. Maintain coherent furniture, perspective, daylight and occlusion throughout. The final view is 30 degrees further left than <Picture 1>; continue the turn instead of returning to its starting composition.
+
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

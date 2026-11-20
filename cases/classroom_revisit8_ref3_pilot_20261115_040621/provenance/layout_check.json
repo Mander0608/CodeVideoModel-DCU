@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "scope": "CPU synthetic geometry and installed presentation/layout, not actual model inference or memory validation",
+  "checks": [
+    {
+      "n_images": 1,
+      "proxy": false,
+      "labels": [
+        "<Picture 1>: "
+      ],
+      "reference_rows": 7232,
+      "all_rows": 26539,
+      "passed": true
+    },
+    {
+      "n_images": 1,
+      "proxy": true,
+      "labels": [
+        "<Picture 1>: ",
+        "<Video 1>: "
+      ],
+      "reference_rows": 26102,
+      "all_rows": 45458,
+      "passed": true
+    },
+    {
+      "n_images": 3,
+      "proxy": false,
+      "labels": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "<Picture 3>: "
+      ],
+      "reference_rows": 21696,
+      "all_rows": 41041,
+      "passed": true
+    },
+    {
+      "n_images": 3,
+      "proxy": true,
+      "labels": [
+        "<Picture 1>: ",
+        "<Picture 2>: ",
+        "<Picture 3>: ",
+        "<Video 1>: "
+      ],
+      "reference_rows": 40566,
+      "all_rows": 59960,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "base": "round6/05_cvm/attempt_001/inputs/prompt.txt",
+  "reason": "Round7 turns past the rear-facing view toward the right side; the left windows are now offscreen. Keep hole-completion wording without requiring new windows.",
+  "changed_phrases": [
+    "windows -> wall fixtures",
+    "Existing windows move RIGHT -> visible wall fixtures and desks move RIGHT and may leave frame",
+    "rear wall -> rear and side walls"
+  ],
+  "sampling_changed": false
+}

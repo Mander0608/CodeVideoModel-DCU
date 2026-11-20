@@ -1,0 +1,21 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>, with reddish brown wooden desks and chairs on dark metal frames, white-framed windows, cream walls and daylight.
+<Video 1> is an INCOMPLETE camera preview. ALL flat gray cutout areas are UNKNOWN, MISSING scene content that MUST be generated. They are not real walls, floors, objects or backgrounds and must not be preserved.
+
+summary:
+[video editing + reference generation] The PRIMARY task is to COMPLETELY FILL EVERY GRAY UNKNOWN REGION in <Video 1>, producing a complete, photorealistic classroom scene video. Every output frame must show a fully formed scene across the entire image, including its edges and corners. No gray placeholder or cutout boundary may remain at any time.
+
+retention_analysis:
+<Subject 1>: retain classroom identity, materials, window scenery and natural daylight from <Picture 1>.
+<Video 1>: partially_preserved - preserve the chronological camera motion and the layout of the observed, non-gray classroom content. Completely replace ALL gray unknown regions and their artificial borders with generated classroom surfaces and details. Preservation instructions apply only to observed room content, never to gray placeholders.
+
+detailed_description:
+[Shot 1] Complete the missing classroom throughout the entire shot, from the first appearance of a gray gap through the final frame. Generate the unseen room behind every gray area. Fill the left-side unknown region with a continuous cream rear wall and coherent classroom details connected to the visible room. Fill upper unknown regions with the continuing ceiling, and lower unknown regions with the continuing floor and any furniture portions supported by the adjoining visible layout. Give all completed regions realistic surface texture, perspective, lighting, shadows and occlusion. Extend any scene structure that meets a missing-region boundary continuously across that boundary. Remove the artificial cutout outline so the completed regions and the observed room form one unified scene. Do not simply recolor the gray placeholders or leave a flat, featureless patch. Keep the generated geometry and details stable as they remain visible across successive frames.
+
+Start at the window-facing orientation in the first frame of <Video 1>, corresponding to the ending view in <Picture 1>. Hold briefly, turn LEFT another 30 degrees in place along <Video 1>, and hold at the final orientation. There is no camera translation, zoom, cut, reframing or return to the starting view. Existing windows and furniture move RIGHT in the image while remaining stationary in the room. The large window on the right exits to the right; the other windows remain toward the right side of the final composition. Use <Video 1> for camera motion and the visible object layout, and <Picture 1> for photographic appearance and classroom identity. Maintain the visible desks and their paired chairs with consistent occlusion. Complete the newly revealed unknown regions as the turn progresses, so the result remains a COMPLETE CLASSROOM VIDEO throughout, with no gray gaps, empty strips, exposed cutouts or unfinished areas, including in the final frame.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

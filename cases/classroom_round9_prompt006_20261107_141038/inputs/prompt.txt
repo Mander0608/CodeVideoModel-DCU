@@ -1,0 +1,23 @@
+subject_definitions:
+<Subject 1> is the same classroom throughout <Picture 1> and <Video 1>, with cream walls, wooden desks, a navy wall board, a continuous floor and ceiling.
+<Picture 1> supplies the classroom appearance and starting view.
+<Video 1> is a partially observed render of one continuous camera turn. Every flat neutral-gray area is missing scene content that must be replaced with plausible classroom surfaces. All non-gray regions, including a narrow strip that reappears at the far left later in the clip, show existing parts of this same room. The gray cutout edges are artificial coverage boundaries, not physical wall edges or separate pictures.
+
+summary:
+[video editing + reference generation] Fill every gray region of <Video 1> and integrate the completed content naturally with the visible classroom on both sides. The result must be one complete, spatially coherent classroom with continuous surfaces and smooth, natural transitions, including across the interior gap between the returning left strip and the larger known region on the right.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - retain the existing classroom identity, number and placement of boards and furnishings.
+<Video 1>: partially_preserved - preserve the camera framing, chronological motion, and recognizable room content and layout on both sides of each missing region. Preserve the existing objects and their positions while integrating them into one continuous scene. Allow localized adjustments to color, texture, lighting, shading and edges at the joins so the completed regions blend naturally into the known regions. Do not preserve gray holes, artificial cutout outlines or disconnected patch boundaries as part of the room. These local blending adjustments must not move, duplicate, remove or redesign existing objects.
+
+detailed_description:
+[Shot 1] Follow the camera path in <Video 1> frame by frame: the initial pause, the smooth in-place LEFT turn totaling 30 degrees, and the final pause. Match the displacement and perspective of the existing navy board and desks throughout the clip. Stop turning exactly when the source stops. Keep the optical center fixed, with no translation, zoom, extra rotation or return turn.
+At first, complete the newly exposed gaps at the left, top and bottom. Later, when an already known strip of the classroom re-enters at the far left, retain the recognizable content and layout of that strip and the larger known view on the right simultaneously. Completely fill the gray gap BETWEEN them with the missing parts of this same classroom. Connect the existing cream wall, baseboard, ceiling, floor and any genuinely clipped furniture continuously across the gap, matching their perspective, surface texture, color, illumination and shadows at both boundaries. The completed area must join naturally to both sides, with no abrupt seams, isolated patches or visible cutout edges. Natural integration requires generating the missing surfaces, not merely blurring the boundaries or spreading gray into the visible room.
+Use the surrounding visible edges and perspective to determine the connection. Preserve the room corner indicated by the visible geometry; do not turn a gray boundary into a new corner, pillar, recess, doorway or partition. The two known regions are parts of one room, not independent scenes. Preserve real architectural edges while removing artificial coverage boundaries.
+Keep the existing navy board as one stationary object at its source-video position. Leave the newly connected wall bare where no existing fixture is indicated. Do not invent or duplicate a board, clock, window, door or row of desks. Continue a clipped object only where its visible shape requires continuation. Apply the appearance of <Picture 1> consistently while retaining the source layout. Fill the upper holes with the connected ceiling and the lower holes with the continuous floor. Maintain stable surfaces, occlusion, lighting and natural joins over time. Every frame must show a complete, naturally connected full-frame classroom without gray holes, inset images, cutout outlines, cuts or scene transitions.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

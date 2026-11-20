@@ -1,0 +1,13 @@
+{
+  "reviewed_at": "2026-11-07T11:25:18.747923+08:00",
+  "inspected": [
+    "reference_crop_context.png",
+    "references/wall_crop_i0.png"
+  ],
+  "passed": true,
+  "finding": "Crop is cream wall to the right of original green board, excludes board/window/clock/furniture. Small wall marks and illumination gradient remain original image content.",
+  "actual_model_image": "references/wall_crop_i0.png",
+  "motion_audit_image": "inputs/reference.png (full accepted i8, not model Picture1)",
+  "scope": "Image-content/aspect control only; supplied original appearance, no autonomous memory or depth claim.",
+  "process_check": "Remote 2026-11-07T11:24:49+08:00: no classroom inference/supervisor; only unrelated h3_inpaint_web screen and unrelated cosmos supervisor. Local no Python/Blender collector."
+}

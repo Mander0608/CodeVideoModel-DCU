@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    "r02_three"
+  ],
+  "created_at": "2026-11-17T19:44:43.678745+08:00",
+  "status": "prepared_single_gpu_trial",
+  "devices": [
+    1
+  ],
+  "queue_max_seconds": 600,
+  "max_free_check_age_seconds": 600,
+  "serial": true,
+  "stop_on_first_technical_failure": true,
+  "minimum_free_GiB": [
+    55.0
+  ],
+  "parent_pilot": "pilot_003_single_gpu",
+  "same_model_conditions": true
+}

@@ -1,0 +1,83 @@
+{
+  "status": "completed",
+  "lane": "pair12",
+  "devices": [
+    1,
+    2
+  ],
+  "pid": 844268,
+  "started_at": "2026-11-17T16:09:33+08:00",
+  "jobs": {
+    "furniture_A": {
+      "status": "completed",
+      "queued_at": "2026-11-17T16:09:33+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T16:10:10+08:00",
+      "queue_seconds": 36.93708109203726,
+      "inference_started_at": "2026-11-17T16:10:18+08:00",
+      "inference_pid": 854184,
+      "exit_code": 0,
+      "elapsed_seconds": 2049.087001716718,
+      "finished_at": "2026-11-17T16:44:27+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    },
+    "furniture_B": {
+      "status": "completed",
+      "queued_at": "2026-11-17T16:44:28+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T16:45:04+08:00",
+      "queue_seconds": 35.43946847785264,
+      "inference_started_at": "2026-11-17T16:45:16+08:00",
+      "inference_pid": 1240637,
+      "exit_code": 0,
+      "elapsed_seconds": 2224.9391468623653,
+      "finished_at": "2026-11-17T17:22:21+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    },
+    "museum_car_A": {
+      "status": "completed",
+      "queued_at": "2026-11-17T17:22:22+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T17:22:45+08:00",
+      "queue_seconds": 22.866747388616204,
+      "inference_started_at": "2026-11-17T17:22:51+08:00",
+      "inference_pid": 1612954,
+      "exit_code": 0,
+      "elapsed_seconds": 1707.1881522610784,
+      "finished_at": "2026-11-17T17:51:19+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    },
+    "museum_car_B": {
+      "status": "completed",
+      "queued_at": "2026-11-17T17:51:20+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T17:52:04+08:00",
+      "queue_seconds": 43.288537374697626,
+      "inference_started_at": "2026-11-17T17:52:10+08:00",
+      "inference_pid": 1903568,
+      "exit_code": 0,
+      "elapsed_seconds": 2022.318215395324,
+      "finished_at": "2026-11-17T18:25:52+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    }
+  },
+  "current_job": "museum_car_B",
+  "finished_at": "2026-11-17T18:25:52+08:00",
+  "exit_code": 0
+}

@@ -1,0 +1,19 @@
+{
+  "accepted_for_inference": true,
+  "accepted_for_next_round": false,
+  "reviewed_at": "2026-11-07T17:22:44.566802+08:00",
+  "observations": [
+    "Inspected full-resolution F0,F31,F62,F92,F123, original Blender comparison and repaint overlay. Initial apparent board overlap in the horizontal contact sheet was a viewing error, corrected using full frames; no source pixels were modified for that mistaken diagnosis.",
+    "Greenboard enters at left, tree revealed progressively; separate dark board remains on adjoining right wall and exits right. Both remain distinct in full frames.",
+    "Known-source seam has wall color discontinuity and desk-edge mismatch; 24px repaint bands address local transitions, with8px unknown borders. Inference acceptance is provisional; generated seams must be checked throughout, not only at endpoint.",
+    "Supplied i0 greenboard/tree interiors protected outside mask; mask provides ceiling/floor wedges and source seams. This preservation is explicit conditioning and paste-back, not model recall.",
+    "Raw original i9 reference lacks returning i0 board; prompt assigns later layout to source video. Nominal poses and shallow recess0.30 remain hypotheses, not calibration.",
+    "No failed round10 outputs or historical manually corrected i9 used. Source RGB unchanged after preparation; only masks/prompt changed offline."
+  ],
+  "remaining_risks": [
+    "desk-edge seam repair may fail",
+    "source exposure difference",
+    "approximate nominal alignment",
+    "masked temporal flicker"
+  ]
+}

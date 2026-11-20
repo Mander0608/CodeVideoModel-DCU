@@ -1,0 +1,16 @@
+{
+  "status": "failed",
+  "started_at": "2026-11-08T19:35:05+08:00",
+  "host": "m09r2n04",
+  "devices": [
+    0,
+    1
+  ],
+  "supervisor_pid": 703054,
+  "inference_started_at": null,
+  "finished_at": "2026-11-08T19:35:41+08:00",
+  "total_elapsed_seconds": 36.146340171806514,
+  "inference_process_elapsed_seconds": null,
+  "timing_scope": "Total includes preflight. Inference process includes model loading, conditioning, sampling, decoding and output verification.",
+  "exit_code": 1
+}

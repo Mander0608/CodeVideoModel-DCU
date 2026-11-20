@@ -1,0 +1,25 @@
+{
+  "baseline_attempt": "../attempt_001",
+  "changed_model_conditions": [
+    "keep_steps:5->10"
+  ],
+  "same_inputs": {
+    "partial_proxy.mp4": "dc42febb558a0c55edfd6cffdf6c0135f494ba604759cf08312636b4cff99b35",
+    "reference.png": "7c9a78f70eee56c90a55c9edf63bf134e4b198d3e306e4c42a79231f52ce6e2a",
+    "prompt.txt": "e304ed3629b172b5e4b8eab0f2f2fa2881cecb7d65d84cb2f32fec375572765c",
+    "camera_trajectory.json": "35befa61fff75a090cdde7fa5c86f6ee0d2b892f59b790b4a8ab569715cc71cc"
+  },
+  "same_runner": true,
+  "same_model_and_sampling_as_round1": false,
+  "deviation_from_round1": "keep_steps10 instead of5; totalsteps20/seed42 unchanged",
+  "parameters": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 10,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  },
+  "retry_limit": "One keep_steps10 control. If motion drift or gray-copy persists, preserve and diagnose before any further change; do not propagate bad frames."
+}

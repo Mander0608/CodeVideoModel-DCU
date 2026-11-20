@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "reviewed_by": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T17:22:44.566802+08:00",
+  "inspected_frames": [
+    0,
+    31,
+    62,
+    92,
+    123
+  ],
+  "sha256": {
+    "prompt": "0b25174af8e141c1f3c7305a124427ade3b33cd27230269d8d98d92caf16836f",
+    "video": "cbe7719c638ea2fd4a617dd150cbbc46985f88317b57c5b1f493af3b808b344e",
+    "reference": "503891926cc8ab203a5085de76bf228109e01a9dbb9ca75d108248c04f00bf0b"
+  },
+  "additional_condition_sha256": {
+    "inputs/source_video.mp4": "67da3d5629e08dd7e8e7f1e6246a8a218a5212c84608611bf1580f4c8d5bc0f2",
+    "inputs/repaint_mask.mp4": "ac8cc3fafeeca2bcd85b074b67d910ecb2ac38e590b428880c226caeb55d96a9",
+    "inputs/masks.npz": "6eba308f4c3db9fe8038eb808eb0e6009f4dfa224fb7d8bf88dbacc83228c786",
+    "references/i9.png": "503891926cc8ab203a5085de76bf228109e01a9dbb9ca75d108248c04f00bf0b"
+  },
+  "checks": {
+    "visible_objects_and_returning_landmarks": true,
+    "entry_exit_direction_and_final_view": true,
+    "known_content_vs_gray_gaps": true,
+    "reference_video_conflicts_resolved_in_prompt": true,
+    "no_inherited_scene_description_conflict": true
+  },
+  "observations": [
+    "Inspected full-resolution F0,F31,F62,F92,F123, original Blender comparison and repaint overlay. Initial apparent board overlap in the horizontal contact sheet was a viewing error, corrected using full frames; no source pixels were modified for that mistaken diagnosis.",
+    "Greenboard enters at left, tree revealed progressively; separate dark board remains on adjoining right wall and exits right. Both remain distinct in full frames.",
+    "Known-source seam has wall color discontinuity and desk-edge mismatch; 24px repaint bands address local transitions, with8px unknown borders. Inference acceptance is provisional; generated seams must be checked throughout, not only at endpoint.",
+    "Supplied i0 greenboard/tree interiors protected outside mask; mask provides ceiling/floor wedges and source seams. This preservation is explicit conditioning and paste-back, not model recall.",
+    "Raw original i9 reference lacks returning i0 board; prompt assigns later layout to source video. Nominal poses and shallow recess0.30 remain hypotheses, not calibration.",
+    "No failed round10 outputs or historical manually corrected i9 used. Source RGB unchanged after preparation; only masks/prompt changed offline."
+  ],
+  "unresolved_prompt_conflicts": []
+}

@@ -1,0 +1,10 @@
+{
+  "config.json": "11f15da51c44376a80f0f40396d7f985788baba5d4c4a0a4546b3287d9d336a5",
+  "launch.sh": "4949cb91fbd467ec307acc594f97a0a2afa2dd9d84b513f28c9b69a1fa5bdb08",
+  "preflight.py": "013c0f7bebbac736cc01c8e7aacbb25fa0a7ed927edb2a4fe0a154bc7f6c350f",
+  "run_cvm.py": "4a38ac613e8cad37ce70675afe4a3ad2d8716b0bbc92c63e22a5cb4732e341c8",
+  "supervise.py": "077d86bb457ee18ee2343544ea41dfd72a5ce0d7a0dce84980552745f62e0485",
+  "inputs/destination_round1_F122.png": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+  "inputs/partial_proxy.mp4": "7755eaa4b2e4d71d2c8cf92a17e77609c71dc15f259f8147bec43ce41657a713",
+  "inputs/prompt.txt": "ae72a40b8530f982da3962da0394cdb89d2aa7190651405a7c18fadad862f116"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "started_at": "2026-11-18T12:52:03+08:00",
+  "host": "m09r2n04",
+  "devices": [
+    5,
+    6
+  ],
+  "supervisor_pid": 152258,
+  "inference_started_at": "2026-11-18T12:52:37+08:00",
+  "finished_at": "2026-11-18T13:18:02+08:00",
+  "total_elapsed_seconds": 1559.2438753545284,
+  "inference_process_elapsed_seconds": 1524.6726017706096,
+  "timing_scope": "Total includes preflight. Inference process includes model loading, conditioning, sampling, decoding and output verification.",
+  "inference_pid": 159948,
+  "command": [
+    "bash",
+    "/public/home/lixin1/chenxy/run_cvm_dcu.sh",
+    "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom360_cumulative_r04_20261118_125154/run_cvm.py",
+    "--project-root",
+    "/public/home/lixin1/chenxy/CodeVideoModel",
+    "--execute"
+  ],
+  "exit_code": 0,
+  "runner_reported_elapsed_seconds": 1488.4862725511193
+}

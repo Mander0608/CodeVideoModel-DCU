@@ -1,0 +1,14 @@
+{
+  "cvm_config.json": "966af5c06e192dd5e78282e21439ad9d4d3579e4b6b60bfe713f83cc04e37ec7",
+  "gpu_before.json": "bc50f95929b159d8057546e5d7bcaf2193078b04cb34940077523616ece0df99",
+  "input_review.json": "c5e0a0e959b82acb4a61e94f130ed9f2e00c954a00c4d3c4e033afc34e2f96a0",
+  "launch.sh": "da0bababfdc0ddf296399488132aba30a20df489139bbdc5a9179cad4eb53157",
+  "preflight.py": "afd4622dfc57c68e41f98f674b11b2125dff518e0a803382eaebf1e958278de8",
+  "run_cvm.py": "9aa6fa2d7e34845f6d3611ff8523be5848592c7bd3dae877ad1865a02e4f9c53",
+  "scene_snapshot_reference.json": "d4b9e1828bc3bc7900958a63129b9558bf80547ae228f8a2001b234654798c38",
+  "supervise.py": "0a3736ecb029a5ad63e80536aa904ce5d228d68fa70ba6d881914a24549fce83",
+  "watch_and_collect.py": "cc91ca72a5ec2040662d8f182eb21a83727d9bf2467fa6a91d906464cf5a6f55",
+  "inputs/partial_proxy.mp4": "604400a63ed3f4ae84ef7b710e73187113c2908f4b583db979475e5452e10115",
+  "inputs/prompt.txt": "21bd3d1932d3c0020906ac47f703421a4836d82d6ebc8629ccbd02fc2763af17",
+  "inputs/reference.png": "7ebc4e2c3986cce7883b88834775db632ea71d8c857df5fe409e086b3ceaab4d"
+}

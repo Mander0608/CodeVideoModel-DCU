@@ -1,0 +1,83 @@
+{
+  "status": "completed",
+  "lane": "pair34",
+  "devices": [
+    3,
+    4
+  ],
+  "pid": 844308,
+  "started_at": "2026-11-17T16:09:33+08:00",
+  "jobs": {
+    "glass_building_A": {
+      "status": "completed",
+      "queued_at": "2026-11-17T16:09:33+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T16:10:10+08:00",
+      "queue_seconds": 36.67624675668776,
+      "inference_started_at": "2026-11-17T16:10:18+08:00",
+      "inference_pid": 854190,
+      "exit_code": 0,
+      "elapsed_seconds": 2057.063399784267,
+      "finished_at": "2026-11-17T16:44:35+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    },
+    "glass_building_B": {
+      "status": "completed",
+      "queued_at": "2026-11-17T16:44:36+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T16:45:04+08:00",
+      "queue_seconds": 28.38000093679875,
+      "inference_started_at": "2026-11-17T16:45:11+08:00",
+      "inference_pid": 1240609,
+      "exit_code": 0,
+      "elapsed_seconds": 2230.5745732225478,
+      "finished_at": "2026-11-17T17:22:22+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    },
+    "temple_A": {
+      "status": "completed",
+      "queued_at": "2026-11-17T17:22:22+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T17:22:45+08:00",
+      "queue_seconds": 23.588553645648062,
+      "inference_started_at": "2026-11-17T17:22:51+08:00",
+      "inference_pid": 1612948,
+      "exit_code": 0,
+      "elapsed_seconds": 1718.5834946548566,
+      "finished_at": "2026-11-17T17:51:29+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    },
+    "temple_B": {
+      "status": "completed",
+      "queued_at": "2026-11-17T17:51:30+08:00",
+      "free_GiB": [
+        63.640625,
+        63.640625
+      ],
+      "last_resource_check": "2026-11-17T17:52:04+08:00",
+      "queue_seconds": 34.538170251995325,
+      "inference_started_at": "2026-11-17T17:52:11+08:00",
+      "inference_pid": 1903581,
+      "exit_code": 0,
+      "elapsed_seconds": 2030.052802015096,
+      "finished_at": "2026-11-17T18:26:01+08:00",
+      "denoise_steps": 20,
+      "visual_review": "pending"
+    }
+  },
+  "current_job": "temple_B",
+  "finished_at": "2026-11-17T18:26:01+08:00",
+  "exit_code": 0
+}

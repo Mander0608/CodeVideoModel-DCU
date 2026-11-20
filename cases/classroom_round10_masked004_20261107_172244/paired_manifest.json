@@ -1,0 +1,20 @@
+{
+  "comparison_scope": "Method and representation change, not single-variable ablation",
+  "parents": [
+    "attempt_001",
+    "attempt_002_blackboard_prompt",
+    "attempt_003_keep3"
+  ],
+  "original_CVM_baseline_passed": false,
+  "same_seed_and_actual_updates": true,
+  "same_conditioning_algorithm": false,
+  "same_video": false,
+  "same_prompt": false,
+  "same_raw_i9_reference": true,
+  "raw_Blender_scene_unchanged": true,
+  "source_scene_nominal_yaw": [
+    -270,
+    -300
+  ],
+  "known_regions_forced_from_source": true
+}

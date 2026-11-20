@@ -1,0 +1,9 @@
+{
+  "outputs/condition_audit.json": "c3e661c091dc0e763e7df6b6374bf51d98afb9e86856b6679fc51a3ede4e6818",
+  "outputs/result.run.json": "55572162182d27780895dced42bf4162a03e1d586773dcff9be8af565fdd2e61",
+  "outputs/generate_effective.py": "ee49a6110966cfb1f91a2e0dc8f8be27f0abf2adf2377d2ea50931564acc51e4",
+  "outputs/effective_prompt.txt": "8f1d2d927b93e395e70cd701227634b0962a634881ef57618585329258aad968",
+  "outputs/paired_noise_check.json": "e7931b9714ff0e37d1dd7b8d5ef461860d467127fb8969a8bf9776d66d3051e1",
+  "outputs/launch_record.json": "7c64a0b5c0896ceb28c1f07212f58cd8e6fbaf6b0070a69a228f19af4e0d1af5",
+  "outputs/result.mp4": "d209c71b67954a721d95d6441110ca23de327723e2bb8bf30feb88c091e6f610"
+}

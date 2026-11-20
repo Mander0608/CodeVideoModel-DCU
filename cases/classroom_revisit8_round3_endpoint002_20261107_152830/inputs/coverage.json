@@ -1,0 +1,1003 @@
+{
+  "labels": {
+    "0": "unknown",
+    "1": "original_i0",
+    "2": "generated_i1",
+    "3": "generated_i2"
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "yaw_degrees": -59.99999999999999,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4042049632352941,
+      "i1_only_fraction": 0.20689721200980393,
+      "i2_only_fraction": 0.388897824754902
+    },
+    {
+      "frame": 1,
+      "yaw_degrees": -59.99999999999999,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4042049632352941,
+      "i1_only_fraction": 0.20689721200980393,
+      "i2_only_fraction": 0.388897824754902
+    },
+    {
+      "frame": 2,
+      "yaw_degrees": -59.99999999999999,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4042049632352941,
+      "i1_only_fraction": 0.20689721200980393,
+      "i2_only_fraction": 0.388897824754902
+    },
+    {
+      "frame": 3,
+      "yaw_degrees": -59.99999999999999,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4042049632352941,
+      "i1_only_fraction": 0.20689721200980393,
+      "i2_only_fraction": 0.388897824754902
+    },
+    {
+      "frame": 4,
+      "yaw_degrees": -59.99999999999999,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4042049632352941,
+      "i1_only_fraction": 0.20689721200980393,
+      "i2_only_fraction": 0.388897824754902
+    },
+    {
+      "frame": 5,
+      "yaw_degrees": -59.99999999999999,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4042049632352941,
+      "i1_only_fraction": 0.20689721200980393,
+      "i2_only_fraction": 0.388897824754902
+    },
+    {
+      "frame": 6,
+      "yaw_degrees": -59.99999999999999,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4042049632352941,
+      "i1_only_fraction": 0.20689721200980393,
+      "i2_only_fraction": 0.388897824754902
+    },
+    {
+      "frame": 7,
+      "yaw_degrees": -59.99999999999999,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4042049632352941,
+      "i1_only_fraction": 0.20689721200980393,
+      "i2_only_fraction": 0.388897824754902
+    },
+    {
+      "frame": 8,
+      "yaw_degrees": -59.9924712110694,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.40422411151960785,
+      "i1_only_fraction": 0.20690104166666667,
+      "i2_only_fraction": 0.38887484681372547
+    },
+    {
+      "frame": 9,
+      "yaw_degrees": -59.97007016831282,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.40425091911764705,
+      "i1_only_fraction": 0.20693167892156863,
+      "i2_only_fraction": 0.3888174019607843
+    },
+    {
+      "frame": 10,
+      "yaw_degrees": -59.9330748577831,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.404327512254902,
+      "i1_only_fraction": 0.2069469975490196,
+      "i2_only_fraction": 0.38872549019607844
+    },
+    {
+      "frame": 11,
+      "yaw_degrees": -59.88176326553305,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.40513939950980393,
+      "i1_only_fraction": 0.20698912377450981,
+      "i2_only_fraction": 0.3878714767156863
+    },
+    {
+      "frame": 12,
+      "yaw_degrees": -59.816413377615476,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.40525811887254903,
+      "i1_only_fraction": 0.20703125,
+      "i2_only_fraction": 0.38771063112745097
+    },
+    {
+      "frame": 13,
+      "yaw_degrees": -59.73730318008322,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.40612745098039216,
+      "i1_only_fraction": 0.20705422794117648,
+      "i2_only_fraction": 0.3868183210784314
+    },
+    {
+      "frame": 14,
+      "yaw_degrees": -59.644710658989105,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.4070082720588235,
+      "i1_only_fraction": 0.20646063112745097,
+      "i2_only_fraction": 0.3865310968137255
+    },
+    {
+      "frame": 15,
+      "yaw_degrees": -59.538913800385934,
+      "unknown_fraction": 5.744485294117647e-05,
+      "original_fraction": 0.4071997549019608,
+      "i1_only_fraction": 0.20718060661764706,
+      "i2_only_fraction": 0.385562193627451
+    },
+    {
+      "frame": 16,
+      "yaw_degrees": -59.42019059032654,
+      "unknown_fraction": 0.00012637867647058825,
+      "original_fraction": 0.4081341911764706,
+      "i1_only_fraction": 0.20729549632352942,
+      "i2_only_fraction": 0.3844439338235294
+    },
+    {
+      "frame": 17,
+      "yaw_degrees": -59.28881901486375,
+      "unknown_fraction": 0.00017999387254901962,
+      "original_fraction": 0.40909543504901963,
+      "i1_only_fraction": 0.20736443014705883,
+      "i2_only_fraction": 0.38336014093137255
+    },
+    {
+      "frame": 18,
+      "yaw_degrees": -59.14507706005038,
+      "unknown_fraction": 0.0002144607843137255,
+      "original_fraction": 0.41007582720588237,
+      "i1_only_fraction": 0.20747549019607844,
+      "i2_only_fraction": 0.3822342218137255
+    },
+    {
+      "frame": 19,
+      "yaw_degrees": -58.98924271193926,
+      "unknown_fraction": 0.00024892769607843136,
+      "original_fraction": 0.41107919730392156,
+      "i1_only_fraction": 0.20831035539215687,
+      "i2_only_fraction": 0.38036151960784315
+    },
+    {
+      "frame": 20,
+      "yaw_degrees": -58.8215939565832,
+      "unknown_fraction": 0.0002680759803921569,
+      "original_fraction": 0.4121017156862745,
+      "i1_only_fraction": 0.2084175857843137,
+      "i2_only_fraction": 0.3792126225490196
+    },
+    {
+      "frame": 21,
+      "yaw_degrees": -58.64240878003504,
+      "unknown_fraction": 0.00032169117647058823,
+      "original_fraction": 0.41386335784313727,
+      "i1_only_fraction": 0.20783547794117646,
+      "i2_only_fraction": 0.3779794730392157
+    },
+    {
+      "frame": 22,
+      "yaw_degrees": -58.45196516834757,
+      "unknown_fraction": 0.0003791360294117647,
+      "original_fraction": 0.4149318321078431,
+      "i1_only_fraction": 0.20868566176470588,
+      "i2_only_fraction": 0.3760033700980392
+    },
+    {
+      "frame": 23,
+      "yaw_degrees": -58.25054110757365,
+      "unknown_fraction": 0.000428921568627451,
+      "original_fraction": 0.41673177083333335,
+      "i1_only_fraction": 0.20884267769607842,
+      "i2_only_fraction": 0.3739966299019608
+    },
+    {
+      "frame": 24,
+      "yaw_degrees": -58.03841458376607,
+      "unknown_fraction": 0.000467218137254902,
+      "original_fraction": 0.4178385416666667,
+      "i1_only_fraction": 0.20900735294117648,
+      "i2_only_fraction": 0.37268688725490196
+    },
+    {
+      "frame": 25,
+      "yaw_degrees": -57.81586358297768,
+      "unknown_fraction": 0.0005093443627450981,
+      "original_fraction": 0.41968060661764706,
+      "i1_only_fraction": 0.20918351715686276,
+      "i2_only_fraction": 0.3706265318627451
+    },
+    {
+      "frame": 26,
+      "yaw_degrees": -57.58316609126126,
+      "unknown_fraction": 0.0005744485294117647,
+      "original_fraction": 0.42082567401960785,
+      "i1_only_fraction": 0.21008348651960784,
+      "i2_only_fraction": 0.36851639093137256
+    },
+    {
+      "frame": 27,
+      "yaw_degrees": -57.340600094669696,
+      "unknown_fraction": 0.0006242340686274509,
+      "original_fraction": 0.4226945465686274,
+      "i1_only_fraction": 0.21029794730392157,
+      "i2_only_fraction": 0.36638327205882354
+    },
+    {
+      "frame": 28,
+      "yaw_degrees": -57.088443579255745,
+      "unknown_fraction": 0.0006740196078431372,
+      "original_fraction": 0.4245863970588235,
+      "i1_only_fraction": 0.21049708946078433,
+      "i2_only_fraction": 0.36424249387254903
+    },
+    {
+      "frame": 29,
+      "yaw_degrees": -56.82697453107227,
+      "unknown_fraction": 0.0007238051470588236,
+      "original_fraction": 0.4265127144607843,
+      "i1_only_fraction": 0.21072303921568628,
+      "i2_only_fraction": 0.3620404411764706
+    },
+    {
+      "frame": 30,
+      "yaw_degrees": -56.556470936172076,
+      "unknown_fraction": 0.00078125,
+      "original_fraction": 0.4284390318627451,
+      "i1_only_fraction": 0.21169577205882353,
+      "i2_only_fraction": 0.35908394607843136
+    },
+    {
+      "frame": 31,
+      "yaw_degrees": -56.277210780607994,
+      "unknown_fraction": 0.0008386948529411764,
+      "original_fraction": 0.4303844975490196,
+      "i1_only_fraction": 0.21194087009803922,
+      "i2_only_fraction": 0.3568359375
+    },
+    {
+      "frame": 32,
+      "yaw_degrees": -55.989472050432845,
+      "unknown_fraction": 0.0008846507352941176,
+      "original_fraction": 0.43234911151960786,
+      "i1_only_fraction": 0.21220511642156864,
+      "i2_only_fraction": 0.3545611213235294
+    },
+    {
+      "frame": 33,
+      "yaw_degrees": -55.69353273169944,
+      "unknown_fraction": 0.000938265931372549,
+      "original_fraction": 0.43432904411764706,
+      "i1_only_fraction": 0.2132123161764706,
+      "i2_only_fraction": 0.3515203737745098
+    },
+    {
+      "frame": 34,
+      "yaw_degrees": -55.389670810460615,
+      "unknown_fraction": 0.0010033700980392156,
+      "original_fraction": 0.43632046568627453,
+      "i1_only_fraction": 0.21349571078431373,
+      "i2_only_fraction": 0.34918045343137255
+    },
+    {
+      "frame": 35,
+      "yaw_degrees": -55.07816427276917,
+      "unknown_fraction": 0.001053155637254902,
+      "original_fraction": 0.4383310355392157,
+      "i1_only_fraction": 0.21453354779411765,
+      "i2_only_fraction": 0.34608226102941175
+    },
+    {
+      "frame": 36,
+      "yaw_degrees": -54.75929110467796,
+      "unknown_fraction": 0.0010991115196078431,
+      "original_fraction": 0.4403530943627451,
+      "i1_only_fraction": 0.21559053308823528,
+      "i2_only_fraction": 0.34295726102941176
+    },
+    {
+      "frame": 37,
+      "yaw_degrees": -54.433329292239776,
+      "unknown_fraction": 0.0011565563725490196,
+      "original_fraction": 0.4431027879901961,
+      "i1_only_fraction": 0.21594286151960784,
+      "i2_only_fraction": 0.33979779411764705
+    },
+    {
+      "frame": 38,
+      "yaw_degrees": -54.100556821507475,
+      "unknown_fraction": 0.001214001225490196,
+      "original_fraction": 0.44515931372549017,
+      "i1_only_fraction": 0.21702282475490195,
+      "i2_only_fraction": 0.33660386029411765
+    },
+    {
+      "frame": 39,
+      "yaw_degrees": -53.76125167853384,
+      "unknown_fraction": 0.0012637867647058824,
+      "original_fraction": 0.4479281556372549,
+      "i1_only_fraction": 0.21742110906862744,
+      "i2_only_fraction": 0.33338694852941175
+    },
+    {
+      "frame": 40,
+      "yaw_degrees": -53.41569184937171,
+      "unknown_fraction": 0.0013059129901960783,
+      "original_fraction": 0.4500076593137255,
+      "i1_only_fraction": 0.21853170955882353,
+      "i2_only_fraction": 0.3301547181372549
+    },
+    {
+      "frame": 41,
+      "yaw_degrees": -53.0641553200739,
+      "unknown_fraction": 0.0013518688725490196,
+      "original_fraction": 0.452117800245098,
+      "i1_only_fraction": 0.2196423100490196,
+      "i2_only_fraction": 0.32688802083333335
+    },
+    {
+      "frame": 42,
+      "yaw_degrees": -52.70692007669326,
+      "unknown_fraction": 0.001405484068627451,
+      "original_fraction": 0.4549096200980392,
+      "i1_only_fraction": 0.22010569852941175,
+      "i2_only_fraction": 0.3235791973039216
+    },
+    {
+      "frame": 43,
+      "yaw_degrees": -52.344264105282576,
+      "unknown_fraction": 0.0014476102941176471,
+      "original_fraction": 0.4577320772058823,
+      "i1_only_fraction": 0.22056142769607842,
+      "i2_only_fraction": 0.32025888480392156
+    },
+    {
+      "frame": 44,
+      "yaw_degrees": -51.976465391894685,
+      "unknown_fraction": 0.0014782475490196078,
+      "original_fraction": 0.4598613664215686,
+      "i1_only_fraction": 0.22174096200980392,
+      "i2_only_fraction": 0.3169194240196078
+    },
+    {
+      "frame": 45,
+      "yaw_degrees": -51.60380192258242,
+      "unknown_fraction": 0.0015318627450980392,
+      "original_fraction": 0.4627029718137255,
+      "i1_only_fraction": 0.22298560049019608,
+      "i2_only_fraction": 0.3127795649509804
+    },
+    {
+      "frame": 46,
+      "yaw_degrees": -51.22655168339859,
+      "unknown_fraction": 0.0015663296568627452,
+      "original_fraction": 0.46484757965686274,
+      "i1_only_fraction": 0.22421875,
+      "i2_only_fraction": 0.30936734068627453
+    },
+    {
+      "frame": 47,
+      "yaw_degrees": -50.844992660396024,
+      "unknown_fraction": 0.001608455882352941,
+      "original_fraction": 0.46771982230392156,
+      "i1_only_fraction": 0.22549019607843138,
+      "i2_only_fraction": 0.3051815257352941
+    },
+    {
+      "frame": 48,
+      "yaw_degrees": -50.45940283962752,
+      "unknown_fraction": 0.001639093137254902,
+      "original_fraction": 0.4705920649509804,
+      "i1_only_fraction": 0.2260454963235294,
+      "i2_only_fraction": 0.30172334558823527
+    },
+    {
+      "frame": 49,
+      "yaw_degrees": -50.07006020714593,
+      "unknown_fraction": 0.0016773897058823528,
+      "original_fraction": 0.47348345588235297,
+      "i1_only_fraction": 0.22736672794117646,
+      "i2_only_fraction": 0.29747242647058825
+    },
+    {
+      "frame": 50,
+      "yaw_degrees": -49.677242749004066,
+      "unknown_fraction": 0.0017003676470588236,
+      "original_fraction": 0.47568167892156865,
+      "i1_only_fraction": 0.22941942401960785,
+      "i2_only_fraction": 0.2931985294117647
+    },
+    {
+      "frame": 51,
+      "yaw_degrees": -49.281228451254755,
+      "unknown_fraction": 0.0017310049019607842,
+      "original_fraction": 0.47856924019607844,
+      "i1_only_fraction": 0.2300359987745098,
+      "i2_only_fraction": 0.289663756127451
+    },
+    {
+      "frame": 52,
+      "yaw_degrees": -48.882295299950805,
+      "unknown_fraction": 0.0017616421568627451,
+      "original_fraction": 0.4814874387254902,
+      "i1_only_fraction": 0.23142616421568626,
+      "i2_only_fraction": 0.2853247549019608
+    },
+    {
+      "frame": 53,
+      "yaw_degrees": -48.48072128114506,
+      "unknown_fraction": 0.0017884497549019607,
+      "original_fraction": 0.4843941482843137,
+      "i1_only_fraction": 0.23286228553921567,
+      "i2_only_fraction": 0.2809551164215686
+    },
+    {
+      "frame": 54,
+      "yaw_degrees": -48.07678438089031,
+      "unknown_fraction": 0.0018037683823529413,
+      "original_fraction": 0.4873238357843137,
+      "i1_only_fraction": 0.23430223651960785,
+      "i2_only_fraction": 0.27657015931372547
+    },
+    {
+      "frame": 55,
+      "yaw_degrees": -47.6707625852394,
+      "unknown_fraction": 0.0018190870098039216,
+      "original_fraction": 0.4895526960784314,
+      "i1_only_fraction": 0.23647365196078432,
+      "i2_only_fraction": 0.2721545649509804
+    },
+    {
+      "frame": 56,
+      "yaw_degrees": -47.26293388024514,
+      "unknown_fraction": 0.0018535539215686274,
+      "original_fraction": 0.4924938725490196,
+      "i1_only_fraction": 0.2379595588235294,
+      "i2_only_fraction": 0.26769301470588236
+    },
+    {
+      "frame": 57,
+      "yaw_degrees": -46.85357625196038,
+      "unknown_fraction": 0.0018573835784313725,
+      "original_fraction": 0.4954427083333333,
+      "i1_only_fraction": 0.2394799325980392,
+      "i2_only_fraction": 0.2632199754901961
+    },
+    {
+      "frame": 58,
+      "yaw_degrees": -46.4429676864379,
+      "unknown_fraction": 0.0018612132352941175,
+      "original_fraction": 0.4983915441176471,
+      "i1_only_fraction": 0.24103094362745098,
+      "i2_only_fraction": 0.25871629901960785
+    },
+    {
+      "frame": 59,
+      "yaw_degrees": -46.03138616973055,
+      "unknown_fraction": 0.001872702205882353,
+      "original_fraction": 0.501351868872549,
+      "i1_only_fraction": 0.2425857843137255,
+      "i2_only_fraction": 0.25418964460784316
+    },
+    {
+      "frame": 60,
+      "yaw_degrees": -45.619109687891154,
+      "unknown_fraction": 0.001868872549019608,
+      "original_fraction": 0.5043198529411764,
+      "i1_only_fraction": 0.24500038296568627,
+      "i2_only_fraction": 0.24881089154411765
+    },
+    {
+      "frame": 61,
+      "yaw_degrees": -45.20641622697252,
+      "unknown_fraction": 0.0018803615196078432,
+      "original_fraction": 0.5072916666666667,
+      "i1_only_fraction": 0.24659160539215685,
+      "i2_only_fraction": 0.24423636642156862
+    },
+    {
+      "frame": 62,
+      "yaw_degrees": -44.79358377302747,
+      "unknown_fraction": 0.0018803615196078432,
+      "original_fraction": 0.5102826286764706,
+      "i1_only_fraction": 0.24821155024509803,
+      "i2_only_fraction": 0.23962545955882353
+    },
+    {
+      "frame": 63,
+      "yaw_degrees": -44.38089031210883,
+      "unknown_fraction": 0.001868872549019608,
+      "original_fraction": 0.5133425245098039,
+      "i1_only_fraction": 0.25060891544117647,
+      "i2_only_fraction": 0.2341796875
+    },
+    {
+      "frame": 64,
+      "yaw_degrees": -43.968613830269426,
+      "unknown_fraction": 0.001872702205882353,
+      "original_fraction": 0.5162339154411765,
+      "i1_only_fraction": 0.2523935355392157,
+      "i2_only_fraction": 0.22949984681372548
+    },
+    {
+      "frame": 65,
+      "yaw_degrees": -43.55703231356208,
+      "unknown_fraction": 0.0018612132352941175,
+      "original_fraction": 0.5185049019607844,
+      "i1_only_fraction": 0.25481770833333334,
+      "i2_only_fraction": 0.22481617647058824
+    },
+    {
+      "frame": 66,
+      "yaw_degrees": -43.14642374803962,
+      "unknown_fraction": 0.0018573835784313725,
+      "original_fraction": 0.521484375,
+      "i1_only_fraction": 0.2573988970588235,
+      "i2_only_fraction": 0.2192593443627451
+    },
+    {
+      "frame": 67,
+      "yaw_degrees": -42.73706611975484,
+      "unknown_fraction": 0.0018535539215686274,
+      "original_fraction": 0.5244676776960784,
+      "i1_only_fraction": 0.25916053921568627,
+      "i2_only_fraction": 0.21451822916666666
+    },
+    {
+      "frame": 68,
+      "yaw_degrees": -42.32923741476059,
+      "unknown_fraction": 0.0018190870098039216,
+      "original_fraction": 0.5274548100490196,
+      "i1_only_fraction": 0.2618068321078431,
+      "i2_only_fraction": 0.20891927083333334
+    },
+    {
+      "frame": 69,
+      "yaw_degrees": -41.923215619109676,
+      "unknown_fraction": 0.0018037683823529413,
+      "original_fraction": 0.530453431372549,
+      "i1_only_fraction": 0.2644722732843137,
+      "i2_only_fraction": 0.20327052696078432
+    },
+    {
+      "frame": 70,
+      "yaw_degrees": -41.51927871885494,
+      "unknown_fraction": 0.0017884497549019607,
+      "original_fraction": 0.5334443933823529,
+      "i1_only_fraction": 0.2663066789215686,
+      "i2_only_fraction": 0.19846047794117647
+    },
+    {
+      "frame": 71,
+      "yaw_degrees": -41.11770470004918,
+      "unknown_fraction": 0.0017616421568627451,
+      "original_fraction": 0.5364430147058824,
+      "i1_only_fraction": 0.26902573529411766,
+      "i2_only_fraction": 0.19276960784313726
+    },
+    {
+      "frame": 72,
+      "yaw_degrees": -40.71877154874523,
+      "unknown_fraction": 0.0017310049019607842,
+      "original_fraction": 0.5394416360294118,
+      "i1_only_fraction": 0.2709214154411765,
+      "i2_only_fraction": 0.18790594362745097
+    },
+    {
+      "frame": 73,
+      "yaw_degrees": -40.32275725099591,
+      "unknown_fraction": 0.0017003676470588236,
+      "original_fraction": 0.5424325980392157,
+      "i1_only_fraction": 0.27369791666666665,
+      "i2_only_fraction": 0.18216911764705881
+    },
+    {
+      "frame": 74,
+      "yaw_degrees": -39.92993979285406,
+      "unknown_fraction": 0.0016773897058823528,
+      "original_fraction": 0.5454235600490196,
+      "i1_only_fraction": 0.2765127144607843,
+      "i2_only_fraction": 0.17638633578431373
+    },
+    {
+      "frame": 75,
+      "yaw_degrees": -39.54059716037247,
+      "unknown_fraction": 0.001639093137254902,
+      "original_fraction": 0.5476907169117647,
+      "i1_only_fraction": 0.28008195465686275,
+      "i2_only_fraction": 0.17058823529411765
+    },
+    {
+      "frame": 76,
+      "yaw_degrees": -39.155007339603976,
+      "unknown_fraction": 0.001608455882352941,
+      "original_fraction": 0.5506816789215686,
+      "i1_only_fraction": 0.2820695465686274,
+      "i2_only_fraction": 0.165640318627451
+    },
+    {
+      "frame": 77,
+      "yaw_degrees": -38.7734483166014,
+      "unknown_fraction": 0.0015663296568627452,
+      "original_fraction": 0.5536726409313726,
+      "i1_only_fraction": 0.2849685968137255,
+      "i2_only_fraction": 0.1597924325980392
+    },
+    {
+      "frame": 78,
+      "yaw_degrees": -38.396198077417566,
+      "unknown_fraction": 0.0015318627450980392,
+      "original_fraction": 0.5566444546568627,
+      "i1_only_fraction": 0.2879097732843137,
+      "i2_only_fraction": 0.15391390931372548
+    },
+    {
+      "frame": 79,
+      "yaw_degrees": -38.023534608105294,
+      "unknown_fraction": 0.0014782475490196078,
+      "original_fraction": 0.5589077818627451,
+      "i1_only_fraction": 0.29068627450980394,
+      "i2_only_fraction": 0.14892769607843137
+    },
+    {
+      "frame": 80,
+      "yaw_degrees": -37.655735894717424,
+      "unknown_fraction": 0.0014476102941176471,
+      "original_fraction": 0.561883425245098,
+      "i1_only_fraction": 0.29367723651960786,
+      "i2_only_fraction": 0.14299172794117648
+    },
+    {
+      "frame": 81,
+      "yaw_degrees": -37.29307992330673,
+      "unknown_fraction": 0.001405484068627451,
+      "original_fraction": 0.5648514093137255,
+      "i1_only_fraction": 0.29667202818627453,
+      "i2_only_fraction": 0.13707107843137256
+    },
+    {
+      "frame": 82,
+      "yaw_degrees": -36.93584467992609,
+      "unknown_fraction": 0.0013518688725490196,
+      "original_fraction": 0.5670840992647059,
+      "i1_only_fraction": 0.29955193014705883,
+      "i2_only_fraction": 0.13201210171568628
+    },
+    {
+      "frame": 83,
+      "yaw_degrees": -36.58430815062828,
+      "unknown_fraction": 0.0013059129901960783,
+      "original_fraction": 0.5700482536764706,
+      "i1_only_fraction": 0.3026079963235294,
+      "i2_only_fraction": 0.12603783700980392
+    },
+    {
+      "frame": 84,
+      "yaw_degrees": -36.238748321466154,
+      "unknown_fraction": 0.0012637867647058824,
+      "original_fraction": 0.5729932598039216,
+      "i1_only_fraction": 0.30570235906862747,
+      "i2_only_fraction": 0.1200405943627451
+    },
+    {
+      "frame": 85,
+      "yaw_degrees": -35.89944317849252,
+      "unknown_fraction": 0.001214001225490196,
+      "original_fraction": 0.575210631127451,
+      "i1_only_fraction": 0.3086205575980392,
+      "i2_only_fraction": 0.11495481004901961
+    },
+    {
+      "frame": 86,
+      "yaw_degrees": -35.56667070776021,
+      "unknown_fraction": 0.0011565563725490196,
+      "original_fraction": 0.578140318627451,
+      "i1_only_fraction": 0.31175704656862746,
+      "i2_only_fraction": 0.10894607843137255
+    },
+    {
+      "frame": 87,
+      "yaw_degrees": -35.24070889532203,
+      "unknown_fraction": 0.0010991115196078431,
+      "original_fraction": 0.5803308823529412,
+      "i1_only_fraction": 0.3147173713235294,
+      "i2_only_fraction": 0.10385263480392157
+    },
+    {
+      "frame": 88,
+      "yaw_degrees": -34.921835727230814,
+      "unknown_fraction": 0.001053155637254902,
+      "original_fraction": 0.5832490808823529,
+      "i1_only_fraction": 0.3178921568627451,
+      "i2_only_fraction": 0.09780560661764706
+    },
+    {
+      "frame": 89,
+      "yaw_degrees": -34.61032918953937,
+      "unknown_fraction": 0.0010033700980392156,
+      "original_fraction": 0.585412837009804,
+      "i1_only_fraction": 0.32087928921568626,
+      "i2_only_fraction": 0.09270450367647058
+    },
+    {
+      "frame": 90,
+      "yaw_degrees": -34.30646726830055,
+      "unknown_fraction": 0.000938265931372549,
+      "original_fraction": 0.5875765931372549,
+      "i1_only_fraction": 0.32483532475490196,
+      "i2_only_fraction": 0.08664981617647059
+    },
+    {
+      "frame": 91,
+      "yaw_degrees": -34.01052794956714,
+      "unknown_fraction": 0.0008846507352941176,
+      "original_fraction": 0.5897633272058823,
+      "i1_only_fraction": 0.3278109681372549,
+      "i2_only_fraction": 0.08154105392156863
+    },
+    {
+      "frame": 92,
+      "yaw_degrees": -33.722789219392,
+      "unknown_fraction": 0.0008386948529411764,
+      "original_fraction": 0.5925819546568627,
+      "i1_only_fraction": 0.3301393995098039,
+      "i2_only_fraction": 0.07643995098039216
+    },
+    {
+      "frame": 93,
+      "yaw_degrees": -33.44352906382791,
+      "unknown_fraction": 0.00078125,
+      "original_fraction": 0.5946959252450981,
+      "i1_only_fraction": 0.33317248774509806,
+      "i2_only_fraction": 0.07135033700980392
+    },
+    {
+      "frame": 94,
+      "yaw_degrees": -33.17302546892772,
+      "unknown_fraction": 0.0007238051470588236,
+      "original_fraction": 0.5967945772058824,
+      "i1_only_fraction": 0.33622089460784316,
+      "i2_only_fraction": 0.06626072303921568
+    },
+    {
+      "frame": 95,
+      "yaw_degrees": -32.91155642074425,
+      "unknown_fraction": 0.0006740196078431372,
+      "original_fraction": 0.5988817401960784,
+      "i1_only_fraction": 0.33925398284313724,
+      "i2_only_fraction": 0.061190257352941174
+    },
+    {
+      "frame": 96,
+      "yaw_degrees": -32.65939990533029,
+      "unknown_fraction": 0.0006242340686274509,
+      "original_fraction": 0.6009420955882353,
+      "i1_only_fraction": 0.34231387867647056,
+      "i2_only_fraction": 0.05611979166666667
+    },
+    {
+      "frame": 97,
+      "yaw_degrees": -32.41683390873871,
+      "unknown_fraction": 0.0005744485294117647,
+      "original_fraction": 0.6029833026960785,
+      "i1_only_fraction": 0.34537377450980394,
+      "i2_only_fraction": 0.051068474264705885
+    },
+    {
+      "frame": 98,
+      "yaw_degrees": -32.184136417022316,
+      "unknown_fraction": 0.0005093443627450981,
+      "original_fraction": 0.6042777267156862,
+      "i1_only_fraction": 0.34817708333333336,
+      "i2_only_fraction": 0.047035845588235294
+    },
+    {
+      "frame": 99,
+      "yaw_degrees": -31.961585416233934,
+      "unknown_fraction": 0.000467218137254902,
+      "original_fraction": 0.6062729779411765,
+      "i1_only_fraction": 0.3512561274509804,
+      "i2_only_fraction": 0.04200367647058824
+    },
+    {
+      "frame": 100,
+      "yaw_degrees": -31.749458892426347,
+      "unknown_fraction": 0.000428921568627451,
+      "original_fraction": 0.6082567401960784,
+      "i1_only_fraction": 0.35330499387254904,
+      "i2_only_fraction": 0.0380093443627451
+    },
+    {
+      "frame": 101,
+      "yaw_degrees": -31.548034831652426,
+      "unknown_fraction": 0.0003791360294117647,
+      "original_fraction": 0.6094669117647059,
+      "i1_only_fraction": 0.35609298406862744,
+      "i2_only_fraction": 0.0340609681372549
+    },
+    {
+      "frame": 102,
+      "yaw_degrees": -31.357591219964956,
+      "unknown_fraction": 0.00032169117647058823,
+      "original_fraction": 0.6114123774509804,
+      "i1_only_fraction": 0.35912224264705883,
+      "i2_only_fraction": 0.029143688725490197
+    },
+    {
+      "frame": 103,
+      "yaw_degrees": -31.178406043416782,
+      "unknown_fraction": 0.0002680759803921569,
+      "original_fraction": 0.6125842524509804,
+      "i1_only_fraction": 0.3608838848039216,
+      "i2_only_fraction": 0.026263786764705883
+    },
+    {
+      "frame": 104,
+      "yaw_degrees": -31.010757288060727,
+      "unknown_fraction": 0.00024892769607843136,
+      "original_fraction": 0.6144607843137255,
+      "i1_only_fraction": 0.362890625,
+      "i2_only_fraction": 0.02239966299019608
+    },
+    {
+      "frame": 105,
+      "yaw_degrees": -30.854922939949603,
+      "unknown_fraction": 0.0002144607843137255,
+      "original_fraction": 0.6155905330882353,
+      "i1_only_fraction": 0.3655981924019608,
+      "i2_only_fraction": 0.018596813725490196
+    },
+    {
+      "frame": 106,
+      "yaw_degrees": -30.711180985136235,
+      "unknown_fraction": 0.00017999387254901962,
+      "original_fraction": 0.6166819852941177,
+      "i1_only_fraction": 0.3672640931372549,
+      "i2_only_fraction": 0.01587392769607843
+    },
+    {
+      "frame": 107,
+      "yaw_degrees": -30.579809409673448,
+      "unknown_fraction": 0.00012637867647058825,
+      "original_fraction": 0.6177198223039215,
+      "i1_only_fraction": 0.368960631127451,
+      "i2_only_fraction": 0.013193167892156863
+    },
+    {
+      "frame": 108,
+      "yaw_degrees": -30.461086199614055,
+      "unknown_fraction": 5.744485294117647e-05,
+      "original_fraction": 0.6187768075980392,
+      "i1_only_fraction": 0.37061504289215685,
+      "i2_only_fraction": 0.010550704656862746
+    },
+    {
+      "frame": 109,
+      "yaw_degrees": -30.3552893410109,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6197801776960784,
+      "i1_only_fraction": 0.3721583946078431,
+      "i2_only_fraction": 0.008061427696078432
+    },
+    {
+      "frame": 110,
+      "yaw_degrees": -30.26269681991677,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6207567401960784,
+      "i1_only_fraction": 0.37387025122549017,
+      "i2_only_fraction": 0.0053730085784313725
+    },
+    {
+      "frame": 111,
+      "yaw_degrees": -30.183586622384507,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6209405637254902,
+      "i1_only_fraction": 0.3749885110294118,
+      "i2_only_fraction": 0.0040709252450980395
+    },
+    {
+      "frame": 112,
+      "yaw_degrees": -30.11823673446695,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6218481924019608,
+      "i1_only_fraction": 0.37560891544117647,
+      "i2_only_fraction": 0.002542892156862745
+    },
+    {
+      "frame": 113,
+      "yaw_degrees": -30.066925142216895,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6219707414215686,
+      "i1_only_fraction": 0.37698759191176473,
+      "i2_only_fraction": 0.0010416666666666667
+    },
+    {
+      "frame": 114,
+      "yaw_degrees": -30.029929831687156,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6220588235294118,
+      "i1_only_fraction": 0.37689950980392156,
+      "i2_only_fraction": 0.0010416666666666667
+    },
+    {
+      "frame": 115,
+      "yaw_degrees": -30.00752878893059,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228707107843138,
+      "i1_only_fraction": 0.3771292892156863,
+      "i2_only_fraction": 0.0
+    },
+    {
+      "frame": 116,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228860294117647,
+      "i1_only_fraction": 0.3771139705882353,
+      "i2_only_fraction": 0.0
+    },
+    {
+      "frame": 117,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228860294117647,
+      "i1_only_fraction": 0.3771139705882353,
+      "i2_only_fraction": 0.0
+    },
+    {
+      "frame": 118,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228860294117647,
+      "i1_only_fraction": 0.3771139705882353,
+      "i2_only_fraction": 0.0
+    },
+    {
+      "frame": 119,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228860294117647,
+      "i1_only_fraction": 0.3771139705882353,
+      "i2_only_fraction": 0.0
+    },
+    {
+      "frame": 120,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228860294117647,
+      "i1_only_fraction": 0.3771139705882353,
+      "i2_only_fraction": 0.0
+    },
+    {
+      "frame": 121,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228860294117647,
+      "i1_only_fraction": 0.3771139705882353,
+      "i2_only_fraction": 0.0
+    },
+    {
+      "frame": 122,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228860294117647,
+      "i1_only_fraction": 0.3771139705882353,
+      "i2_only_fraction": 0.0
+    },
+    {
+      "frame": 123,
+      "yaw_degrees": -29.999999999999996,
+      "unknown_fraction": 0.0,
+      "original_fraction": 0.6228860294117647,
+      "i1_only_fraction": 0.3771139705882353,
+      "i2_only_fraction": 0.0
+    }
+  ],
+  "meaning": "Nominal angular support under pure rotation and assumed intrinsics; not proof of correct geometry or actual CVM pose."
+}

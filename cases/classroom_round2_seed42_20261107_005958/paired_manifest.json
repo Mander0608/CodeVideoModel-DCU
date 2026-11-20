@@ -1,0 +1,22 @@
+{
+  "parent_round": "round1",
+  "reference_frame": 122,
+  "reference_type": "generated_prior",
+  "runner_identical_to_round1": true,
+  "sampling": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  },
+  "changes": [
+    "updated Blender scene using round1 generated F122",
+    "reference changes from i0 to i1",
+    "camera -30 to -60",
+    "subject description includes left windows and chalkboard drawings"
+  ],
+  "comparison_scope": "Sequential reconstruction iteration; not a single-variable ablation."
+}

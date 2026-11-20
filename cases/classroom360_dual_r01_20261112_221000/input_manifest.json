@@ -1,0 +1,31 @@
+{
+  "files": {
+    "inputs/camera_trajectory.csv": "ec2e5deb19fd1ebf78e5bf1799974623a6f87a04f71004a82b9dab14f1863fcf",
+    "inputs/camera_trajectory.json": "5a984d289b3787769f0b9627401ec8c6e8fc0b6b61d9e72064fef7691b94ca5e",
+    "inputs/coverage.json": "e989a65ac448e8c1f5cde512bd868c1e6f2b5ac48c8e0dcc8a6e22d71472889d",
+    "inputs/history.png": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+    "inputs/partial_proxy.mp4": "9c13a450074d8e09d1e60c23f754df339985487ea2f15d57612fdb7deca35156",
+    "inputs/prompt.txt": "b1ac152f5cf634b8b325728f884dd64b03988814c5ac9e25d65c2415b0f7fd13",
+    "inputs/start.png": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d"
+  },
+  "maximum_unknown_fraction": 0.3771139705882353,
+  "reference_selection": {
+    "Picture1": {
+      "role": "start",
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-360-DualRef-20261112\\round01\\00_input\\previous_terminal.png",
+      "sha256": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d"
+    },
+    "Picture2": {
+      "role": "destination",
+      "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-360-DualRef-20261112\\initial_conditions\\bootstrap_left30_round1_F122.png",
+      "sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+      "selection": {
+        "id": "bootstrap_left30",
+        "yaw_degrees": -30,
+        "kind": "historical_generated_prior",
+        "source": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-360-DualRef-20261112\\initial_conditions\\bootstrap_left30_round1_F122.png",
+        "selection": "User-approved strict two-image initialization; extra condition, not modeled geometry."
+      }
+    }
+  }
+}

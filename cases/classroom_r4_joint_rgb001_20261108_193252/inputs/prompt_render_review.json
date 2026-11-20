@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "reviewed_by": "Codex visual inspection",
+  "reviewed_at": "2026-11-08T19:32:52.220546+08:00",
+  "inspected_frames": [
+    0,
+    31,
+    62,
+    92,
+    123
+  ],
+  "sha256": {
+    "prompt": "3ebe99a7ad7a82df4df042ce042fab6f061a269d24554829aa4979f62ea74187",
+    "video": "4923b2b457969cf90aee012a64ae91cff97eff3d5c2d1a90a29c992c6ca1d169",
+    "reference": "670f30c7a30cbe745eee9d494bbbaa5d77fe20def51624781a773ba8e643edc4"
+  },
+  "checks": {
+    "visible_objects_and_returning_landmarks": true,
+    "entry_exit_direction_and_final_view": true,
+    "known_content_vs_gray_gaps": true,
+    "reference_video_conflicts_resolved_in_prompt": true,
+    "no_inherited_scene_description_conflict": true
+  },
+  "observations": [
+    "White-framed windows and trees, reddish desks and chairs, cream walls, radiators, ceiling and floor. No blackboard in this view.",
+    "Left turn moves existing windows right; large right window exits right; final view keeps windows on right.",
+    "Gray angular gaps: F0 0%, F31 7.48%, F62 24.62%, F92 36.53%, F123 40.00%.",
+    "Actual reference is Round3 F123, not archived i3 F121. It differs visibly from the Blender proxy in window framing, furniture contours, lighting and materials.",
+    "Prompt gives geometry/motion priority to the proxy and appearance priority to the reference; this resolves conflicting instructions but DOES NOT remove underlying geometric discrepancies.",
+    "RGB keep_steps=5 is soft conditioning; first-frame matching, gray filling and motion following are not guaranteed. No mask or pixel pasteback is used."
+  ],
+  "unresolved_prompt_conflicts": [],
+  "remaining_modeling_and_generation_risks": [
+    "Reference/proxy mismatch may still cause boundary changes or shape drift.",
+    "Pure rotation does not validate depth; hidden chairs and unseen room geometry remain assumptions."
+  ],
+  "clause_review": {
+    "subject_definitions": "Matches observed objects; gray identified as missing data.",
+    "summary_retention": "Proxy supplies motion/layout; reference supplies appearance.",
+    "motion": "Brief holds and a 30 degree left turn with no return, matching rendered trajectory.",
+    "entry_exit": "Right-side window exits right; other windows shift right.",
+    "completion": "Rear wall, ceiling and floor gaps; no inherited blackboard requirement.",
+    "sound": "Non-conflicting quiet ambience."
+  }
+}

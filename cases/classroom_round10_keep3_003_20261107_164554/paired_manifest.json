@@ -1,0 +1,41 @@
+{
+  "parent_attempt": "round10/05_cvm/attempt_002_blackboard_prompt",
+  "only_changed_model_parameter": {
+    "keep_steps": {
+      "from": 5,
+      "to": 3
+    }
+  },
+  "same_input_sha256": {
+    "camera_trajectory.csv": "da2d6fe2c2901dcee9cd8220b8c8a115e84377542fe730dd5b419809c7c3d8a7",
+    "camera_trajectory.json": "4a8599bda85ec88ec48e280088ccdc1f1cca7c7551841748851d76c05df8ef51",
+    "coverage.json": "4d90727d4e994343b3913209d56081190b6a2d5bf7b828c07a86c4ee255a1b8b",
+    "i8_composite_sources.json": "995ab065b0158308f86f5da67eec7c0f557f271972f1aa3371041b6f219d92d5",
+    "i8_original_unknown_mask.png": "cc66741923cb6dec010c553741a7769966c8140b643f4851fc9b64a8d20a2964",
+    "i8_repaint_mask.png": "1b867fc48411dd6817106fe8f4b70f2f480bea7137d261cbeaecd7c48a88011b",
+    "input_manifest.json": "5572a422d549c44e7aab33d5e6996df9791b57f0ad41697b692a19eebf09e3fb",
+    "partial_proxy.mp4": "826594d1e00123961c6c05ede649e93a30e0f2b7d37ff9af323aa543f982e6b9",
+    "prompt.txt": "d4f68a516210b1e42ad8974ed6034190cafe01cfc4ab8cfa56ecd2429d0c6096",
+    "prompt_adaptation.json": "ad7e313f54852cb5a77c78594edf7482fd24ce523024a83ee79a3e300f9ff9fb",
+    "prompt_render_review.json": "d8db4e0980045d9d59aed15a5ebf01301822d6b1ec345c85ab48bc1141776d6e",
+    "reference.png": "503891926cc8ab203a5085de76bf228109e01a9dbb9ca75d108248c04f00bf0b",
+    "reference_i0.png": "8689da6857c812efccf7078c5b73e3688b18e00de00286d5c09052cdc42046dd",
+    "reference_i1.png": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+    "reference_i2.png": "09e7ce448451b1db2e1f3f32adfbed28113365bc1841a6e288c4bec71a8635ed",
+    "reference_i3.png": "f1040e628f0bddac63a71585c2672664274baebdf3ed5640ab9aa25a28858a69",
+    "reference_i4.png": "5b0da300dba1a92f86b9cca8f1b4f28d565daafbe70d6d018adb666e523c7084",
+    "reference_i5.png": "eaae4f6ace27acaa48eb9bdb4d853d9fe5db4528212660815fc649e83b789b69",
+    "reference_i6.png": "01ea6eeb9fc776014651a5fc349ca66883569d6dbc6c4a97c7d11326dec561de",
+    "reference_i7.png": "7c9a78f70eee56c90a55c9edf63bf134e4b198d3e306e4c42a79231f52ce6e2a",
+    "reference_i8.png": "b5b249963b2901dba172e775d4c320d9d075a720072282f4404112ef85243f4b",
+    "reference_i9.png": "503891926cc8ab203a5085de76bf228109e01a9dbb9ca75d108248c04f00bf0b",
+    "reference_i9_coverage.png": "a64380273d66c0e902db118a72ec19ee833d9fa66f37b194a8561350fae22161",
+    "reference_protocol.json": "ff89cb8ea6c86ad015a2e4df627183adcd5970918059cc040735fcf22d2f8421"
+  },
+  "runner_identical": true,
+  "scene_snapshot_identical": true,
+  "same_model_and_sampling_as_round1": false,
+  "deviation": "keep_steps3 rather than5; totalsteps20/seed42 unchanged",
+  "hypothesis": "Reducing duration of gray-bearing RGB reference may release gray-copy; may degrade known layout. Not proven.",
+  "retry_limit": "One targetedkeep3control, then consolidate evidence before further changes."
+}

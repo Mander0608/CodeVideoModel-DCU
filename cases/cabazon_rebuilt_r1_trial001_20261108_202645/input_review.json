@@ -1,0 +1,17 @@
+{
+  "launch_allowed": true,
+  "reviewed_at": "2026-11-08T20:26:46.009736+08:00",
+  "evidence": [
+    "../01_blender/diagnostics/visual_review.json",
+    "../01_blender/outputs/partial_dense_contact.jpg"
+  ],
+  "proxy_sha256": "604400a63ed3f4ae84ef7b710e73187113c2908f4b583db979475e5452e10115",
+  "limitations": [
+    "Approximate reconstructed A visibility, not calibrated photo correspondence",
+    "28.759% unknown at B; thin mask edges may shimmer",
+    "Completion quality must be checked across the output clip"
+  ],
+  "reference": "Original normalized i0",
+  "prompt": "New prompt revision v1, reviewed",
+  "purpose": "One user-authorized CVM trial only"
+}

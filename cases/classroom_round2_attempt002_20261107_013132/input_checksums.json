@@ -1,0 +1,16 @@
+{
+  "cvm_config.json": "e51f27a140e9c999d11cc6c8e02916376959357822e374b6abfb8fb0ceea65f7",
+  "launch.sh": "6b333e9c7313f1cf776a5d6554088cf8aa64ca90bfeb78ebd7cb1ae6a30756ff",
+  "paired_manifest.json": "d5c0f4999de4e4bcd82e987340ec8af8381959b2f84c5f5bbd597ffa32751b92",
+  "preflight.py": "63363e404b5b67293894affd640b7d89658e11dbd5a5346072b25bf7744b5357",
+  "run_cvm.py": "b5a249dd45b1980f250a6032518da728bc60b253ddb5b5c7cbdbb45b560ee010",
+  "scene_snapshot_reference.json": "9162609be8f45f2c848f1142209fa0d1a52ea16793b5cb115482821fb25bebc1",
+  "supervise.py": "b39dd64602873b5216570864fc12f1e4fe7ce2d2c61e146ad5e5cc7de1e151bf",
+  "watch_and_collect.py": "b5bdb5a87091d04d222dc28abd9ac5ed74decddd1724d9af5837e8ef6323bb16",
+  "inputs/camera_trajectory.json": "a66362a479366ca72210b816a1ca113ab91951a34722bd4a2e7b119f2321a1f3",
+  "inputs/coverage.json": "e993bdb8283b21066f0c6ceded874ab546975448c8866fbeda17037aa0509b2a",
+  "inputs/partial_proxy.mp4": "dca60542a4071604a82b2971ba3b2171d0694bcba29ed16c856882d90340a8dc",
+  "inputs/prompt.txt": "e7c5d0e25c01b13f21daa1fad8082e19bbc8ce125e00a5fd82d512f52bb536cf",
+  "inputs/reference.png": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+  "inputs/reference_i0.png": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d"
+}

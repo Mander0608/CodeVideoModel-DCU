@@ -1,0 +1,37 @@
+{
+  "observed": {
+    "accepted_for_modeling": false,
+    "status": "rejected_temporal_completion_and_structure",
+    "inspected_frames": [
+      0,
+      16,
+      31,
+      47,
+      62,
+      78,
+      92,
+      108,
+      116,
+      119,
+      121,
+      123
+    ],
+    "greenboard_return": "Improved over001: left greenboard and tree return by later frames and remain visible at endpoint. Tree drawing/framing is regenerated and differs from input.",
+    "completion": "Gray floor/ceiling cutouts persist in middle and late frames. Broad edge-neutral diagnostic exceeds1% fromF27 and reaches10.32284% of whole image atF120; abruptly zero atF121. Endpoint alone appears complete but video completion fails.",
+    "structure": "Intermediate desks morph and slide; dark board shows duplicated/ghosted panel edges aroundF62 and wall-return appearance changes. Do not propagate endpoint to hide these failures.",
+    "motion": "Leftward motion visible; local chain invalid at56->64 (19inliers), endpoint direct6inliers invalid; no reliable total yaw. Raw unaccepted homography angles are not measurements.",
+    "comparison": "Only prompt changed from001. Returning landmark improves, but gray completion/temporal structure do not pass. One seed and multiple sentence edits do not isolate one sentence or prove a unique cause.",
+    "next_control": "Fix reviewed002prompt, image, RGB video, seed42,totalsteps20; change onlykeep_steps5->3 to test whether weaker video conditioning reduces gray-copy while preserving textual landmark constraints. Gray-as-video-content is a hypothesis; monitor motion/layout regression.",
+    "reviewed_at": "2026-11-07T16:45:09.121955+08:00"
+  },
+  "next_parameter_change": {
+    "keep_steps": [
+      5,
+      3
+    ]
+  },
+  "hypothesis": "Conditioned RGB treats gray as visible content rather than a mask. Reducing its duration may allow ceiling/floor generation; this is not a proven causal explanation.",
+  "why_not_keep10": "Greenboard is now present. The active failure is incomplete/morphing temporal content; extending gray-bearing video conditioning may strengthen gray copying. Test a modest reduction as a single variable first.",
+  "risk": "Less video conditioning may lose blackboard/layout or motion; no propagation unless visual review passes.",
+  "stop_sweep": "One targetedkeep3 control; if it fails consolidate evidence before any further change. No blind prompt/seed/keep sweep."
+}

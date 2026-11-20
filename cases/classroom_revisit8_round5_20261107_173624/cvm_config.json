@@ -1,0 +1,29 @@
+{
+  "status": "prepared_to_launch",
+  "backend": "MiniMax-H3 Ref2VA through existing CodeVideoModel DCU runner",
+  "model_root_on_scnet2": "/public/home/lixin1/chenxy/CodeVideoModel/models/MiniMax-H3-ref2va",
+  "inputs": {
+    "code_video": "inputs/partial_proxy.mp4",
+    "reference_image": "inputs/reference.png",
+    "prompt_file": "inputs/prompt.txt"
+  },
+  "seed": 42,
+  "steps": 20,
+  "keep_steps": 5,
+  "frames": 124,
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "style_reference_guidance_appended": false,
+  "keep_steps_semantics": "Video-reference conditioning for the first 5 of 20 denoising updates; not a pixel preservation constraint.",
+  "mask_input": false,
+  "camera_parameter_input": false,
+  "output": "outputs/round5_seed42.mp4",
+  "notes": "Round5 explore: 0 to 30. Reference role recorded in 00_input/cvm_reference_source.json.",
+  "physical_devices": [
+    4,
+    5
+  ],
+  "generation_device": "cuda:0",
+  "text_device": "cuda:1"
+}

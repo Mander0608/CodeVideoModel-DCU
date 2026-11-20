@@ -1,0 +1,83 @@
+{
+  "job_id": "r02_three",
+  "round": 2,
+  "variant": "three",
+  "seed": 42,
+  "steps": 20,
+  "scheduler_steps_requested": 21,
+  "keep_steps": 5,
+  "frames": 124,
+  "fps": 24,
+  "width": 960,
+  "height": 544,
+  "turbo": false,
+  "mask_input": false,
+  "camera_parameter_input": false,
+  "hard_anchor": false,
+  "pasteback": false,
+  "reference_short_edge_override": null,
+  "proxy": "inputs/proxy.mp4",
+  "prompt": "inputs/prompt.txt",
+  "output": "outputs/result.mp4",
+  "references": [
+    {
+      "source_video": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Revisit8-20261107\\round1\\03_result\\round1_cvm_output.mp4",
+      "source_sha256": "61c5a904bf601913876220fedc9e1705d75f1cdfedd72905271cdc3abdbbf481",
+      "frame": 121,
+      "nominal_proxy_yaw": -30.0,
+      "actual_generated_pose": "not_calibrated",
+      "kind": "generated_historical_prior",
+      "path": "inputs/reference_1.png",
+      "role": "preceding_terminal_hold",
+      "noise_stream": "historical_r1_f121",
+      "noise_step": -20,
+      "sha256": "78e0b78b09a5d2ae58940ce93984115750389478d120b9c13e8f400e858077e2"
+    },
+    {
+      "source_video": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Revisit8-20261107\\round1\\03_result\\round1_cvm_output.mp4",
+      "source_sha256": "61c5a904bf601913876220fedc9e1705d75f1cdfedd72905271cdc3abdbbf481",
+      "frame": 122,
+      "nominal_proxy_yaw": -30.0,
+      "actual_generated_pose": "not_calibrated",
+      "kind": "generated_historical_prior",
+      "path": "inputs/reference_2.png",
+      "role": "preceding_terminal_hold",
+      "noise_stream": "historical_r1_f122",
+      "noise_step": -20,
+      "sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94"
+    },
+    {
+      "source_video": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Revisit8-20261107\\round1\\03_result\\round1_cvm_output.mp4",
+      "source_sha256": "61c5a904bf601913876220fedc9e1705d75f1cdfedd72905271cdc3abdbbf481",
+      "frame": 123,
+      "nominal_proxy_yaw": -30.0,
+      "actual_generated_pose": "not_calibrated",
+      "kind": "generated_historical_prior",
+      "path": "inputs/reference_3.png",
+      "role": "immediate_start",
+      "noise_stream": "target_first_frame_condition_noise",
+      "noise_step": -20,
+      "sha256": "a3650372fbcc578d89ba0019174734da3aae6e5fc130e0cb4b61475b0bfffff1"
+    }
+  ],
+  "source_proxy_sha256": "dca60542a4071604a82b2971ba3b2171d0694bcba29ed16c856882d90340a8dc",
+  "original_prompt_sha256": "9f01eda527302183243b5aac56ca5ab75e6f7a28f0767f7e43ad71edd4d1f5ba",
+  "paired_scope": "Frozen historical proxy and parent output; no new outputs fed into other cases.",
+  "resource_policy": {
+    "physical_devices": [
+      1
+    ],
+    "minimum_free_GiB": [
+      55.0
+    ],
+    "leave_free_headroom_GiB": 2.0,
+    "allocator_absolute_max_GiB": [
+      60.0
+    ],
+    "text_device": "cuda:0",
+    "generation_device": "cuda:0",
+    "authorization": "User explicitly authorized retrying the single-card experiment.",
+    "scope": "One R2 three-reference attempt; unchanged inputs/model/seed/schedule/resolution. No automatic OOM retry."
+  },
+  "execution_scope": "Single-card feasibility; strict effect comparison requires separate paired encoding audit."
+}

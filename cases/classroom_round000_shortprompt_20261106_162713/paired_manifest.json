@@ -1,0 +1,25 @@
+{
+  "comparison_run": "round000_seed42_20261106_151749",
+  "changed_variable": "prompt text only",
+  "user_prompt_adjustment": "Only the camera sentence is changed to left turn, brief pause, return front, matching the unchanged input video.",
+  "identical_inputs_sha256": {
+    "partial_proxy.mp4": "43e61d99165aa4a2de847c1b5fac03c32d0bd9048ae0851b7143fb3f68cfc300",
+    "reference.png": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d",
+    "camera_trajectory.json": "739fbcca976464abb9c2aad1d3851c2ab6a865cd9d7642a26b35382315e963d4"
+  },
+  "identical_sampling": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124
+  },
+  "no_appended_style_reference_guidance_in_either_run": true,
+  "runner_identical": true,
+  "old_prompt_sha256": "77ef53bd2b5b7a293159ea912a9fc73d992e9c86aab35c64c46014140854afb4",
+  "new_prompt_sha256": "4e9278897013da9312889add4465de16786a85b58b1e17d87ce80ab59bfa7a46",
+  "previous_shared_source_sha256": {
+    "cvm/video.py": "98b451d987812d6f1caec3c36208fa280866bf40be803cd4474813ad0db40e4c",
+    "run_dcu.py": "a46644c0e095eff2ee9046b08c1cb1d3096b3e61d0232dd5783fbea42e6d671f"
+  },
+  "scope": "One paired seed. Can compare the text change in this example, not establish general reliability or exact geometry."
+}

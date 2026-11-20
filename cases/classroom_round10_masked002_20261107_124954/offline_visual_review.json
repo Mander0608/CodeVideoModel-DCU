@@ -1,0 +1,18 @@
+{
+  "accepted_for_inference": true,
+  "inspected": [
+    "source_priority_before_after.jpg",
+    "appearance_proxy_frames/0123.png"
+  ],
+  "inspected_frames": [
+    0,
+    62,
+    123
+  ],
+  "source_revision": "v002_original_i0_priority",
+  "findings": "Original green front board/tree is now continuous; the sharp vertical i0/i1 seam through tree/desks in v001 is removed. Navy side board remains on adjoining wall. Top and bottom unknown wedges are covered by repaint mask. No clock was added to source.",
+  "limits": "Inherited bright front/dark side illumination remains. Small source-frustum seam near right edge of original i0 survives in wall/desk area; no claim of seamless photorealism. Original board is explicitly supplied and protected, not recalled by generator. Initial source differs from i9 by MAE0.65043594/255 due original i0 restoration.",
+  "required_postcheck": "Inspect raw and composited output, unknown-region completion and temporal behavior. Reject new structural contradictions.",
+  "source_reference_count": 1,
+  "source_reference": "corrected i9 F123"
+}

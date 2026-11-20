@@ -1,0 +1,1 @@
+Round10 blackboard prompt-only comparison. User authorized one run. Same original-i9 image and Blender input video as attempt001, same seed42/20steps/keep5; only prompt changed. Preserve both outputs. Audit greenboard/tree return, gray completion, natural joins, desks and motion, then stop; no automatic retry or round11/12.

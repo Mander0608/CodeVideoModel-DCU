@@ -1,0 +1,17 @@
+subject_definitions:
+<Subject 1> is the same quiet classroom already visible in the source clip and <Picture 1>.
+
+summary:
+Fill only the masked gaps with plain cream plaster wall, continuous ceiling, and continuous floor.
+
+retention_analysis:
+Preserve every supplied region exactly. The existing navy board and furnishings stay where they already appear in the source clip. The brighter strip returning on the left is an existing view of this same room.
+
+detailed_description:
+One stationary classroom and one continuous camera rotation following the supplied source clip. The unknown gap between the left returning strip and the main preserved image is a bare cream plaster wall surface. Its upper area continues the plain ceiling; its lower area continues the classroom floor and simple dark baseboard. This newly exposed wall is completely empty, undecorated and uninterrupted, with natural lighting varying smoothly between the supplied regions. There are no additional mounted objects, displays, signs, clocks, panels, openings, pillars or projecting wall structures. The only navy board remains the one already present in the preserved image; do not reproduce it in the empty gap. Complete only portions of desks or chairs that visibly cross the mask boundary, without adding separate furniture. Maintain stable perspective and surfaces in every frame. Replace all gray pixels with these plain adjoining surfaces. No camera translation, cuts, or change in rotation timing.
+
+overall_soundscape:
+Keep the supplied silent soundtrack.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,36 @@
+{
+  "status": "prepared_to_launch",
+  "backend": "existing full MiniMax-H3 Ref2VA weights with pinned explicit masked-completion blocks",
+  "protocol": "explicit_masked_completion_branch_not_original_CVM_baseline",
+  "inputs": {
+    "code_video": "inputs/partial_proxy.mp4",
+    "source_video_padded": "inputs/source_video.mp4",
+    "repaint_mask": "inputs/repaint_mask.mp4",
+    "reference_image": "references/i8.png",
+    "prompt_file": "inputs/prompt.txt"
+  },
+  "seed": 42,
+  "steps": 20,
+  "scheduler_requested_steps": 21,
+  "keep_steps": null,
+  "turbo": false,
+  "frames": 124,
+  "fps": 24,
+  "width": 960,
+  "height": 544,
+  "processing_size": [
+    1024,
+    608
+  ],
+  "output": "outputs/round9_seed42.mp4",
+  "mask_input": true,
+  "camera_parameter_input": false,
+  "style_reference_guidance_appended": false,
+  "known_region_motion_supplied": true,
+  "notes": "Round9 explicit masked fallback after original raw RGB CVM motion failure. Same full H3 weights/seed42/20actual updates/noTurbo, but changed algorithm/representation/prompt; not paired ablation or original CVM success. i8 composite supplies latest appearance. Original i0 pixels explicitly return in source video; this is supplied history, not autonomous memory. Raw generated beforepasteback retained. Nominal -240 to -270. Prompt-only masked002->masked003 control targeting unsupported clock/blue-board duplication.",
+  "source_image_reference": "i8 composite only",
+  "source_video_history": [
+    "i8 composite",
+    "original i0 returning rays"
+  ]
+}

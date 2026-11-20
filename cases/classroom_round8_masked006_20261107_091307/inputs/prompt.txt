@@ -1,0 +1,17 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>, with a navy board on the cream side wall, wooden desks, a continuous floor and ceiling.
+
+summary:
+Complete the missing classroom surroundings of the supplied source clip within the repaint mask.
+
+retention_analysis:
+<Subject 1>: fully_preserved - keep the existing fixed furniture, board, wall edges, lighting and classroom identity.
+
+detailed_description:
+One continuous fixed-position left turn, following the supplied clip. Generate natural adjoining cream wall, continuous floor and ceiling in the masked gaps. Continue any clipped furniture or board edge only where its visible structure supports it. Keep the scene stationary and perspective aligned with the existing surfaces across every frame. No gray cutout remains. Do not add a new clock, window, room corner or duplicate board. Preserve the small oblique view and the clip's timing. No camera translation or cuts.
+
+overall_soundscape:
+Keep the supplied silent soundtrack.
+
+non_diegetic_music:
+N/A

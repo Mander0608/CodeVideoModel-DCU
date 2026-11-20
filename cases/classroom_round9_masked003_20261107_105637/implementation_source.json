@@ -1,0 +1,11 @@
+{
+  "baseline": "round8/05_cvm/attempt_006_masked",
+  "baseline_masked_runner_sha256": "c1ebaa2ab28ae120bc94c6d9c689a86ee052006a880ece9b2af9c6bf5102643b",
+  "changes": [
+    "Image ref i7->i8",
+    "Source metadata records original i0 supplied via video",
+    "Round9 output names/case paths",
+    "Collector recognizes tqdm-prefixed DENOISE lines"
+  ],
+  "masked_core_algorithm_changed": false
+}

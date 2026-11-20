@@ -1,0 +1,26 @@
+subject_definitions:
+<Subject 1> is the stationary handcrafted Cabazon tabletop miniature shown in <Picture 1>: one green dinosaur, three paper-leaf palms with wooden-stick trunks, one small purple-and-wood-colored car with blue wheels, a gray road with red curbs, gravel ground, cardboard mountains and a sky backdrop.
+<Picture 1> supplies the subject identity, handmade materials, colors and lighting at the starting view.
+<Video 1> is an incomplete geometric camera preview of the same scene. Its colored surfaces give approximate layout and motion. Flat neutral-gray patches that cut across surfaces or occupy newly revealed regions mark unavailable image content. They do not represent physical geometry. The actual gray road and natural gray shadows remain part of the scene.
+
+summary:
+[video editing + reference generation] Produce a fully completed, temporally coherent view of the same handmade miniature throughout the camera move in <Video 1>, using <Picture 1> for its appearance.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - object identities, counts, stationary placement and handmade appearance.
+<Video 1>: partially_preserved - preserve the camera trajectory, framing, timing, parallax and visible object arrangement. Replace unknown patches with plausible scene surfaces and blend their boundaries into the surrounding materials. Render the coarse colored geometry with the craft appearance of <Picture 1>.
+
+detailed_description:
+[Shot 1] Begin at the view in <Picture 1>. Follow the smooth 15-degree rightward orbit around the fixed scene center in <Video 1>, including its opening and ending holds. All miniature objects remain stationary; only the camera moves.
+
+Complete newly visible areas according to their depth and neighboring surfaces. Where a palm, dinosaur or car previously blocked the view, reveal the background actually behind it: continuous gravel, road, cardboard mountain or sky as appropriate. A palm-shaped missing patch in the background becomes background, without a second palm or a silhouette-shaped surface. Where the camera reveals the side of an existing object, continue that same object's volume and material with correct perspective and occlusion. Extend surfaces beyond the starting view naturally while retaining the same scene and object counts.
+
+Maintain continuous road and curb edges, mountain contours, ground texture and plausible contact shadows. Newly revealed details remain attached to the same surfaces as the viewpoint changes. Match the reference's handmade texture, color palette, soft illumination and exposure consistently across the shot.
+
+Every frame, including the opening hold and final hold, depicts the completed miniature. Completion is already present when a surface enters view; there is no filling-in animation, fading gray patch, popping object, moving slab or exposure jump. Deliver one uninterrupted shot with stable detail and no residual placeholder patches or mask-shaped seams.
+
+overall_soundscape:
+Quiet indoor room ambience.
+
+non_diegetic_music:
+N/A

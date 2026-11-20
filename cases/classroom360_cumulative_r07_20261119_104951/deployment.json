@@ -1,0 +1,11 @@
+{
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom360_cumulative_r07_20261119_104951",
+  "screen_session": "cvm360cum_r07_20261119_104951",
+  "devices": [
+    5,
+    6
+  ],
+  "status": "prepared",
+  "prepared_at": "2026-11-19T10:49:51.242461+08:00"
+}

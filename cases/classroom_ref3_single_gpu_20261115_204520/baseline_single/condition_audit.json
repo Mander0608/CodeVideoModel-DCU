@@ -1,0 +1,36 @@
+{
+  "references": [
+    {
+      "picture": 1,
+      "sha256": "a3650372fbcc578d89ba0019174734da3aae6e5fc130e0cb4b61475b0bfffff1",
+      "role": "immediate_start",
+      "size": [
+        3616,
+        2048
+      ],
+      "latent_shape": [
+        1,
+        24,
+        1,
+        128,
+        226
+      ],
+      "rows": 7232,
+      "noise_seed": 4717477484666786754,
+      "row_sha256": "4bae33338561bf3ecbc436903b0dd7884206cff98f7af7f14b7aac06c04aebad"
+    }
+  ],
+  "conditions": {
+    "base_reference_count": 1,
+    "full_reference_count": 2,
+    "base_rows": 7232,
+    "full_rows": 26102,
+    "image_rows": 7232,
+    "proxy_rows": 18870,
+    "base_text_tokens": 7510,
+    "full_text_tokens": 10624,
+    "reference_short_edge": 2048,
+    "target_initial_noise_sha256": "ddca59200175cd71e03d9c1c32091e67a4d6f822ea2756c8fbd80ae49da55864",
+    "audio_initial_noise_sha256": "25c6ea93fb8cbad72c338c4c0b001ec17909d675bfbe05031138a6835ca72363"
+  }
+}

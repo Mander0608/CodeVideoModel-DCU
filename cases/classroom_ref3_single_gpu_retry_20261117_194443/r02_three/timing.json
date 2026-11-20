@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "queued_at": "2026-11-17T19:44:55+08:00",
+  "free_GiB": [
+    63.640625
+  ],
+  "last_resource_check": "2026-11-17T19:46:42+08:00",
+  "queue_reason": "Single-card trial: need >=55 GiB free on DCU1",
+  "queue_seconds": 106.17871409934014,
+  "inference_started_at": "2026-11-17T19:46:57+08:00",
+  "inference_pid": 2993701,
+  "exit_code": 0,
+  "finished_at": "2026-11-17T20:26:34+08:00",
+  "elapsed_seconds": 2377.248167428188,
+  "strict_paired_audit": "mismatch_not_valid_strict_pair",
+  "denoise_steps": 20,
+  "remote_output_files": 7,
+  "visual_acceptance": "pending"
+}

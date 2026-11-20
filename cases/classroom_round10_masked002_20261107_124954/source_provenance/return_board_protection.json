@@ -1,0 +1,11 @@
+{
+  "endpoint_board_interior_roi": [
+    10,
+    140,
+    280,
+    350
+  ],
+  "known_fraction": 1.0,
+  "repaint_fraction": 0.0,
+  "note": "Interior ROI only; inspect entire board visually. Protection is supplied evidence, not model recall."
+}

@@ -1,0 +1,20 @@
+subject_definitions:
+<Subject 1> is the empty classroom in <Picture 1>, with wooden desks, a green chalkboard and soft daylight.
+<Picture 1> shows the FINAL frontal destination view.
+<Video 1> specifies the chronological camera path and visible layout; gray regions indicate missing content.
+
+summary:
+[video editing + reference generation] Render <Video 1> as a continuous photorealistic classroom shot returning to the frontal view in <Picture 1>.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): partially_preserved - preserve classroom identity, materials, fixtures and chalkboard content; match the reference viewpoint at the END.
+<Video 1>: partially_preserved - retain camera motion and visible layout; replace gray regions with coherent room content.
+
+detailed_description:
+[Shot 1] Start at the first view of <Video 1>, looking obliquely toward the chalkboard and the window on the RIGHT wall. From this fixed position, smoothly turn LEFT by 30 degrees following <Video 1>. Room features move RIGHT across the image; the right-wall window leaves the frame as the frontal classroom view returns. End facing the chalkboard straight on, centered as in <Picture 1>, then stop. Preserve MEMORY TEST above chalk pictures of a red apple, a white coffee mug and a leafy green tree. Wooden desks with metal frames, walls, windows and drawings remain stationary and consistent. The entire image shows a finished classroom with coherent surfaces, daylight and occlusion. One unbroken shot, without camera translation or direction reversal.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

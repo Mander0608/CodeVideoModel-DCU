@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "reviewed_by": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T18:10:21.564454+08:00",
+  "inspected_frames": [
+    0,
+    31,
+    62,
+    92,
+    123
+  ],
+  "sha256": {
+    "prompt": "bc3018001599a6ba6e941d0d3976f4a49e930589d4bb8152f58e93954f4b6356",
+    "video": "4fdb9a155c7d3156f4cd7aba2f9bd8862ee469843b26005f730ec80f268aedc4",
+    "reference": "ba4f738de01374768fbd91068da26287024be727509e800339e0cc81a852d80b"
+  },
+  "additional_condition_sha256": {
+    "inputs/source_video.mp4": "5c78c51dabddbb58c1881e5e221214ee23bff3f8f3eb1bebf8981956eef8672d",
+    "inputs/repaint_mask.mp4": "d5e25aaeeabfedce05e22001bf7c7749632df744aa8b7a642461df664c081318",
+    "inputs/masks.npz": "7a664cd71da1354893424f4f5e406fd7d6fc2232df66dcadcdbb4e33c09bb5a9",
+    "references/i10.png": "ba4f738de01374768fbd91068da26287024be727509e800339e0cc81a852d80b"
+  },
+  "checks": {
+    "visible_objects_and_returning_landmarks": true,
+    "entry_exit_direction_and_final_view": true,
+    "known_content_vs_gray_gaps": true,
+    "reference_video_conflicts_resolved_in_prompt": true,
+    "no_inherited_scene_description_conflict": true
+  },
+  "observations": [
+    "Inspected actual source full-resolutionF0,31,62,92,123 and mask overlay, plus Blender render contact and source referencei10.",
+    "Greenboard expands from left, apple/cup/tree and existing lettering progressively visible; separate right darkboard exits right by late frames. Final view has greenboard on left/center,cream wallright and desksbelow.",
+    "Source has inherited exposure discontinuity and desk-edge splice near originali0/i10 boundary;24pxseam repaint band covers the intended transition; no wholeboard redraw. Ceiling/floorunknown8pxborder included.",
+    "Image referencei10 lacks full apple/cup atstart, prompt gives current source priority for newly revealed known content. No demand to retain outgoing darkboard onscreen.",
+    "Originali0 supplies returning board; i10 inherits per-pixel lineage includinground10generated class5. Exact spatial labels are audit provenance, not depth or independent memory.",
+    "Board interior mask guard test initially used an over-broad rectangle including wallseam;corrected only the auditROI after full-frame inspection, no sourceRGB/mask changed.",
+    "No new geometry warranted by ceiling/floorfill; independentBlender retains688meshes,historyviews unchanged,nominal-300to-330."
+  ],
+  "unresolved_prompt_conflicts": []
+}

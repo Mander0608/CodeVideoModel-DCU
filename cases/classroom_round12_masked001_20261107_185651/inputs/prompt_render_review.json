@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "reviewed_by": "Codex visual inspection",
+  "reviewed_at": "2026-11-07T18:56:51.247870+08:00",
+  "inspected_frames": [
+    0,
+    31,
+    62,
+    92,
+    123
+  ],
+  "sha256": {
+    "prompt": "c280a52d60cc57c6fa2f30fec9ea46e508fe1027b70249855658f75af2b35ebb",
+    "video": "e8fbb9f756570f4aee646877397eb471903ac40fb02a3466e8ff55a43033b66a",
+    "reference": "523fc92999b997d1ec3b9cb4804e5794f7cde8c40d13593f91a297346a9dfa45"
+  },
+  "additional_condition_sha256": {
+    "inputs/source_video.mp4": "7179c8ccaedcf7c000281bfe598d97afe480ed4f8ffd9b8b0519f7ee6933a5f2",
+    "inputs/repaint_mask.mp4": "1562d85fd94e4cc13391f01a8f770c43375d1fd674b4bfe79a659a0d5dbda7b0",
+    "inputs/masks.npz": "fa87d36eec094892c20986d5b7281eaf88f64bef96a31d595ac34c4e334d75ed",
+    "references/i11.png": "523fc92999b997d1ec3b9cb4804e5794f7cde8c40d13593f91a297346a9dfa45"
+  },
+  "checks": {
+    "visible_objects_and_returning_landmarks": true,
+    "entry_exit_direction_and_final_view": true,
+    "known_content_vs_gray_gaps": true,
+    "reference_video_conflicts_resolved_in_prompt": true,
+    "no_inherited_scene_description_conflict": true
+  },
+  "observations": [
+    "Inspected Blender renders and actual source full-resolution F0/31/62/92/123, independent i11 reference, unknown-only and seam overlays.",
+    "Greenboard becomes frontal and centered, with original apple/cup/tree and MEMORY TEST lettering; window/outdoor foliage and radiator enter from left. Right darkboard absent throughout.",
+    "Actual source has inherited exposure/desk splices near its right boundary; 24px seam band covers these transitions. Board interior preserved. Small ceiling/floor unknown regions are dilated8px.",
+    "Reference shows oblique starting view without the full window; prompt explicitly prioritizes later source-video content. Blender geometry/desks/lighting differ from photo sources; actual masked conditioning is separate from the Blender audit package, not claimed geometrically identical.",
+    "Endpoint uses100percent originali0, zero unknown and zero repaint. Whole-clip max unknown0.02948836percent; final similarity is forced supplied-history closure, not autonomous recovery.",
+    "Canonical i11F123=-330 and supplementalF87=-324.75929110467797 separately retained with origin maps; source preparation inherits each available final_pixel_labels0..6. No manuali9/failed source.",
+    "No new geometry inferred; cumulative688mesh scene and14historicalview regressions passed. Nominal fixed-center yaw-330to-360,0.30recess depth assumed."
+  ],
+  "unresolved_prompt_conflicts": []
+}

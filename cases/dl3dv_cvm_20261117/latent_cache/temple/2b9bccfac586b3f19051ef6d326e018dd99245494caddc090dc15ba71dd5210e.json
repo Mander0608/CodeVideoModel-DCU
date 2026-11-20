@@ -1,0 +1,20 @@
+{
+  "pixel_sha256": "2b9bccfac586b3f19051ef6d326e018dd99245494caddc090dc15ba71dd5210e",
+  "pixel_shape": [
+    1,
+    3,
+    124,
+    544,
+    960
+  ],
+  "latent_sha256": "b86423c9516d7f6e743da707fb7cc3fe55573f35b93a6d06fe59b556ab7ec70d",
+  "latent_shape": [
+    1,
+    24,
+    37,
+    34,
+    60
+  ],
+  "file_sha256": "1bdb9ddaae96f2aee10b95b08cf1e460188dc5056ad55fa6561666d5f71befe0",
+  "created_by": "temple_A"
+}

@@ -1,0 +1,6 @@
+{
+  "baseline": "../attempt_001/inputs/prompt.txt",
+  "changed_condition": "prompt only",
+  "reason": "Explicitly replace persistent gray cutout with rear wall, floor and ceiling",
+  "guaranteed_success": false
+}

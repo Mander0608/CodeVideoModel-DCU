@@ -1,0 +1,83 @@
+{
+  "selected": {
+    "frame": 123,
+    "nominal_yaw": -330,
+    "unknown_fraction": 0.009731158088235294,
+    "sharpness": 67.18849737199992
+  },
+  "coverage_selected": {
+    "frame": 87,
+    "nominal_yaw": -324.75929110467797,
+    "unknown_fraction": 0.010129442401960785,
+    "sharpness": 63.44361018012185
+  },
+  "candidates": [
+    {
+      "frame": 85,
+      "nominal_yaw": -324.1005568215075,
+      "unknown_fraction": 0.010129442401960785,
+      "sharpness": 61.63730277161193
+    },
+    {
+      "frame": 87,
+      "nominal_yaw": -324.75929110467797,
+      "unknown_fraction": 0.010129442401960785,
+      "sharpness": 63.44361018012185
+    }
+  ],
+  "boundary_candidates": [
+    {
+      "frame": 116,
+      "nominal_yaw": -330,
+      "unknown_fraction": 0.009731158088235294,
+      "sharpness": 67.07137310022209
+    },
+    {
+      "frame": 117,
+      "nominal_yaw": -330,
+      "unknown_fraction": 0.009731158088235294,
+      "sharpness": 67.0139243197267
+    },
+    {
+      "frame": 118,
+      "nominal_yaw": -330,
+      "unknown_fraction": 0.009731158088235294,
+      "sharpness": 67.04782441157921
+    },
+    {
+      "frame": 119,
+      "nominal_yaw": -330,
+      "unknown_fraction": 0.009731158088235294,
+      "sharpness": 66.91587552344144
+    },
+    {
+      "frame": 120,
+      "nominal_yaw": -330,
+      "unknown_fraction": 0.009731158088235294,
+      "sharpness": 67.17489633197191
+    },
+    {
+      "frame": 121,
+      "nominal_yaw": -330,
+      "unknown_fraction": 0.009731158088235294,
+      "sharpness": 67.10629760143436
+    },
+    {
+      "frame": 122,
+      "nominal_yaw": -330,
+      "unknown_fraction": 0.009731158088235294,
+      "sharpness": 67.1282836614834
+    },
+    {
+      "frame": 123,
+      "nominal_yaw": -330,
+      "unknown_fraction": 0.009731158088235294,
+      "sharpness": 67.18849737199992
+    }
+  ],
+  "terminal_frame": 123,
+  "terminal_yaw": -330,
+  "source_video_sha256": "4dea3e7c3f7ac456b60d6aa34c59014980b80cac957ca52069693f28639433e0",
+  "selected_png_sha256": "523fc92999b997d1ec3b9cb4804e5794f7cde8c40d13593f91a297346a9dfa45",
+  "method": "Cumulative angular coverage maximum preserved at its true nominal yaw as supplemental i11_coverageF87. Canonical i11 selected by sharpness among fixed -330 boundary frames. No relabeling."
+}

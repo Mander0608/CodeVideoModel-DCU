@@ -1,0 +1,36 @@
+{
+  "status": "prepared_to_launch",
+  "backend": "existing full MiniMax-H3 Ref2VA weights with pinned explicit masked-completion blocks",
+  "protocol": "explicit_masked_completion_branch_not_original_CVM_baseline",
+  "inputs": {
+    "code_video": "inputs/partial_proxy.mp4",
+    "source_video_padded": "inputs/source_video.mp4",
+    "repaint_mask": "inputs/repaint_mask.mp4",
+    "reference_image": "references/i9.png",
+    "prompt_file": "inputs/prompt.txt"
+  },
+  "seed": 42,
+  "steps": 20,
+  "scheduler_requested_steps": 21,
+  "keep_steps": null,
+  "turbo": false,
+  "frames": 124,
+  "fps": 24,
+  "width": 960,
+  "height": 544,
+  "processing_size": [
+    1024,
+    608
+  ],
+  "output": "outputs/round10_seed42.mp4",
+  "mask_input": true,
+  "camera_parameter_input": false,
+  "style_reference_guidance_appended": false,
+  "known_region_motion_supplied": true,
+  "notes": "Explicit masked method change after three rejected RGB attempts. Original i0 supplies returning historical rays; raw i9 F123 is independent reference and latest generated source elsewhere. No old manual-i9. Unknown gaps and24px source-transition bands generated; unmasked known pixels pasted back. FullH3,20actualupdates,seed42,noTurbo. Nominal-270to-300,not calibrated pose.",
+  "source_image_reference": "raw round9 attempt001 F123 i9",
+  "source_video_history": [
+    "original i0 authoritative returning rays",
+    "raw i9 plus accepted history under nominal rotations"
+  ]
+}

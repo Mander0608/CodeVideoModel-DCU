@@ -1,0 +1,15 @@
+{
+  "scene": "../01_blender/scene/classroom_v2.blend",
+  "sha256": "74dbabc8f4c8f57f0a0a6d8ac5a123ca875cc1395bdb36f0a247cb2a7ed97152",
+  "trajectory": [
+    -60,
+    -30
+  ],
+  "reference_source": "../00_input/i2.png",
+  "code_sha256": {
+    "build_scene.py": "0afa6fe5cc804cb2d543eda92a0c0f923f403e8ab764c50af76e350e17b6a1b9",
+    "round2_geometry.py": "28f9d05169fda080aae6b334538a5ae181b9e0535e6ac3088a8bab1929c0569a",
+    "scene_base.py": "97fbab5c07d52d1a29afb19e6bc502c4ceb7a916e65cb0e9f11962004ebd2ab4",
+    "scene_config.json": "ed002c3491434434bc5f1bf08be6290609aa8f31a5ec0d07d42e738504207da2"
+  }
+}

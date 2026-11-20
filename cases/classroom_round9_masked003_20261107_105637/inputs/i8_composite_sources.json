@@ -1,0 +1,41 @@
+{
+  "protocol": "explicit_masked_completion_after_five_rejected_original_CVM_attempts",
+  "original_CVM_round8_baseline_passed": false,
+  "selected_frame": 117,
+  "composite_video_sha256": "1767dbfbbe41b418ea74bc4340fd9311cb6c185cf89e90d6e2e3cf64eb68dd89",
+  "raw_generated_video_sha256": "4564b39ae0a93c20d64f916663b2aa7524ea4dde2218136c9467c05a40a50315",
+  "repaint_mask": "00_input/i8_repaint_mask.png",
+  "mask_sha256": "1b867fc48411dd6817106fe8f4b70f2f480bea7137d261cbeaecd7c48a88011b",
+  "original_unknown_mask": "00_input/i8_original_unknown_mask.png",
+  "preserved_region_source": "accepted round7 attempt002 F123 i7 reprojected by fixed Blender camera rotations, encoded and pasted back",
+  "repaint_region_source": "full MiniMax-H3 Ref2VA masked generator,20actualupdates,seed42,noTurbo",
+  "known_region_pose_metrics_are_not_independent": true,
+  "next_round_policy": "Restore original raw Blender RGB CVM configuration seed42/20steps/keep5; do not silently carry masked protocol forward.",
+  "novel_temporal_limits": {
+    "novel_region_feature_diagnostics": [
+      {
+        "from_frame": 62,
+        "to_frame": 92,
+        "matches_in_both_originally_unknown_regions": 11,
+        "median_error_to_nominal_rotation_px": 3.7734286785125732,
+        "count_below_3px": 4
+      },
+      {
+        "from_frame": 92,
+        "to_frame": 116,
+        "matches_in_both_originally_unknown_regions": 17,
+        "median_error_to_nominal_rotation_px": 2.038743257522583,
+        "count_below_3px": 15
+      },
+      {
+        "from_frame": 116,
+        "to_frame": 123,
+        "matches_in_both_originally_unknown_regions": 47,
+        "median_error_to_nominal_rotation_px": 0.24443168938159943,
+        "count_below_3px": 46
+      }
+    ],
+    "final_hold_F116_F123_MAE_unknown": 0.5920228986335004,
+    "limits": "Sparse image correspondence within newly generated region, compared with supplied nominal camera rotation. Not calibrated depth or independent camera-control performance."
+  }
+}

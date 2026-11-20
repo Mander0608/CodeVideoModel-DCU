@@ -1,0 +1,36 @@
+{
+  "status": "retry_prepared_not_run",
+  "picture_1": "reference.png",
+  "video_1": "partial_proxy.mp4",
+  "prompt": "prompt.txt",
+  "reference_origin": {
+    "id": "i6",
+    "path": "00_input/i6.png",
+    "type": "generated_prior",
+    "parent_round": 6,
+    "attempt": "attempt_001",
+    "frame": 122,
+    "yaw": -180,
+    "size": [
+      960,
+      544
+    ],
+    "vertical_extra_pixels_at_render_scale": 0,
+    "sha256": "01ea6eeb9fc776014651a5fc349ca66883569d6dbc6c4a97c7d11326dec561de"
+  },
+  "files": {
+    "reference.png": {
+      "sha256": "01ea6eeb9fc776014651a5fc349ca66883569d6dbc6c4a97c7d11326dec561de",
+      "bytes": 289290
+    },
+    "partial_proxy.mp4": {
+      "sha256": "c2a7a0a02566f623bfd01555fe4d644595b861ef65dcf4c2daeb67ac0969aee4",
+      "bytes": 378266
+    },
+    "prompt.txt": {
+      "sha256": "479d1af150bb5e2f92b11ba9e74296eb593a0c5805c6f9ad58c4722a3ec80f3f",
+      "bytes": 1922
+    }
+  },
+  "actual_model_conditions": "One image, RGB video, text. Coverage masks and camera arrays are audit metadata only."
+}

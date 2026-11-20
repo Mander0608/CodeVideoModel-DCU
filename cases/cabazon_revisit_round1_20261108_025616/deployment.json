@@ -1,0 +1,12 @@
+{
+  "round": 1,
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/cabazon_revisit_round1_20261108_025616",
+  "screen_session": "cvm_cabazon_r1_20261108_025616",
+  "physical_devices": [
+    6,
+    7
+  ],
+  "status": "prepared",
+  "prepared_at": "2026-11-08T02:56:16.293212+08:00"
+}

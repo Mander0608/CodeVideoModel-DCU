@@ -1,0 +1,15 @@
+{
+  "host": "m09r2n04",
+  "device_count": 2,
+  "free_GiB": [
+    30.705078125,
+    30.412109375
+  ],
+  "locks_available": [
+    true,
+    true
+  ],
+  "torch": "2.7.1",
+  "hip": "6.3.26093",
+  "checked_at": "2026-11-15T03:58:10.854615+08:00"
+}

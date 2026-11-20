@@ -1,0 +1,13 @@
+{
+  "all124frames_checked": true,
+  "known_pixels_have_origin": true,
+  "class_counts_all_frames": {
+    "0": 431676,
+    "1": 33105592,
+    "2": 0,
+    "3": 0,
+    "4": 27201160,
+    "5": 4019332
+  },
+  "class5": "Inherited round10 masked generation; preserved separately from originali0 and other generated pixels"
+}

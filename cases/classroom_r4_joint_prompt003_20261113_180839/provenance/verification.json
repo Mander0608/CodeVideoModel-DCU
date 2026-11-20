@@ -1,0 +1,662 @@
+{
+  "videos": {
+    "full_rgb.mp4": {
+      "decoded_frames": 124,
+      "fps": 24.0,
+      "shape": [
+        544,
+        960,
+        3
+      ],
+      "lossy_decode_mae_mean": 1.7432984711021506,
+      "lossy_decode_mae_max": 1.855533215890523,
+      "sha256": "fccae10ed77e7ff46c5bc56ec51604a8acd2fc2eee883c8dafb5d61346a8170a"
+    },
+    "partial_proxy.mp4": {
+      "decoded_frames": 124,
+      "fps": 24.0,
+      "shape": [
+        544,
+        960,
+        3
+      ],
+      "lossy_decode_mae_mean": 1.442390286507748,
+      "lossy_decode_mae_max": 1.8121419270833334,
+      "sha256": "4923b2b457969cf90aee012a64ae91cff97eff3d5c2d1a90a29c992c6ca1d169"
+    }
+  },
+  "coverage": [
+    {
+      "frame": 0,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 1,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 2,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 3,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 4,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 5,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 6,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 7,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 8,
+      "unknown_pixels": 0,
+      "unknown_fraction": 0.0
+    },
+    {
+      "frame": 9,
+      "unknown_pixels": 407,
+      "unknown_fraction": 0.0007793351715686275
+    },
+    {
+      "frame": 10,
+      "unknown_pixels": 544,
+      "unknown_fraction": 0.0010416666666666667
+    },
+    {
+      "frame": 11,
+      "unknown_pixels": 1208,
+      "unknown_fraction": 0.0023131127450980392
+    },
+    {
+      "frame": 12,
+      "unknown_pixels": 2048,
+      "unknown_fraction": 0.00392156862745098
+    },
+    {
+      "frame": 13,
+      "unknown_pixels": 2754,
+      "unknown_fraction": 0.0052734375
+    },
+    {
+      "frame": 14,
+      "unknown_pixels": 4052,
+      "unknown_fraction": 0.007758884803921569
+    },
+    {
+      "frame": 15,
+      "unknown_pixels": 5389,
+      "unknown_fraction": 0.010319010416666666
+    },
+    {
+      "frame": 16,
+      "unknown_pixels": 6739,
+      "unknown_fraction": 0.012904028799019607
+    },
+    {
+      "frame": 17,
+      "unknown_pixels": 8103,
+      "unknown_fraction": 0.015515854779411765
+    },
+    {
+      "frame": 18,
+      "unknown_pixels": 9521,
+      "unknown_fraction": 0.01823108149509804
+    },
+    {
+      "frame": 19,
+      "unknown_pixels": 11471,
+      "unknown_fraction": 0.02196499693627451
+    },
+    {
+      "frame": 20,
+      "unknown_pixels": 12919,
+      "unknown_fraction": 0.02473766850490196
+    },
+    {
+      "frame": 21,
+      "unknown_pixels": 14914,
+      "unknown_fraction": 0.028557751225490195
+    },
+    {
+      "frame": 22,
+      "unknown_pixels": 16927,
+      "unknown_fraction": 0.032412300857843135
+    },
+    {
+      "frame": 23,
+      "unknown_pixels": 19101,
+      "unknown_fraction": 0.03657513786764706
+    },
+    {
+      "frame": 24,
+      "unknown_pixels": 21532,
+      "unknown_fraction": 0.041230085784313725
+    },
+    {
+      "frame": 25,
+      "unknown_pixels": 23587,
+      "unknown_fraction": 0.045165058210784315
+    },
+    {
+      "frame": 26,
+      "unknown_pixels": 26178,
+      "unknown_fraction": 0.05012637867647059
+    },
+    {
+      "frame": 27,
+      "unknown_pixels": 28619,
+      "unknown_fraction": 0.05480047487745098
+    },
+    {
+      "frame": 28,
+      "unknown_pixels": 31039,
+      "unknown_fraction": 0.05943435968137255
+    },
+    {
+      "frame": 29,
+      "unknown_pixels": 33613,
+      "unknown_fraction": 0.06436312806372549
+    },
+    {
+      "frame": 30,
+      "unknown_pixels": 36304,
+      "unknown_fraction": 0.06951593137254902
+    },
+    {
+      "frame": 31,
+      "unknown_pixels": 39080,
+      "unknown_fraction": 0.07483149509803921
+    },
+    {
+      "frame": 32,
+      "unknown_pixels": 41894,
+      "unknown_fraction": 0.08021982230392156
+    },
+    {
+      "frame": 33,
+      "unknown_pixels": 44527,
+      "unknown_fraction": 0.0852615655637255
+    },
+    {
+      "frame": 34,
+      "unknown_pixels": 47435,
+      "unknown_fraction": 0.09082988664215687
+    },
+    {
+      "frame": 35,
+      "unknown_pixels": 50302,
+      "unknown_fraction": 0.09631969975490196
+    },
+    {
+      "frame": 36,
+      "unknown_pixels": 53194,
+      "unknown_fraction": 0.10185738357843137
+    },
+    {
+      "frame": 37,
+      "unknown_pixels": 56062,
+      "unknown_fraction": 0.10734911151960784
+    },
+    {
+      "frame": 38,
+      "unknown_pixels": 59090,
+      "unknown_fraction": 0.11314721200980392
+    },
+    {
+      "frame": 39,
+      "unknown_pixels": 62009,
+      "unknown_fraction": 0.1187365962009804
+    },
+    {
+      "frame": 40,
+      "unknown_pixels": 64957,
+      "unknown_fraction": 0.12438151041666666
+    },
+    {
+      "frame": 41,
+      "unknown_pixels": 68002,
+      "unknown_fraction": 0.13021216299019608
+    },
+    {
+      "frame": 42,
+      "unknown_pixels": 70979,
+      "unknown_fraction": 0.13591260723039217
+    },
+    {
+      "frame": 43,
+      "unknown_pixels": 73972,
+      "unknown_fraction": 0.14164368872549019
+    },
+    {
+      "frame": 44,
+      "unknown_pixels": 76965,
+      "unknown_fraction": 0.14737477022058823
+    },
+    {
+      "frame": 45,
+      "unknown_pixels": 79964,
+      "unknown_fraction": 0.1531173406862745
+    },
+    {
+      "frame": 46,
+      "unknown_pixels": 82948,
+      "unknown_fraction": 0.1588311887254902
+    },
+    {
+      "frame": 47,
+      "unknown_pixels": 85926,
+      "unknown_fraction": 0.16453354779411763
+    },
+    {
+      "frame": 48,
+      "unknown_pixels": 88904,
+      "unknown_fraction": 0.1702359068627451
+    },
+    {
+      "frame": 49,
+      "unknown_pixels": 91873,
+      "unknown_fraction": 0.1759210324754902
+    },
+    {
+      "frame": 50,
+      "unknown_pixels": 94831,
+      "unknown_fraction": 0.1815850949754902
+    },
+    {
+      "frame": 51,
+      "unknown_pixels": 97778,
+      "unknown_fraction": 0.1872280943627451
+    },
+    {
+      "frame": 52,
+      "unknown_pixels": 100696,
+      "unknown_fraction": 0.1928155637254902
+    },
+    {
+      "frame": 53,
+      "unknown_pixels": 103554,
+      "unknown_fraction": 0.19828814338235295
+    },
+    {
+      "frame": 54,
+      "unknown_pixels": 106428,
+      "unknown_fraction": 0.20379136029411765
+    },
+    {
+      "frame": 55,
+      "unknown_pixels": 109301,
+      "unknown_fraction": 0.20929266237745098
+    },
+    {
+      "frame": 56,
+      "unknown_pixels": 112156,
+      "unknown_fraction": 0.2147594975490196
+    },
+    {
+      "frame": 57,
+      "unknown_pixels": 114945,
+      "unknown_fraction": 0.22009995404411764
+    },
+    {
+      "frame": 58,
+      "unknown_pixels": 117693,
+      "unknown_fraction": 0.22536190257352942
+    },
+    {
+      "frame": 59,
+      "unknown_pixels": 120485,
+      "unknown_fraction": 0.23070810355392157
+    },
+    {
+      "frame": 60,
+      "unknown_pixels": 123201,
+      "unknown_fraction": 0.2359087775735294
+    },
+    {
+      "frame": 61,
+      "unknown_pixels": 125868,
+      "unknown_fraction": 0.241015625
+    },
+    {
+      "frame": 62,
+      "unknown_pixels": 128587,
+      "unknown_fraction": 0.24622204350490196
+    },
+    {
+      "frame": 63,
+      "unknown_pixels": 131144,
+      "unknown_fraction": 0.25111825980392155
+    },
+    {
+      "frame": 64,
+      "unknown_pixels": 133813,
+      "unknown_fraction": 0.2562289368872549
+    },
+    {
+      "frame": 65,
+      "unknown_pixels": 136315,
+      "unknown_fraction": 0.26101983762254904
+    },
+    {
+      "frame": 66,
+      "unknown_pixels": 138894,
+      "unknown_fraction": 0.2659581801470588
+    },
+    {
+      "frame": 67,
+      "unknown_pixels": 141381,
+      "unknown_fraction": 0.2707203584558823
+    },
+    {
+      "frame": 68,
+      "unknown_pixels": 143798,
+      "unknown_fraction": 0.2753484987745098
+    },
+    {
+      "frame": 69,
+      "unknown_pixels": 146254,
+      "unknown_fraction": 0.28005131740196076
+    },
+    {
+      "frame": 70,
+      "unknown_pixels": 148663,
+      "unknown_fraction": 0.28466413909313726
+    },
+    {
+      "frame": 71,
+      "unknown_pixels": 151024,
+      "unknown_fraction": 0.28918504901960784
+    },
+    {
+      "frame": 72,
+      "unknown_pixels": 153325,
+      "unknown_fraction": 0.29359106924019607
+    },
+    {
+      "frame": 73,
+      "unknown_pixels": 155592,
+      "unknown_fraction": 0.29793198529411763
+    },
+    {
+      "frame": 74,
+      "unknown_pixels": 157840,
+      "unknown_fraction": 0.30223651960784315
+    },
+    {
+      "frame": 75,
+      "unknown_pixels": 160040,
+      "unknown_fraction": 0.30644914215686275
+    },
+    {
+      "frame": 76,
+      "unknown_pixels": 162182,
+      "unknown_fraction": 0.31055070465686274
+    },
+    {
+      "frame": 77,
+      "unknown_pixels": 164280,
+      "unknown_fraction": 0.31456801470588236
+    },
+    {
+      "frame": 78,
+      "unknown_pixels": 166333,
+      "unknown_fraction": 0.3184991574754902
+    },
+    {
+      "frame": 79,
+      "unknown_pixels": 168411,
+      "unknown_fraction": 0.3224781709558823
+    },
+    {
+      "frame": 80,
+      "unknown_pixels": 170376,
+      "unknown_fraction": 0.3262408088235294
+    },
+    {
+      "frame": 81,
+      "unknown_pixels": 172349,
+      "unknown_fraction": 0.33001876531862745
+    },
+    {
+      "frame": 82,
+      "unknown_pixels": 174222,
+      "unknown_fraction": 0.33360523897058825
+    },
+    {
+      "frame": 83,
+      "unknown_pixels": 176107,
+      "unknown_fraction": 0.3372146905637255
+    },
+    {
+      "frame": 84,
+      "unknown_pixels": 177911,
+      "unknown_fraction": 0.3406690410539216
+    },
+    {
+      "frame": 85,
+      "unknown_pixels": 179671,
+      "unknown_fraction": 0.34403913909313727
+    },
+    {
+      "frame": 86,
+      "unknown_pixels": 181406,
+      "unknown_fraction": 0.3473613664215686
+    },
+    {
+      "frame": 87,
+      "unknown_pixels": 183090,
+      "unknown_fraction": 0.3505859375
+    },
+    {
+      "frame": 88,
+      "unknown_pixels": 184727,
+      "unknown_fraction": 0.35372051164215684
+    },
+    {
+      "frame": 89,
+      "unknown_pixels": 186308,
+      "unknown_fraction": 0.35674785539215687
+    },
+    {
+      "frame": 90,
+      "unknown_pixels": 187846,
+      "unknown_fraction": 0.35969286151960783
+    },
+    {
+      "frame": 91,
+      "unknown_pixels": 189366,
+      "unknown_fraction": 0.3626034007352941
+    },
+    {
+      "frame": 92,
+      "unknown_pixels": 190795,
+      "unknown_fraction": 0.3653396905637255
+    },
+    {
+      "frame": 93,
+      "unknown_pixels": 192175,
+      "unknown_fraction": 0.3679821537990196
+    },
+    {
+      "frame": 94,
+      "unknown_pixels": 193540,
+      "unknown_fraction": 0.37059589460784315
+    },
+    {
+      "frame": 95,
+      "unknown_pixels": 194835,
+      "unknown_fraction": 0.37307559742647056
+    },
+    {
+      "frame": 96,
+      "unknown_pixels": 196063,
+      "unknown_fraction": 0.3754270067401961
+    },
+    {
+      "frame": 97,
+      "unknown_pixels": 197262,
+      "unknown_fraction": 0.3777228860294118
+    },
+    {
+      "frame": 98,
+      "unknown_pixels": 198405,
+      "unknown_fraction": 0.37991153492647056
+    },
+    {
+      "frame": 99,
+      "unknown_pixels": 199490,
+      "unknown_fraction": 0.38198912377450983
+    },
+    {
+      "frame": 100,
+      "unknown_pixels": 200518,
+      "unknown_fraction": 0.3839575674019608
+    },
+    {
+      "frame": 101,
+      "unknown_pixels": 201484,
+      "unknown_fraction": 0.38580729166666666
+    },
+    {
+      "frame": 102,
+      "unknown_pixels": 202409,
+      "unknown_fraction": 0.38757850796568627
+    },
+    {
+      "frame": 103,
+      "unknown_pixels": 203279,
+      "unknown_fraction": 0.38924440870098037
+    },
+    {
+      "frame": 104,
+      "unknown_pixels": 204069,
+      "unknown_fraction": 0.3907571231617647
+    },
+    {
+      "frame": 105,
+      "unknown_pixels": 204839,
+      "unknown_fraction": 0.39223154105392155
+    },
+    {
+      "frame": 106,
+      "unknown_pixels": 205520,
+      "unknown_fraction": 0.3935355392156863
+    },
+    {
+      "frame": 107,
+      "unknown_pixels": 206149,
+      "unknown_fraction": 0.3947399662990196
+    },
+    {
+      "frame": 108,
+      "unknown_pixels": 206704,
+      "unknown_fraction": 0.3958026960784314
+    },
+    {
+      "frame": 109,
+      "unknown_pixels": 207218,
+      "unknown_fraction": 0.39678691789215687
+    },
+    {
+      "frame": 110,
+      "unknown_pixels": 207655,
+      "unknown_fraction": 0.3976236979166667
+    },
+    {
+      "frame": 111,
+      "unknown_pixels": 208023,
+      "unknown_fraction": 0.39832835477941175
+    },
+    {
+      "frame": 112,
+      "unknown_pixels": 208324,
+      "unknown_fraction": 0.3989047181372549
+    },
+    {
+      "frame": 113,
+      "unknown_pixels": 208576,
+      "unknown_fraction": 0.3993872549019608
+    },
+    {
+      "frame": 114,
+      "unknown_pixels": 208746,
+      "unknown_fraction": 0.3997127757352941
+    },
+    {
+      "frame": 115,
+      "unknown_pixels": 208861,
+      "unknown_fraction": 0.399932981004902
+    },
+    {
+      "frame": 116,
+      "unknown_pixels": 208888,
+      "unknown_fraction": 0.399984681372549
+    },
+    {
+      "frame": 117,
+      "unknown_pixels": 208888,
+      "unknown_fraction": 0.399984681372549
+    },
+    {
+      "frame": 118,
+      "unknown_pixels": 208888,
+      "unknown_fraction": 0.399984681372549
+    },
+    {
+      "frame": 119,
+      "unknown_pixels": 208888,
+      "unknown_fraction": 0.399984681372549
+    },
+    {
+      "frame": 120,
+      "unknown_pixels": 208888,
+      "unknown_fraction": 0.399984681372549
+    },
+    {
+      "frame": 121,
+      "unknown_pixels": 208888,
+      "unknown_fraction": 0.399984681372549
+    },
+    {
+      "frame": 122,
+      "unknown_pixels": 208888,
+      "unknown_fraction": 0.399984681372549
+    },
+    {
+      "frame": 123,
+      "unknown_pixels": 208888,
+      "unknown_fraction": 0.399984681372549
+    }
+  ],
+  "start_vs_previous_revised_render_mae": 0.0,
+  "start_vs_generated_round3_endpoint_mae": 38.06378421160131,
+  "source_revision_manifest_files_verified": 16,
+  "source_revision_unchanged": true,
+  "known_region_png_exactly_blender_rgb": true,
+  "unknown_region_png_rgb": [
+    128,
+    128,
+    128
+  ],
+  "cvm_run": false,
+  "note": "H264 compression changes exact pixel values; PNGs and coverage NPZ are authoritative. Angular support does not prove scene geometry; no photographic pasteback."
+}

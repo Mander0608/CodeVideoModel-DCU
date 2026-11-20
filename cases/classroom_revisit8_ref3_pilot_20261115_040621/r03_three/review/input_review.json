@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "reviewed_at": "2026-11-15T04:06:21.686466+08:00",
+  "reviewed_by": "Codex",
+  "inspected_proxy_frames": [
+    0,
+    31,
+    62,
+    92,
+    123
+  ],
+  "reference_sha256": [
+    "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+    "a0b0c92da2f83c97a84b981e0c2f3869dfa02342799e1043d3a05c42eb663829",
+    "c9736080b1e5156b3bd47226d4967d7d7dc63a252eeb4f9b803a7dfa9ab54824"
+  ],
+  "prompt_sha256": "381e4755f268c75f13c72828b52c7e3b14bda6e62c8e1f2d39f6209d9fb83dcd",
+  "proxy_sha256": "7755eaa4b2e4d71d2c8cf92a17e77609c71dc15f259f8147bec43ce41657a713",
+  "nominal_angles_are_not_calibrated_output_poses": true,
+  "observations": [
+    "All actual references and the actual proxy F0/31/62/92/123 reviewed in contact sheets.",
+    "R2: windows/chalkboard move right while new left region appears gray. R1 terminal triplet has nearly identical composition.",
+    "R3: windows/chalkboard move left during rightward revisit. Three-reference roles explicitly destination/start/intermediate.",
+    "Known photo/proxy differences remain in furniture geometry, window patch boundaries, exposure and blackboard appearance. Fixed paired inputs preserve these risks.",
+    "No first-frame hard lock, masks or output pasteback. Input/prompt consistency is reviewed, not a guarantee of model success."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pixel_sha256": "76806833a786fd01324f43942e1332e1c9b7f4da2f69cd10fc51cf2457fcc5d9",
+  "pixel_shape": [
+    1,
+    3,
+    1,
+    2048,
+    3616
+  ],
+  "latent_sha256": "28847f90bdee0ec8d7443c120ca536e14e9e55d5e646b715f3f31fe5a1965d9d",
+  "latent_shape": [
+    1,
+    24,
+    1,
+    128,
+    226
+  ],
+  "file_sha256": "415a9e7092830329185996dd8e341cf612df9bb5b20b1d04cc441c33ce25c38e",
+  "created_by": "furniture_B"
+}

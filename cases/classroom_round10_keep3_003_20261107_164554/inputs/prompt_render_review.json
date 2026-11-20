@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "reviewed_by": "Codex visual review",
+  "reviewed_at": "2026-11-07T16:11:54.902958+08:00",
+  "inspected_frames": [
+    0,
+    31,
+    62,
+    92,
+    123
+  ],
+  "sha256": {
+    "prompt": "d4f68a516210b1e42ad8974ed6034190cafe01cfc4ab8cfa56ecd2429d0c6096",
+    "video": "826594d1e00123961c6c05ede649e93a30e0f2b7d37ff9af323aa543f982e6b9",
+    "reference": "503891926cc8ab203a5085de76bf228109e01a9dbb9ca75d108248c04f00bf0b"
+  },
+  "checks": {
+    "visible_objects_and_returning_landmarks": true,
+    "entry_exit_direction_and_final_view": true,
+    "known_content_vs_gray_gaps": true,
+    "reference_video_conflicts_resolved_in_prompt": true,
+    "no_inherited_scene_description_conflict": true
+  },
+  "observations": [
+    "F0: dark board prominent; greenboard and tree not yet visible in the inspected starting view. Reference image shows dark board, wall recess and desks.",
+    "F31: a greenboard strip enters at the left edge while the dark board moves right.",
+    "F62: more of the greenboard and part of its tree drawing are visible on the left; dark board remains on the adjoining right wall.",
+    "F92/F123: tree drawing is prominently visible on the left greenboard; wall corner separates it from the dark board increasingly cropped at the right edge.",
+    "Gray gaps occur along ceiling/floor boundaries; the greenboard and tree are known RGB content, not gaps.",
+    "Removed inherited claim that the newly revealed left area is merely cream side wall. Video defines known layout; reference supplies starting appearance, not the complete room inventory."
+  ],
+  "unresolved_prompt_conflicts": [],
+  "remaining_modeling_risks": [
+    "Reference image and Blender have different wall-return appearance, desk framing and nominal pose uncertainty. The prompt specifies video layout precedence but does not fix geometry or guarantee compliance.",
+    "Video condition still used only for first5/20updates; no explicit spatial preservation constraint."
+  ],
+  "evidence": {
+    "contact_sheet": "round10/04_result/trajectory_contact.jpg",
+    "contact_sha256": "0b908086f686907cfb938c35cd121a403a8496b32d87e444647271584416c5df"
+  },
+  "scope": "Prompt review only; not output acceptance and not inference authorization."
+}

@@ -1,0 +1,18 @@
+{
+  "parent_attempt": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Iterative-20261106\\revisions\\v3_from_v2_round3_joint\\cvm_round4_joint\\attempt_004_prompt002_resume",
+  "changed_model_condition": "Entire prompt revised as requested; not an individual-sentence ablation",
+  "old_prompt_sha256": "3888da6be4e30bd2899f54096195730c914f04fa2ac160f490c6919661be460a",
+  "new_prompt_sha256": "4c91f6d67b2f0b264bb503c316c16648333425b04e97579790cfc1ab278e6f7a",
+  "identical_file_sha256": {
+    "inputs/partial_proxy.mp4": "4923b2b457969cf90aee012a64ae91cff97eff3d5c2d1a90a29c992c6ca1d169",
+    "inputs/reference.png": "670f30c7a30cbe745eee9d494bbbaa5d77fe20def51624781a773ba8e643edc4",
+    "cvm_config.json": "9d9a983d15d2c91376f2b4d03a787c6646d2cbce8f1050fde339882dc621daec",
+    "run_cvm.py": "b5a249dd45b1980f250a6032518da728bc60b253ddb5b5c7cbdbb45b560ee010",
+    "preflight.py": "2fd96f5aa3cd10af3599ce1b01298d2ac9e9c70e9dcfd32b7e6f3b63eb52e38e",
+    "supervise.py": "2e340b45b525666c565b57fe8697197aeafed2a13c9ea9d0af36e625183fbb2e",
+    "resource_probe.py": "212023ed2ea0dfdbae3e608a8f9b96599f510a89a02db08667fce64bf41b5772",
+    "watch_and_collect.py": "058607ad2c53280e10759212362260d5902eedd6d0555ddb7b5a189d753a8ac2"
+  },
+  "parent_visual_outcome": "failed_gray_completion",
+  "scope": "Single-seed prompt comparison; no guaranteed improvement or general causal claim"
+}

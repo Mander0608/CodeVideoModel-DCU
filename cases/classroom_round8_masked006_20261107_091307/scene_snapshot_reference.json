@@ -1,0 +1,137 @@
+{
+  "scene": "../../02_blender/scene/classroom_v7.blend",
+  "scene_sha256": "289ad72aee95ccdf4c861942548572d17cf586b03cf8d35d5873c6f40cd9cd64",
+  "code_sha256": {
+    "02_blender/build_scene.py": "7e83c2b47db9ef6dc336b8a5efbb936f39ded97d1826de832c44fcd85133d026",
+    "02_blender/round2_geometry.py": "47f4d871a82503083efe69a04b34828a4d355e40e885c18a65700033069b41ff",
+    "02_blender/round3_geometry.py": "ec710a2b0062d54345768b8454033dc2c1d060ac1350f5cd947b8d38f1ce2614",
+    "02_blender/round4_geometry.py": "336f2bff5c589aa061f1eae30e43c907d6152a10479b05c06bfaff52b3102e37",
+    "02_blender/round5_geometry.py": "edad01c8dc9d9ce0d7d84ceba662db043c78fbe68dccfb85714b2c20afe71814",
+    "02_blender/round6_geometry.py": "4a8b391aba94839086aa9614332d7cc8cd2c00fa7a36866a10f35128a560bb9b",
+    "02_blender/round7_geometry.py": "befebae78998931e78076966b94688b047c32725bc6c971b7fe1c615f0e44b5d",
+    "02_blender/scene_base.py": "a9cded0d2bbb130ab5771515ab22b2430de0fe0bb432dee6a2e7ea123603a863"
+  },
+  "config_sha256": "9202429266b76f80b36b50fe17553d97a9bd14f659856d8171d595e592df5bfb",
+  "reference_provenance": [
+    {
+      "id": "i0",
+      "path": "00_input/i0.png",
+      "type": "original_observation",
+      "yaw": 0,
+      "size": [
+        640,
+        384
+      ],
+      "vertical_extra_pixels_at_render_scale": 16,
+      "sha256": "8689da6857c812efccf7078c5b73e3688b18e00de00286d5c09052cdc42046dd"
+    },
+    {
+      "id": "i1",
+      "path": "00_input/i1.png",
+      "type": "generated_prior",
+      "parent_round": 1,
+      "frame": 122,
+      "yaw": -30,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94"
+    },
+    {
+      "id": "i2",
+      "path": "00_input/i2.png",
+      "type": "generated_prior",
+      "parent_round": 2,
+      "attempt": "attempt_002",
+      "frame": 123,
+      "yaw": -60,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "09e7ce448451b1db2e1f3f32adfbed28113365bc1841a6e288c4bec71a8635ed"
+    },
+    {
+      "id": "i3",
+      "path": "00_input/i3.png",
+      "type": "generated_prior",
+      "parent_round": 3,
+      "attempt": "attempt_001",
+      "frame": 121,
+      "yaw": -90,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "f1040e628f0bddac63a71585c2672664274baebdf3ed5640ab9aa25a28858a69"
+    },
+    {
+      "id": "i4",
+      "path": "00_input/i4.png",
+      "type": "generated_prior",
+      "parent_round": 4,
+      "attempt": "attempt_002",
+      "frame": 123,
+      "yaw": -120,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "5b0da300dba1a92f86b9cca8f1b4f28d565daafbe70d6d018adb666e523c7084"
+    },
+    {
+      "id": "i5",
+      "path": "00_input/i5.png",
+      "type": "generated_prior",
+      "parent_round": 5,
+      "attempt": "attempt_001",
+      "frame": 122,
+      "yaw": -150,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "eaae4f6ace27acaa48eb9bdb4d853d9fe5db4528212660815fc649e83b789b69"
+    },
+    {
+      "id": "i6",
+      "path": "00_input/i6.png",
+      "type": "generated_prior",
+      "parent_round": 6,
+      "attempt": "attempt_001",
+      "frame": 122,
+      "yaw": -180,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "01ea6eeb9fc776014651a5fc349ca66883569d6dbc6c4a97c7d11326dec561de"
+    },
+    {
+      "id": "i7",
+      "path": "00_input/i7.png",
+      "type": "generated_prior",
+      "parent_round": 7,
+      "attempt": "attempt_002",
+      "frame": 123,
+      "yaw": -210,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "7c9a78f70eee56c90a55c9edf63bf134e4b198d3e306e4c42a79231f52ce6e2a"
+    }
+  ],
+  "trajectory": [
+    -210,
+    -240
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "scene": "../../02_blender/scene/classroom_v1.blend",
+  "sha256": "e0d1ea7bfeb6722136c6c1d232577f260d79dd60e7f2b4a83fd5a7f48d3b79f3",
+  "trajectory": [
+    -30,
+    -60
+  ],
+  "next_trajectory": [
+    -60,
+    -30
+  ],
+  "plan": "eight_segment_left_right_revisit",
+  "code_sha256": {
+    "build_scene.py": "47f4d871a82503083efe69a04b34828a4d355e40e885c18a65700033069b41ff",
+    "scene_base.py": "fde069c2d5fe94e85720a68ea04f58e24914e5c5da3c7a9f3924e0ee90327ac2",
+    "scene_config.json": "58e072e00256ec66c1d7ef53c76824f7bea9d7ef242f9b066008cc0b7f25ae7b"
+  }
+}

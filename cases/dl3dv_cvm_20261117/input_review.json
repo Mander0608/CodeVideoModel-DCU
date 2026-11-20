@@ -1,0 +1,9 @@
+{
+  "status": "passed_for_feasibility_experiment",
+  "all_620_proxy_frames_hash_checked": true,
+  "all_5_videos_fully_decoded": true,
+  "visual_review": "12 fixed sampled frames per scene; known geometry/appearance mismatches retained",
+  "no_geometry_changes": true,
+  "cache_policy": "A and B share canonical per-pixel VAE latents; explicit paired noise and rows checks",
+  "planned_inference_count": 10
+}

@@ -1,0 +1,82 @@
+{
+  "scene": "furniture",
+  "scene_id": "5c3af581028068a3c402c7cbe16ecf9471ddf2897c34ab634b7b1b6cf81aba00",
+  "status": "planned_inputs_prepared_no_inference",
+  "start_index": 0,
+  "end_index_inclusive": 123,
+  "frame_count": 124,
+  "source_first": "frame_00001.png",
+  "source_last": "frame_00124.png",
+  "proxy_first": "00000.png",
+  "proxy_last": "00123.png",
+  "references": [
+    {
+      "reference": 1,
+      "camera_index": 0,
+      "source_filename": "frame_00001.png",
+      "clip_index": 0,
+      "original_path": "D:\\Datasets\\DL3DV-10K-Sample\\5c3af581028068a3c402c7cbe16ecf9471ddf2897c34ab634b7b1b6cf81aba00\\colmap\\images_4\\frame_00001.png",
+      "original_sha256": "97bca6b7ca5ba86f172a9285338aa92c4a5a12c785a863702b3bde933bc4db21",
+      "undistorted_path": "D:\\Experiments\\DL3DV-Blender-20261116\\furniture\\inputs\\frame_00001.png",
+      "padded_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\DL3DV-CVM-Plan-20261117\\cases\\furniture\\ref1_frame_00001.png",
+      "padded_sha256": "4d6ad1c7fa40bff981d563dd57c5ef61f88db19e45298083c5af16b5f0dfb577",
+      "already_used_for_blender": true
+    },
+    {
+      "reference": 2,
+      "camera_index": 123,
+      "source_filename": "frame_00124.png",
+      "clip_index": 123,
+      "original_path": "D:\\Datasets\\DL3DV-10K-Sample\\5c3af581028068a3c402c7cbe16ecf9471ddf2897c34ab634b7b1b6cf81aba00\\colmap\\images_4\\frame_00124.png",
+      "original_sha256": "2b4fb528830c9e2256cb9c878be8b177625ab56122cd51331637682e6e007719",
+      "undistorted_path": "D:\\Experiments\\DL3DV-Blender-20261116\\furniture\\inputs\\frame_00124.png",
+      "padded_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\DL3DV-CVM-Plan-20261117\\cases\\furniture\\ref2_frame_00124.png",
+      "padded_sha256": "07de3ce2f3dceb1d1019e4aee71bf6069be968abb91cf9911ee7116453f37fb1",
+      "already_used_for_blender": true
+    }
+  ],
+  "reason": "从全局陈设开始，候选中累计旋转与最大步进较低；末帧已有真实建模输入可作第二参考。",
+  "resolution": [
+    960,
+    544
+  ],
+  "fps": 24,
+  "seed": 42,
+  "updates": 20,
+  "keep_steps": 5,
+  "padding": {
+    "top": 2,
+    "bottom": 2,
+    "left": 0,
+    "right": 0,
+    "mode": "edge_replicate"
+  },
+  "K_after_padding": [
+    [
+      437.06543711732047,
+      0.0,
+      480.0
+    ],
+    [
+      0.0,
+      436.869269330769,
+      272.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "proxy_preparation": "Encode listed PNGs in order using identical edge padding; no interpolation or frame skipping; original v10 frozen.",
+  "frame_map": "frame_map.csv",
+  "source_scene_sha256": "6b112fbce06d24ef4042870f11565adb66307a4760fd6e2dec49ba5509005719",
+  "source_cameras_sha256": "4a18cb055cbe3aa2755f0f51e329418272acb6fc423a08e251e535f866d16ff3",
+  "evaluation_exclude_indices": [
+    0,
+    31,
+    54,
+    84,
+    123
+  ]
+}

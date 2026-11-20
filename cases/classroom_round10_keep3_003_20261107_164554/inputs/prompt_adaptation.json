@@ -1,0 +1,7 @@
+{
+  "base": "round10/05_cvm/attempt_001/inputs/prompt.txt",
+  "revision": "prompt_revisions/round10_blackboard_v002",
+  "prompt_changed": true,
+  "reason": "Preserve returning left greenboard/tree and right dark board; remove inherited blank-wall description. Reviewed against actual render.",
+  "sampling_changed": false
+}

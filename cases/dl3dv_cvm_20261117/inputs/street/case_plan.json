@@ -1,0 +1,81 @@
+{
+  "scene": "street",
+  "scene_id": "cd9c981eeb4a9091547af19181b382698e9d9eee0a838c7c9783a8a268af6aee",
+  "status": "planned_inputs_prepared_no_inference",
+  "start_index": 46,
+  "end_index_inclusive": 169,
+  "frame_count": 124,
+  "source_first": "frame_00047.png",
+  "source_last": "frame_00170.png",
+  "proxy_first": "00046.png",
+  "proxy_last": "00169.png",
+  "references": [
+    {
+      "reference": 1,
+      "camera_index": 46,
+      "source_filename": "frame_00047.png",
+      "clip_index": 0,
+      "original_path": "D:\\Datasets\\DL3DV-10K-Sample\\cd9c981eeb4a9091547af19181b382698e9d9eee0a838c7c9783a8a268af6aee\\colmap\\images_4\\frame_00047.png",
+      "original_sha256": "03047f37365ad8ef6bdc99dc5ed29c939376b7f2e87714e3ba1aa9fa9be9bde7",
+      "undistorted_path": "D:\\Experiments\\DL3DV-Blender-20261116\\street\\inputs\\frame_00047.png",
+      "padded_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\DL3DV-CVM-Plan-20261117\\cases\\street\\ref1_frame_00047.png",
+      "padded_sha256": "39114cc554ed08f2ec41903aaa38a1c8dbf7acfc8a0477d1ef65918dc12c5c0c",
+      "already_used_for_blender": true
+    },
+    {
+      "reference": 2,
+      "camera_index": 130,
+      "source_filename": "frame_00131.png",
+      "clip_index": 84,
+      "original_path": "D:\\Datasets\\DL3DV-10K-Sample\\cd9c981eeb4a9091547af19181b382698e9d9eee0a838c7c9783a8a268af6aee\\colmap\\images_4\\frame_00131.png",
+      "original_sha256": "82c663536f25edd22842ff473eba19c965a6974be5ce43ee458d37992379d17d",
+      "undistorted_path": "D:\\Experiments\\DL3DV-Blender-20261116\\street\\inputs\\frame_00131.png",
+      "padded_path": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\DL3DV-CVM-Plan-20261117\\cases\\street\\ref2_frame_00131.png",
+      "padded_sha256": "0e834133372b60abf221dff5e57fa2b9905fef202fcd8c12bc5c165593714d88",
+      "already_used_for_blender": true
+    }
+  ],
+  "reason": "首帧避开 index=30 的大面积灯杆遮挡，覆盖街角至入口；保留 canopy 近景失配作为风险。",
+  "resolution": [
+    960,
+    544
+  ],
+  "fps": 24,
+  "seed": 42,
+  "updates": 20,
+  "keep_steps": 5,
+  "padding": {
+    "top": 2,
+    "bottom": 2,
+    "left": 0,
+    "right": 0,
+    "mode": "edge_replicate"
+  },
+  "K_after_padding": [
+    [
+      407.91072521674823,
+      0.0,
+      480.0
+    ],
+    [
+      0.0,
+      407.1913763449695,
+      272.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "proxy_preparation": "Encode listed PNGs in order using identical edge padding; no interpolation or frame skipping; original v10 frozen.",
+  "frame_map": "frame_map.csv",
+  "source_scene_sha256": "1fb5498efe92aeb348c2ef859992bd9464daf9e696452153f2ba81972963b985",
+  "source_cameras_sha256": "47e6bd03b06a429d885063faeaa1cbe567f4560fb085cd8221ae200cf4a023c6",
+  "evaluation_exclude_indices": [
+    46,
+    69,
+    114,
+    130
+  ]
+}

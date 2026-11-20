@@ -1,0 +1,58 @@
+{
+  "scene": "../../02_blender/scene/classroom_v2.blend",
+  "scene_sha256": "ae79e14014d6035e512ae994bf90894a565902c58e641b83cb76beec9775f50d",
+  "code_sha256": {
+    "02_blender/build_scene.py": "ec710a2b0062d54345768b8454033dc2c1d060ac1350f5cd947b8d38f1ce2614",
+    "02_blender/prepare_assets.py": "5a47ab6165c53bee934876f3a494ab438006c9cacac48545e71645a3a9455574",
+    "02_blender/round2_geometry.py": "47f4d871a82503083efe69a04b34828a4d355e40e885c18a65700033069b41ff",
+    "02_blender/scene_base.py": "97fbab5c07d52d1a29afb19e6bc502c4ceb7a916e65cb0e9f11962004ebd2ab4"
+  },
+  "config_sha256": "342a1353cd7f85f0ca8f409479976b25ae475f1239451b9ba0e55d0cbb676515",
+  "reference_provenance": [
+    {
+      "id": "i0",
+      "path": "00_input/i0.png",
+      "type": "original_observation",
+      "yaw": 0,
+      "size": [
+        640,
+        384
+      ],
+      "vertical_extra_pixels_at_render_scale": 16,
+      "sha256": "8689da6857c812efccf7078c5b73e3688b18e00de00286d5c09052cdc42046dd"
+    },
+    {
+      "id": "i1",
+      "path": "00_input/i1.png",
+      "type": "generated_prior",
+      "parent_round": 1,
+      "frame": 122,
+      "yaw": -30,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94"
+    },
+    {
+      "id": "i2",
+      "path": "00_input/i2.png",
+      "type": "generated_prior",
+      "parent_round": 2,
+      "attempt": "attempt_002",
+      "frame": 123,
+      "yaw": -60,
+      "size": [
+        960,
+        544
+      ],
+      "vertical_extra_pixels_at_render_scale": 0,
+      "sha256": "09e7ce448451b1db2e1f3f32adfbed28113365bc1841a6e288c4bec71a8635ed"
+    }
+  ],
+  "trajectory": [
+    -60,
+    -90
+  ]
+}

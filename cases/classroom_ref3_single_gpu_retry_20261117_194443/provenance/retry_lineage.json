@@ -1,0 +1,15 @@
+{
+  "parent": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Revisit8-Ref3-20261115\\pilot_003_single_gpu",
+  "physical_device": 1,
+  "logical_device": "cuda:0",
+  "changed": "Physical GPU binding 0 to 1 only; all generation inputs and algorithm unchanged.",
+  "same_input_sha256": {
+    "inputs/proxy.mp4": "dca60542a4071604a82b2971ba3b2171d0694bcba29ed16c856882d90340a8dc",
+    "inputs/prompt.txt": "55af8bcc58000a60b00483e7ff238f89ce3f9c0690fd984167fde60736d51b50",
+    "inputs/reference_1.png": "78e0b78b09a5d2ae58940ce93984115750389478d120b9c13e8f400e858077e2",
+    "inputs/reference_2.png": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+    "inputs/reference_3.png": "a3650372fbcc578d89ba0019174734da3aae6e5fc130e0cb4b61475b0bfffff1"
+  },
+  "effective_generate_unchanged": true,
+  "known_limit": "Shared-reference tensor hash mismatch in pilot002 remains unresolved; runtime success is not a causal effect claim."
+}

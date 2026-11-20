@@ -1,0 +1,10 @@
+{
+  "inputs/partial_proxy.mp4": "53ed259da0b1256414d9fa6d15b443a6dc2bb42a07d1fbdcd24d0f1b827967f1",
+  "inputs/prompt.txt": "84cc755e5161dec38eaeaab144790a7b962ab2dd9126450a60fa1fa5843d9d26",
+  "inputs/proxy_first_frame.png": "daf5b8ba692ac63311ad11674f412723748d881543013a8eb111cccb26794ac3",
+  "inputs/reference.png": "ddba41e88ab8df51fd7ccb8d89fda7b1dfb55627a5c0acd1abf174780b934f2d",
+  "cvm_config.json": "bb13c0b2f639a217f80cad60efc420bb9ff9cb519d7c0a8cf7c2dbee12a6b9ba",
+  "run_cvm.py": "9aa6fa2d7e34845f6d3611ff8523be5848592c7bd3dae877ad1865a02e4f9c53",
+  "preflight.py": "fbf05c38bd02a59ee4beb335672bc48f44432f6a3f85f60623b845c59c02922d",
+  "supervise.py": "5732095d55e76aae9464e3d996739ad37b032811b8df6a0fc884abc81fe133be"
+}

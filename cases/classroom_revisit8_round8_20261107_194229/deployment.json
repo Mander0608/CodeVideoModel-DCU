@@ -1,0 +1,12 @@
+{
+  "round": 8,
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom_revisit8_round8_20261107_194229",
+  "screen_session": "cvm_revisit8_r8_20261107_194229",
+  "physical_devices": [
+    4,
+    5
+  ],
+  "status": "prepared",
+  "prepared_at": "2026-11-07T19:42:29.071550+08:00"
+}

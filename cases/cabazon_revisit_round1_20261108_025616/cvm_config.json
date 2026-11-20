@@ -1,0 +1,29 @@
+{
+  "status": "prepared_to_launch",
+  "backend": "MiniMax-H3 Ref2VA through existing CodeVideoModel DCU runner",
+  "model_root_on_scnet2": "/public/home/lixin1/chenxy/CodeVideoModel/models/MiniMax-H3-ref2va",
+  "inputs": {
+    "code_video": "inputs/partial_proxy.mp4",
+    "reference_image": "inputs/reference.png",
+    "prompt_file": "inputs/prompt.txt"
+  },
+  "seed": 42,
+  "steps": 20,
+  "keep_steps": 2,
+  "frames": 124,
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "style_reference_guidance_appended": false,
+  "keep_steps_semantics": "Video-reference conditioning for the first 2 of 20 denoising updates; not a pixel preservation constraint.",
+  "mask_input": false,
+  "camera_parameter_input": false,
+  "output": "outputs/round1_seed42.mp4",
+  "notes": "Attempt003 final controlled retry: keep_steps5->2 only, relative to attempt002. Same prompt/video/reference/seed/20steps. Test gray-occluder inheritance against loss of trajectory/layout conditioning.",
+  "generation_device": "cuda:0",
+  "text_device": "cuda:1",
+  "physical_devices": [
+    6,
+    7
+  ]
+}

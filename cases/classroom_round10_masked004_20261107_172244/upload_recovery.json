@@ -1,0 +1,4 @@
+{
+  "reason": "Generic recursive SCP timed out after90s before screen launch; partial input upload only. Existing case has no started_at,timing or output. Recover transfer with tar; no inference retry.",
+  "checked_at": "2026-11-07T17:25:50.380361+08:00"
+}

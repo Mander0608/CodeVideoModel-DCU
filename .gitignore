@@ -31,3 +31,27 @@ work/
 *.whl
 dist/
 build/
+
+# Local deployment artifacts and research media
+logs/
+**/logs/
+*.log
+*.pid
+*.lock
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+*.part
+*.partial
+*.blend
+*.blend1
+tools/ffmpeg/
+cases/**/*.png
+cases/**/*.jpg
+cases/**/*.jpeg
+cases/**/*.npy
+cases/**/*.npz
+
+# Keep small experiment prompts/configs while excluding input media.
+!cases/**/inputs/

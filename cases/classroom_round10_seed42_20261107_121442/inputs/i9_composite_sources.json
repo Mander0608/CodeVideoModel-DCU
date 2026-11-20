@@ -1,0 +1,36 @@
+{
+  "protocol": "explicit_masked_composite_then_manual_structural_correction",
+  "original_CVM_round9_baseline_passed": false,
+  "all_actual_round9_attempts_rejected": true,
+  "selected_frame": 123,
+  "corrected_video_sha256": "089bd90341c3d1f875bfacc819eacb1dea485ee1287ca68a2d56ab6e822d94a6",
+  "parent_composite_sha256": "94fd3aa7de354a5868115f62169b8e54dbdbc4e436db902692f1d5a241ef8a8b",
+  "parent_raw_sha256": "12d39545cb51dc9af475562841cf468b0ff70dd8d4fab2afd00ea5202697c4a9",
+  "repaint_mask": "00_input/i9_repaint_mask.png",
+  "original_unknown_mask": "00_input/i9_original_unknown_mask.png",
+  "extra_provenance_files": [
+    "00_input/i9_manual_correction_alpha.png",
+    "00_input/i9_source_labels.png",
+    "00_input/i9_inherited_pixel_origin.png",
+    "00_input/i9_pixel_provenance_labels.png",
+    "provenance/i9_manual_correction_manifest.json",
+    "provenance/i9_manual_correction_source.py"
+  ],
+  "preserved_region_source": "Accepted i8 composite plus returning original i0, supplied reprojection and pasteback. Original i0 return is supplied memory.",
+  "repaint_region_source": "Attempt004 full H3 masked generated pixels except manual correction alpha; unsupported panel removed by deterministic harmonic continuation.",
+  "pixel_labels": {
+    "0": "unknown-unused",
+    "1": "original i0",
+    "2": "i8 preserved from i7",
+    "3": "i8 generated",
+    "4": "other accepted prior",
+    "5": "round9 masked generator incl dilation band",
+    "6": "manual correction alpha support"
+  },
+  "source_region_roles": "Source labels and inherited origins describe pre-generation source. Final pixel classes override repaint and manual regions; alpha blending mixes inside boundary. H264 reencoding affects decoded pixels.",
+  "manual_correction_manifest": "provenance/i9_manual_correction_manifest.json",
+  "known_region_pose_metrics_are_not_independent": true,
+  "next_round_policy": "Original raw Blender RGB CVM seed42/20steps/keep5 with explicitly corrected composite reference.",
+  "nominal_yaw": -270,
+  "reference_role": "Fixed -270 boundary; supplemental i9_coverage F74 retained at its actual -260.07006 pose."
+}

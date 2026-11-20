@@ -1,0 +1,18 @@
+subject_definitions:
+<Picture 1> shows the classroom appearance. <Video 1> is its incomplete proxy video; gray regions are unknown areas left by projection, not actual scene surfaces.
+
+summary:
+[video editing + reference generation] Fill all gray unknown regions in <Video 1> with plausible classroom content to produce a complete, coherent classroom video.
+
+retention_analysis:
+<Video 1>: partially_preserved - preserve its camera motion and visible non-gray scene layout; replace the gray regions.
+<Picture 1>: preserve the classroom's colors, lighting, materials and visible furniture details.
+
+detailed_description:
+[Shot 1] Follow the proxy's brief hold, 30-degree left turn in place and final hold, without translation, zoom or cuts. Complete the gray regions with plausible walls, ceiling, floor and furniture continuations connected naturally to the visible room. Match the reference image's appearance, keep existing objects consistent, and maintain coherent perspective, occlusion and temporal continuity. The completed video should form one harmonious classroom scene, with no gray placeholders or visible cutout seams in any frame.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

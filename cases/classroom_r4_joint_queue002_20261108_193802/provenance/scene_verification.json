@@ -1,0 +1,238 @@
+{
+  "status": "structural_checks_passed",
+  "base": "original_v2",
+  "mesh_count": 494,
+  "furniture_sets": 15,
+  "all_images_packed": true,
+  "file_image_count": 9,
+  "opening_frame": 123,
+  "camera_fov_fitted": 91.25564326673464,
+  "camera_position": [
+    0.0,
+    -4.0,
+    1.5499999523162842
+  ],
+  "checks": [
+    "rectangular tabletops",
+    "shared desk/chair parent frames",
+    "local relative chair orientations",
+    "backrest-table separation",
+    "chair seat versus own desk legs",
+    "nonintersecting desk tabletop footprints",
+    "finite transforms",
+    "no feet below floor"
+  ],
+  "sets": [
+    {
+      "id": "back_1",
+      "shared_parent": "R3.set.back_1",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": 15.6538424738273,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.07513231039047241,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "back_2",
+      "shared_parent": "R3.set.back_2",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": 11.092557622501808,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.06313002109527588,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "back_3",
+      "shared_parent": "R3.set.back_3",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": 10.13289896864209,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.0847027599811554,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "back_4",
+      "shared_parent": "R3.set.back_4",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": 2.0925420041283576,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.07734638452529907,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "back_5",
+      "shared_parent": "R3.set.back_5",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": -6.793184485750091,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.13911837339401245,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "right_back",
+      "shared_parent": "R3.set.right_back",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": -3.3664124116971097,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.1495305299758911,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "left_partial",
+      "shared_parent": "R3.set.left_partial",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": 14.471116671864138,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.2408868819475174,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "middle_left",
+      "shared_parent": "R3.set.middle_left",
+      "chair_local_offset": [
+        0.01687110774219036,
+        -0.11029888689517975,
+        0.0
+      ],
+      "desk_yaw_deg": 14.849089095248889,
+      "chair_relative_yaw_deg": 3.603203117390404,
+      "backrest_to_table_clearance": 0.024999886751174927,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "multi-frame tracked seat/back landmarks"
+    },
+    {
+      "id": "middle_center",
+      "shared_parent": "R3.set.middle_center",
+      "chair_local_offset": [
+        0.20132306218147278,
+        -0.150831401348114,
+        0.0
+      ],
+      "desk_yaw_deg": 12.083335471993747,
+      "chair_relative_yaw_deg": 4.4469278478256165,
+      "backrest_to_table_clearance": 0.025000005960464478,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "multi-frame tracked seat/back landmarks"
+    },
+    {
+      "id": "middle_right",
+      "shared_parent": "R3.set.middle_right",
+      "chair_local_offset": [
+        0.2816842198371887,
+        -0.15986695885658264,
+        0.0
+      ],
+      "desk_yaw_deg": 10.617301960994919,
+      "chair_relative_yaw_deg": 1.691118766558603,
+      "backrest_to_table_clearance": 0.08239832520484924,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "multi-frame tracked seat/back landmarks"
+    },
+    {
+      "id": "middle_far_right",
+      "shared_parent": "R3.set.middle_far_right",
+      "chair_local_offset": [
+        0.1500365436077118,
+        -0.2449064552783966,
+        0.0
+      ],
+      "desk_yaw_deg": -1.4544905980232137,
+      "chair_relative_yaw_deg": 17.188734536943613,
+      "backrest_to_table_clearance": 0.09378877282142639,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "multi-frame tracked seat/back landmarks"
+    },
+    {
+      "id": "right_edge",
+      "shared_parent": "R3.set.right_edge",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": 14.911300165756657,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.219648078083992,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "near_left",
+      "shared_parent": "R3.set.near_left",
+      "chair_local_offset": [
+        -0.13731659948825836,
+        -0.12890730798244476,
+        0.0
+      ],
+      "desk_yaw_deg": 9.264398580766303,
+      "chair_relative_yaw_deg": -1.4402346058432218,
+      "backrest_to_table_clearance": 0.02500024437904358,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "multi-frame tracked seat/back landmarks"
+    },
+    {
+      "id": "near_right",
+      "shared_parent": "R3.set.near_right",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": 6.853807110389009,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.14324578642845154,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    },
+    {
+      "id": "front_board_back",
+      "shared_parent": "R3.set.front_board_back",
+      "chair_local_offset": [
+        0.0,
+        -0.18000000715255737,
+        0.0
+      ],
+      "desk_yaw_deg": -17.188734536943613,
+      "chair_relative_yaw_deg": 0.0,
+      "backrest_to_table_clearance": 0.03918382525444031,
+      "lowest_leg_z": 0.0,
+      "chair_evidence": "paired physical prior, occluded/unmeasured"
+    }
+  ],
+  "limits": "Not all inter-object mesh contacts tested; does not establish true depth or exact video reproduction."
+}

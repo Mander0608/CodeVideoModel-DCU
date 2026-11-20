@@ -1,0 +1,48 @@
+{
+  "config": {
+    "job_id": "r02_single",
+    "round": 2,
+    "variant": "single",
+    "seed": 42,
+    "steps": 20,
+    "scheduler_steps_requested": 21,
+    "keep_steps": 5,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544,
+    "turbo": false,
+    "mask_input": false,
+    "camera_parameter_input": false,
+    "hard_anchor": false,
+    "pasteback": false,
+    "reference_short_edge_override": null,
+    "proxy": "inputs/proxy.mp4",
+    "prompt": "inputs/prompt.txt",
+    "output": "outputs/result.mp4",
+    "references": [
+      {
+        "source_video": "C:\\Users\\Administrator\\Documents\\ChatGPT\\\u8c03\u7814\\Classroom-Revisit8-20261107\\round1\\03_result\\round1_cvm_output.mp4",
+        "source_sha256": "61c5a904bf601913876220fedc9e1705d75f1cdfedd72905271cdc3abdbbf481",
+        "frame": 123,
+        "nominal_proxy_yaw": -30.0,
+        "actual_generated_pose": "not_calibrated",
+        "kind": "generated_historical_prior",
+        "path": "inputs/reference_1.png",
+        "role": "immediate_start",
+        "noise_stream": "target_first_frame_condition_noise",
+        "noise_step": -20,
+        "sha256": "a3650372fbcc578d89ba0019174734da3aae6e5fc130e0cb4b61475b0bfffff1"
+      }
+    ],
+    "source_proxy_sha256": "dca60542a4071604a82b2971ba3b2171d0694bcba29ed16c856882d90340a8dc",
+    "original_prompt_sha256": "9f01eda527302183243b5aac56ca5ab75e6f7a28f0767f7e43ad71edd4d1f5ba",
+    "paired_scope": "Frozen historical proxy and parent output; no new outputs fed into other cases."
+  },
+  "source_sha256": {
+    "cvm/video.py": "98b451d987812d6f1caec3c36208fa280866bf40be803cd4474813ad0db40e4c",
+    "run_dcu.py": "a46644c0e095eff2ee9046b08c1cb1d3096b3e61d0232dd5783fbea42e6d671f"
+  },
+  "runner_sha256": "de24e79063cae1ec5deedd95a45af898a6a5efd57f35c55503abefbada317aaa",
+  "started_at": "2026-11-15T05:36:20.422804+08:00"
+}

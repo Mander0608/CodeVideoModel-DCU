@@ -1,0 +1,45 @@
+{
+  "source_scene": "C:\\Users\\Administrator\\Documents\\ChatGPT\\\u8c03\u7814\\infinigen-indoors-demo\\outputs\\revisit\\revisit_scene.blend",
+  "source_frame": 49,
+  "samples": 256,
+  "adaptive_sampling": false,
+  "denoiser": "OPTIX",
+  "reference_size": [
+    1920,
+    1088
+  ],
+  "source_render_size": [
+    1708,
+    960
+  ],
+  "synthetic": true,
+  "real_photograph": false,
+  "appearance_changes": "None; same geometry, materials, lighting and camera as proxy",
+  "camera_to_world": [
+    [
+      -0.755745530128479,
+      -0.16418053209781647,
+      0.6339510679244995,
+      6.632075309753418
+    ],
+    [
+      0.6548658013343811,
+      -0.18947206437587738,
+      0.7316088080406189,
+      13.443374633789062
+    ],
+    [
+      5.427857274753478e-09,
+      0.968062698841095,
+      0.25070858001708984,
+      1.7000000476837158
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "elapsed_seconds": 117.99596630013548
+}

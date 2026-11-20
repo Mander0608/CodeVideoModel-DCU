@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>, with cream walls, wooden desks, a dark wall board and soft daylight.
+<Video 1> provides the left-turn camera motion and the already visible classroom layout. Flat gray pixels and the sharp cutout outline are missing image content to be painted over.
+
+summary:
+[video editing + reference generation] Outpaint <Video 1> into a full-frame classroom video: synthesize the missing room on the left, above and below the visible preview.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - classroom appearance, furnishings and lighting.
+<Video 1>: partially_preserved - preserve its continuous left-turn motion and the spatial arrangement inside the visible classroom. Replace the entire gray background and cutout outline with generated room surfaces.
+
+detailed_description:
+[Shot 1] Start with the view in <Picture 1>. The camera stays at the same position and turns LEFT by 30 degrees, following the timing in <Video 1>. The dark wall board, wall fixtures and desks travel RIGHT across the image and may leave the view. The front/right corner already visible is fixed. The newly revealed left portion continues the original front wall and already established desks as shown in the source video. Keep this adjoining cream wall bare wherever no existing fixture is shown. Do not duplicate the dark side-wall board or add another clock, panel, doorway, pillar or recess. Preserve returning front-wall content in the supplied video; do not treat it as a new room. Paint the upper gray wedge as the connected ceiling and the lower gray wedge as the continuous classroom floor. The gray area is replaced by these textured, naturally lit surfaces from the first moment it appears. The final frame is an edge-to-edge interior view of the same classroom, with wall, ceiling and floor reaching the image borders. Keep perspective, occlusion and lighting coherent throughout this single shot. No gray field or inset rectangular classroom image remains. No cut, return turn or camera translation.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

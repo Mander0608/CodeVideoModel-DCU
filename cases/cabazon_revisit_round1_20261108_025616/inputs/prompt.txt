@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the static handcrafted Cabazon miniature in <Picture 1>.
+<Video 1> is an incomplete camera preview. Every flat gray area is missing image content, including the large gray shapes that look like walls or pillars.
+
+summary:
+[video editing + reference generation] Remove all gray occluders from <Video 1> and reconstruct the miniature behind them throughout the entire shot.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - green dinosaur model, three paper palms, small car, road, cardboard mountains, handmade textures and lighting.
+<Video 1>: partially_preserved - retain the camera path and colored scene features; completely replace gray areas and their edges. Gray shapes are not scene objects.
+
+detailed_description:
+[Shot 1] Start from <Picture 1> and follow the rightward camera orbit in <Video 1>, revealing a new side view of the same tabletop miniature. Fill every gray region with connected cardboard mountains and sky, gravel ground, road, or the appropriate hidden side of the existing craft objects. The dinosaur, palms and car stay fixed. Remove gray walls, vertical slabs, cutout edges and gaps, including those entering late in the shot. The whole image remains a complete handmade landscape from the first frame through the final frame, with consistent perspective, natural parallax and unchanged colors. One continuous shot.
+
+overall_soundscape:
+Quiet indoor room ambience.
+
+non_diegetic_music:
+N/A

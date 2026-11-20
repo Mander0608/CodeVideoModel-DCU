@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>.
+<Video 1> is an incomplete camera preview. Its flat gray areas are holes requiring generated classroom content.
+
+summary:
+[video editing + reference generation] Fill every missing region of <Video 1> to produce a complete, photorealistic classroom video.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1]): fully_preserved - classroom identity, wooden desks, windows and daylight.
+<Video 1>: partially_preserved - retain chronological camera motion and visible layout; completely replace gray areas and their hard boundaries.
+
+detailed_description:
+[Shot 1] Begin at <Picture 1>, then turn LEFT another 30 degrees in place along <Video 1>. Existing windows move RIGHT. As the left side is revealed, extend the classroom into that area with a continuous cream rear wall and plausible stationary desks. Extend the ceiling across the upper missing area and the floor across the lower missing area. Connect these surfaces to the visible room with matching perspective, daylight and occlusion. Every frame fills the entire image with realistic room content, including all left, upper and lower gray holes. No gray background, cutout border or empty region remains. One continuous shot without returning to the starting view.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

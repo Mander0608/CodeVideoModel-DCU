@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "reviewed_by": "Codex: new prompt reviewed against unchanged reference and F0/31/62/92/123 proxy views",
+  "reviewed_at": "2026-11-09T19:28:39.180839+08:00",
+  "inspected_frames": [
+    0,
+    31,
+    62,
+    92,
+    123
+  ],
+  "sha256": {
+    "prompt": "3888da6be4e30bd2899f54096195730c914f04fa2ac160f490c6919661be460a",
+    "video": "4923b2b457969cf90aee012a64ae91cff97eff3d5c2d1a90a29c992c6ca1d169",
+    "reference": "670f30c7a30cbe745eee9d494bbbaa5d77fe20def51624781a773ba8e643edc4"
+  },
+  "checks": {
+    "visible_objects_and_returning_landmarks": true,
+    "entry_exit_direction_and_final_view": true,
+    "known_content_vs_gray_gaps": true,
+    "reference_video_conflicts_resolved_in_prompt": true,
+    "no_inherited_scene_description_conflict": true
+  },
+  "observations": [
+    "White-framed windows and trees, reddish desks and chairs, cream walls, radiators, ceiling and floor. No blackboard in this view.",
+    "Left turn moves existing windows right; large right window exits right; final view keeps windows on right.",
+    "Gray angular gaps: F0 0%, F31 7.48%, F62 24.62%, F92 36.53%, F123 40.00%.",
+    "Actual reference is Round3 F123, not archived i3 F121. It differs visibly from the Blender proxy in window framing, furniture contours, lighting and materials.",
+    "Prompt gives geometry/motion priority to the proxy and appearance priority to the reference; this resolves conflicting instructions but DOES NOT remove underlying geometric discrepancies.",
+    "RGB keep_steps=5 is soft conditioning; first-frame matching, gray filling and motion following are not guaranteed. No mask or pixel pasteback is used.",
+    "Prompt v002 makes complete generation of all gray unknown regions the primary task in summary and detailed description.",
+    "Retention explicitly excludes gray placeholders; left rear wall, upper ceiling, lower floor and supported furniture continuations match actual gray coverage.",
+    "Motion/layout priority and reference appearance role remain; gray completion is requested from first missing region to final frame.",
+    "This is a prompt-only RGB conditioning retry authorized by the user; actual mask_input remains false. Visual review verifies instruction/input consistency, not expected model success."
+  ],
+  "unresolved_prompt_conflicts": [],
+  "remaining_modeling_and_generation_risks": [
+    "Reference/proxy mismatch may still cause boundary changes or shape drift.",
+    "Pure rotation does not validate depth; hidden chairs and unseen room geometry remain assumptions."
+  ],
+  "clause_review": {
+    "subject_definitions": "Matches observed objects; gray identified as missing data.",
+    "summary_retention": "Primary objective is complete unknown-region generation. Retention applies only to non-gray observed content.",
+    "motion": "Same left turn, holds, rightward window motion and right window exit as before.",
+    "entry_exit": "Right-side window exits right; other windows shift right.",
+    "completion": "Explicit every-frame/edge/corner completion, connected geometry, texture, light and temporal consistency. No flat recoloring or cutout boundary.",
+    "sound": "Non-conflicting quiet ambience."
+  }
+}

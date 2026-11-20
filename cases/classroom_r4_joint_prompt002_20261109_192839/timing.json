@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "started_at": "2026-11-09T19:29:28+08:00",
+  "host": "m09r2n04",
+  "devices": [
+    0,
+    1
+  ],
+  "supervisor_pid": 2553949,
+  "inference_started_at": null,
+  "finished_at": "2026-11-09T23:30:31+08:00",
+  "total_elapsed_seconds": 14462.517548110336,
+  "inference_process_elapsed_seconds": null,
+  "timing_scope": "Total includes resource queue/preflight. Inference process includes loading/sampling/decoding.",
+  "queue_max_seconds": 14400,
+  "last_resource_check": "2026-11-09T23:29:31+08:00",
+  "free_GiB": [
+    48.025390625,
+    47.962890625
+  ],
+  "queue_reason": "Need >60 GiB free on each DCU",
+  "exit_code": 1
+}

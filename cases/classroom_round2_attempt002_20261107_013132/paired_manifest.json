@@ -1,0 +1,22 @@
+{
+  "baseline_attempt": "../attempt_001",
+  "changed_fields": [
+    "prompt.txt"
+  ],
+  "same_inputs": {
+    "partial_proxy.mp4": "dca60542a4071604a82b2971ba3b2171d0694bcba29ed16c856882d90340a8dc",
+    "reference.png": "26d910ac9e4e018390a404fd461d226ce1a3f6a795a535faf49565c31ede1b94",
+    "camera_trajectory.json": "a66362a479366ca72210b816a1ca113ab91951a34722bd4a2e7b119f2321a1f3"
+  },
+  "same_runner": true,
+  "parameters": {
+    "seed": 42,
+    "steps": 20,
+    "keep_steps": 5,
+    "frames": 124,
+    "fps": 24,
+    "width": 960,
+    "height": 544
+  },
+  "reason": "Baseline did not continue camera left; endpoint resembles starting reference. Gray appears at beginning."
+}

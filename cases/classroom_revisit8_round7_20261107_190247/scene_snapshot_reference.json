@@ -1,0 +1,8 @@
+{
+  "scene": "../01_blender/scene/classroom_v6.blend",
+  "sha256": "49242a61aba840813d6a6660ae279f1152370491dca2a1d31119cb378ae1e885",
+  "trajectory": [
+    60,
+    30
+  ]
+}

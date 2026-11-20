@@ -1,0 +1,9 @@
+{
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom_r4_joint_queue002_20261108_193802",
+  "screen_session": "cvm_r4joint_queue_20261108_193802",
+  "status": "prepared_to_launch",
+  "prepared_at": "2026-11-08T19:38:02.759734+08:00",
+  "local_attempt": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Iterative-20261106\\revisions\\v3_from_v2_round3_joint\\cvm_round4_joint\\attempt_002_resource_queue",
+  "queue_policy": "Wait for both locks and >60 GiB free twice; max four hours; one inference only"
+}

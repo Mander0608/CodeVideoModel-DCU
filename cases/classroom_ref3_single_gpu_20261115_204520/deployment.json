@@ -1,0 +1,9 @@
+{
+  "status": "prepared_to_launch",
+  "remote_host": "scnet2",
+  "remote_case": "/public/home/lixin1/chenxy/CodeVideoModel/cases/classroom_ref3_single_gpu_20261115_204520",
+  "screen_session": "cvm_ref3_1gpu_20261115_204520",
+  "local_pilot": "C:\\Users\\Administrator\\Documents\\ChatGPT\\调研\\Classroom-Revisit8-Ref3-20261115\\pilot_003_single_gpu",
+  "prepared_at": "2026-11-15T20:45:20.066294+08:00",
+  "scope": "One R2 three-reference single physical DCU0 run; no automatic retries"
+}

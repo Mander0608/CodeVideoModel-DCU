@@ -1,0 +1,13 @@
+{
+  "status": "prepared_not_run",
+  "files": {
+    "inputs/camera_trajectory.csv": "19165fccd7c1afa82eb91d72b756c0c1a54c058ca2e9be7c5a1a11c0b04b7aef",
+    "inputs/camera_trajectory.json": "331c7a50f3163fef28c9eb178ee02a96e9a8923bde5a920e0be88b8ad576e08f",
+    "inputs/coverage.json": "2e981bf947cfa3ae95bab817b3df07662bc145895905f53199b868ee95170033",
+    "inputs/partial_proxy.mp4": "172e73c538c4bdbda7f29ee7df00e410f9144e827e78f4282c1bc7c28dea827e",
+    "inputs/prompt.txt": "cc847753fec5665c313f2e1f39bac3b1b131367071ab4c3ff23b851b431a51c2",
+    "inputs/reference.png": "56d751d41078cf2e234e119b396bb0dc17d101ea3c2bded78f9918caba2a724d"
+  },
+  "unknown_fraction_max": 0.00029488357843137253,
+  "reference_role": "historical_destination"
+}

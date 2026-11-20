@@ -1,0 +1,19 @@
+subject_definitions:
+<Subject 1> is the classroom in <Picture 1>, with reddish brown wooden desks and chairs on dark metal frames, white-framed windows, cream walls and daylight.
+<Video 1> is an incomplete Blender camera preview. Its flat gray areas mark missing image regions, not physical surfaces.
+
+summary:
+[video editing + reference generation] Complete <Video 1> as one photorealistic classroom shot, following its camera motion and visible object layout.
+
+retention_analysis:
+<Subject 1>: retain classroom identity, materials, window scenery and natural daylight from <Picture 1>.
+<Video 1>: retain the chronological camera path, perspective and positions of visible desks, chairs, windows and radiators; replace gray gaps and their artificial boundaries with coherent room content.
+
+detailed_description:
+[Shot 1] Start at the window-facing orientation shown in the first frame of <Video 1>, corresponding to the ending view in <Picture 1>. Hold briefly, turn LEFT another 30 degrees in place following <Video 1>, and hold at the final orientation. There is no camera translation, zoom, cut, reframing or return to the starting view. Existing windows and furniture move RIGHT in the image as the camera turns; all furniture remains stationary in the room. The large window on the right exits to the right, while the other windows remain toward the right side of the final composition. Use <Picture 1> for photographic appearance and classroom identity. Where the reference and the approximate preview differ in object shape or projection, follow <Video 1> for camera motion and visible layout; do not snap between two layouts. Preserve the visible desks and their paired chairs with consistent occlusion through the turn. Fill the newly exposed left region with a continuous cream rear wall and room details consistent with the adjoining visible scene. Extend the ceiling into the upper gaps and the floor into the lower gaps with matching perspective and daylight. Fill all gray gaps throughout the shot, smoothly connecting them to existing content; leave no gray background, cutout boundary or empty strip. Keep the room and its lighting coherent throughout the video.
+
+overall_soundscape:
+Quiet classroom ambience.
+
+non_diegetic_music:
+N/A

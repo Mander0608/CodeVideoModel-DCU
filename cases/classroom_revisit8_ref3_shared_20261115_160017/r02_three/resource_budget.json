@@ -1,0 +1,20 @@
+{
+  "free_GiB_at_start": [
+    30.55859375,
+    63.640625
+  ],
+  "total_GiB": [
+    63.984375,
+    63.984375
+  ],
+  "allocator_cap_GiB": [
+    28.55859375,
+    32.0
+  ],
+  "minimum_free_GiB": [
+    28.0,
+    22.0
+  ],
+  "headroom_GiB": 2.0,
+  "scope": "PyTorch allocator cap for this process; non-PyTorch allocations and other processes are not controlled."
+}

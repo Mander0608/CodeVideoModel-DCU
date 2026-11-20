@@ -1,0 +1,41 @@
+{
+  "lanes": {
+    "pair12": {
+      "devices": [
+        1,
+        2
+      ],
+      "jobs": [
+        "furniture_A",
+        "furniture_B",
+        "museum_car_A",
+        "museum_car_B"
+      ]
+    },
+    "pair34": {
+      "devices": [
+        3,
+        4
+      ],
+      "jobs": [
+        "glass_building_A",
+        "glass_building_B",
+        "temple_A",
+        "temple_B"
+      ]
+    },
+    "pair56": {
+      "devices": [
+        5,
+        6
+      ],
+      "jobs": [
+        "street_A",
+        "street_B"
+      ]
+    }
+  },
+  "min_free_GiB": 60,
+  "queue_max_seconds": 1800,
+  "per_job_timeout_seconds": 14400
+}

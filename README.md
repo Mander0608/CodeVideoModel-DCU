@@ -1,230 +1,163 @@
-<div align="center">
+# CodeVideoModel-DCU
 
-<h1>Code Video Model</h1>
+Code Video Model 在海光 DCU / SCNet 上的部署与实验源码：包含 MiniMax-H3 Ref2VA 注意力适配、分块 CPU offload、Three.js 无头渲染修复，以及教室和 Cabazon 场景的重访实验脚本。
 
-<p>
-<b>Code Video Model Team</b>
-</p>
+基于 [Code Video Model 官方仓库](https://github.com/code-video-model/CodeVideoModel)，源码基线为 `404e03d67c2977b441622ce94411470bb84984a8`。这是部署与研究副本，保留上游历史、许可证、示例和[原版 README](README.upstream.md)。
 
-<p>
-<a href="https://code-video-model.github.io/tech_report.pdf"><img src="assets/badges/tech-report.svg" alt="Tech Report" height="20"></a>
-<a href="https://code-video-model.github.io/"><img src="assets/badges/project-page.svg" alt="Project Page" height="20"></a>
-<a href="https://huggingface.co/datasets/code-video-model/CodeVideoBench"><img src="assets/badges/hugging-face.svg" alt="Hugging Face" height="20"></a>
-<a href="https://github.com/code-video-model/CodeVideoModel"><img src="assets/badges/code.svg" alt="GitHub Code" height="20"></a>
-<a href="LICENSE"><img src="assets/badges/code-license.svg" alt="Code License: Apache 2.0" height="20"></a>
-<a href="examples/LICENSES/CC-BY-4.0.txt"><img src="assets/badges/examples-license.svg" alt="Examples License: CC BY 4.0" height="20"></a>
-</p>
+## 工作流程
 
-</div>
-
-## Demo Video
-
-https://github.com/user-attachments/assets/d1a8594d-14fa-49aa-a101-03da77ed585f
-
-## Installation
-
-Use Ubuntu 22.04 and a CUDA 12.6-compatible NVIDIA driver for MiniMax-H3.
-
-```bash
-git clone https://github.com/code-video-model/CodeVideoModel.git
-cd CodeVideoModel
-
-conda create -n cvm python=3.10 -y
-conda activate cvm
-conda install -c conda-forge "ffmpeg[version='>=6',build='gpl_*']" -y
-python -m pip install --upgrade pip
-python -m pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 \
-  --index-url https://download.pytorch.org/whl/cu126
-python -m pip install -r requirements.txt
-python -m playwright install chromium
+```text
+文本 / 已有场景 → Three.js 或 Blender 场景代码
+                         ↓ 按相机轨迹渲染
+                     RGB proxy 视频
+                         ↓
+参考图 + 文本 + proxy → MiniMax-H3 Ref2VA → 生成视频（含音轨）
 ```
 
-The Three.js stage uses GPT-6. For GPT-Image-2, set `OPENROUTER_API_KEY` securely in
-your environment.
+标准配置为 **960×544、124 帧、24 FPS、20 步、seed 42**；proxy 在前 **5** 步参与条件控制。相机运动通过 proxy 间接约束，标准入口没有相机矩阵或区域 mask 参数。`keep_steps` 不是像素锁定约束；部分场景和重访实验也不代表已经证明未知区域补全或几何一致性。
 
-### Checkpoint
+## 快速导航
 
-Download the [MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) checkpoint:
+| 内容 | 入口 |
+| --- | --- |
+| DCU 推理与内存管理 | [`run_dcu.py`](run_dcu.py) |
+| DCU 注意力适配 | [`cvm/dcu_runtime.py`](cvm/dcu_runtime.py) |
+| 标准输入和参数 | [`inference/generate_video.py`](inference/generate_video.py) |
+| Three.js 渲染 | [`inference/render.py`](inference/render.py) |
+| 原服务器的运行与验证记录 | [`docs/DEPLOYMENT_ZH.md`](docs/DEPLOYMENT_ZH.md) |
+| 教室 / Cabazon 实验源码快照 | [`cases/`](cases/) · [使用说明](docs/EXPERIMENTS_ZH.md) |
+| 导出文件清单与 SHA256 | [`docs/source_snapshot.json`](docs/source_snapshot.json) |
+| CUDA 安装、场景生成、参考图与评估 | [`README.upstream.md`](README.upstream.md) |
+
+## 环境要求
+
+以下为已验证的 SCNet 环境，并非通用最低配置：
+
+| 项目 | 已验证配置 |
+| --- | --- |
+| 系统 / 加速器 | Linux，海光 BW / gfx936，2 张约 64 GiB DCU |
+| Python / PyTorch | Python 3.12，海光 PyTorch 2.7.1 |
+| DTK / HIP | DTK 26.04 / HIP 6.3.26093 |
+| 注意力内核 | 与上述 DTK/PyTorch 匹配的海光 `flash_attn` |
+| 应用依赖 | [`requirements.txt`](requirements.txt)，含固定 Diffusers Git 提交 |
+| 主机内存 | 正式样例观察到峰值 RSS 约 243.57 GiB；原服务器约 1 TiB RAM |
+| 权重磁盘 | 本次 Ref2VA 必要文件约 144.05 GB，下载临时文件另需空间 |
+| 媒体工具 | FFmpeg / FFprobe 可从 `PATH` 调用；原环境为 7.0.2 |
+| 可选渲染 | Playwright + Chromium；无 GPU 浏览器可使用 SwiftShader |
+
+DCU 环境需先具备供应商提供的 PyTorch 和 FlashAttention。**不要在 DCU 环境执行上游 README 的 CUDA wheel 安装命令。** 仓库不打包供应商运行时、虚拟环境、浏览器或 FFmpeg 二进制。
+
+在已有且匹配的 DCU Python 环境中安装应用依赖：
+
+```bash
+# 确认使用海光构建
+python -c 'import torch; print(torch.__version__, torch.version.hip, torch.cuda.device_count())'
+python -c 'from flash_attn import flash_attn_func; print("flash_attn available")'
+
+# 保留现有 torch / torchvision / torchaudio
+grep -vE '^(torch|torchvision|torchaudio)==' requirements.txt > /tmp/cvm-app-requirements.txt
+python -m pip install -r /tmp/cvm-app-requirements.txt
+python -m pip check
+
+# 需要 Three.js 渲染时安装
+python -m playwright install chromium
+ffmpeg -version
+ffprobe -version
+```
+
+该片段以已有兼容 DCU 环境为前提，尚未在全新服务器上重新验证。原环境继承关系和安装版本见[部署记录](docs/DEPLOYMENT_ZH.md)。
+
+## 权重准备
+
+使用固定版本及哈希清单 [`configs/h3_checkpoint.json`](configs/h3_checkpoint.json)：
 
 ```bash
 python download_h3.py --output models/MiniMax-H3-ref2va
 ```
 
-## Quick Start
+`download_h3.py` 是上游标准入口，会下载完整清单（约 210 GB，包含本次 Ref2VA 未使用的纯文生视频 Transformer）；准备磁盘时应按该容量及临时空间估算。上表的 144.05 GB 对应历史 SCNet 最小下载集。`download_cvm.py`、`finish_cvm.py` 是这套历史下载工具，含服务器绝对路径、loopback 代理端口及并发策略，新机器使用前需调整。`status_cvm.py` 依赖历史下载器的 manifest；没有 manifest 时不能据其结果判断权重是否完整。
 
-Each demo bundles a prompt, a reference image, and a Three.js video,
-ready for direct generation with MiniMax-H3.
+## DCU 快速开始
 
-| Example | Directory under `examples/` |
-|---|---|
-| Sports Car | [`sports_car`](examples/sports_car) |
-| Tank Boarding | [`tank_boarding`](examples/tank_boarding) |
-| Loft Tour | [`loft_tour`](examples/loft_tour) |
-| Robot Navigation | [`robot_navigation`](examples/robot_navigation) |
-
-Set `example` to any directory name above:
+以下命令在仓库根目录执行。使用现成官方输入，不需要调用场景或参考图生成 API。
 
 ```bash
-example=tank_boarding
-python -m inference.generate_video \
-  --code-video "examples/${example}/code_video.mp4" \
-  --reference-image "examples/${example}/reference.png" \
-  --prompt-file "examples/${example}/prompt.txt" \
+# 先激活已有 DCU 环境，并按本机位置加载 DTK
+source /opt/dtk-26.04/env.sh
+export HIP_VISIBLE_DEVICES=0,1
+export OMP_NUM_THREADS=8
+export TOKENIZERS_PARALLELISM=false
+export PYTHONUNBUFFERED=1
+
+# 模型文件齐备后可离线运行
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+
+python run_dcu.py \
+  --code-video examples/robot_navigation/code_video.mp4 \
+  --reference-image examples/robot_navigation/reference.png \
+  --prompt-file examples/robot_navigation/prompt.txt \
   --model-root models/MiniMax-H3-ref2va \
+  --text-device cuda:1 \
+  --generation-device cuda:0 \
   --keep-steps 5 \
-  --output "outputs/${example}.mp4"
+  --seed 42 \
+  --output outputs/robot_navigation_dcu.mp4
 ```
 
-## Inference
+`cuda:0` / `cuda:1` 是 PyTorch HIP 后端沿用的命名，对应 `HIP_VISIBLE_DEVICES` 暴露后的逻辑编号。需按集群规则预先分配设备，上述命令不会申请设备锁。输出文件存在时会拒绝覆盖，请改用新文件名。
 
-### 1. Text → Three.js Codebase
+正常完成后生成视频及同名 `.run.json`，并输出 `RUN_COMPLETE_SECONDS`。JSON 包含参数、耗时、媒体信息、SHA256 和各卡峰值分配显存。仅看到 MP4 不等于进程正常结束。
 
-Generate an editable scene from a text prompt. GPT-6 builds the codebase and
-refines it through direct visual review:
+`run_dcu.py` 使用 Linux 信号及 HIP 环境，Windows 副本用于编辑与上传。标准 CLI 未开放步数、尺寸和帧数参数；调整前需检查 `cvm` 常量和媒体校验。
+
+## 验证与渲染
+
+以下检查会实际使用 DCU，请在分配好的设备上执行：
 
 ```bash
-python -m inference.generate_threejs \
-  --prompt "A red car follows a curved road through a sunlit town, with a smooth tracking camera." \
-  --output outputs/threejs
+mkdir -p outputs
+python preflight_dcu.py       # 小型随机模型、注意力、offload、潜变量检查
+python probe_gqa.py           # 分组查询注意力数值检查
+python probe_cleanup.py       # 复现旧问题并验证 DcuH3.close()
 ```
 
-The generated scene files are saved in the output workspace's case directory.
-Prompts can be entered directly or read from a text file.
-
-**Export the video:**
+小型随机模型测试只验证算子和生命周期，不代表预训练模型效果。重新渲染上游 Three.js 椅子场景：
 
 ```bash
-python -m inference.render video --scene outputs/threejs
+# 默认浏览器不可用时，可指定已安装的 Chromium
+# export CVM_CHROMIUM_EXECUTABLE=/path/to/chromium
+python render_smoke.py
 ```
 
-**View the scene** in your browser:
+输出 `outputs/chair_render/case/reconstruction.mp4` 仅是 proxy。自己准备的 Blender 或 Three.js proxy 可传给 `--code-video`，但须满足标准尺寸、帧数、帧率及编码检查。
 
-```bash
-python -m inference.viewer --scene outputs/threejs --port 8000
-```
+## 已验证结果与边界
 
-Open the local URL printed in the terminal. Play or scrub the timeline, step
-through frames, and select a source file to read its code. In the World Inspector,
-drag to orbit, Shift-drag to pan, and scroll to zoom; toggle the camera frustum,
-trajectory, and grid.
+2026-10-27 至 2026-10-28，官方 `robot_navigation` 样例以原始非量化 Ref2VA 权重完成 20 步生成；输出 **960×544 / 124 帧 / 24 FPS / 含音轨**，全片解码核验通过。
 
-### 2. Three.js Video → Reference Image
+| 阶段 | 实测耗时 |
+| --- | --- |
+| 模型加载与锁页准备 | 431.48 秒 |
+| 20 步去噪 | 892.83 秒 |
+| 启动至视频落盘 | 约 1501 秒（25 分钟） |
+| 独立 Three.js 椅子场景渲染 | 387.73 秒 |
 
-**Strict alignment**
+该次正式生成在视频落盘后发生退出清理异常。后续修复通过了专项小模型生命周期验证，但没有为修复重新跑完整 20 步。因此，上表不是正常退出总耗时，不含下载或 Agent 输入制作；两个不同场景的渲染和生成耗时不能直接相加。近期实验完成状态需逐项核查，源码快照本身不构成结果验证。
 
-Extract the video's first frame and use GPT-Image-2 to create a
-1536×864 reference, with instructions to preserve the scene's composition and content:
+## 适配内容
 
-```bash
-python -m inference.generate_reference \
-  --video outputs/threejs/case/reconstruction.mp4 \
-  --output outputs/threejs/reference.png
-```
+- `cvm/dcu_runtime.py`：进程内桥接海光 FlashAttention，处理共享存储的非连续 Q/K/V，对不支持的布局回退 math SDPA。
+- `run_dcu.py`：原权重锁页准备，Transformer 两个 block 一组 CPU offload，文本编码器逐模块卸载；增加有限值检查、分阶段日志和摘要。
+- `DcuH3.close()`：在 inference mode 中移除 Accelerate hooks 并恢复 CPU 权重，避免 meta / inference tensor 清理异常。
+- `inference/render.py`：支持 Chromium 路径、轮询场景 API 和浏览器错误诊断，适配无头渲染。
 
-You can also provide an already extracted frame instead of a video.
+## 实验快照与仓库内容
 
-**Text-guided reference**
+`cases/` 收录 2026-11-19 导出时 93 个实验目录的文本源码和配置，包括部分教室、重访、多参考、mask 尝试和累计 360° 实验。它们包含失败尝试和准备中的任务；部分脚本会动态修改标准推理行为。请先阅读[实验说明](docs/EXPERIMENTS_ZH.md)。
 
-Use the first frame as loose visual context and a text prompt to guide the
-result, without requiring the same camera, composition, or object placement:
+仓库不包含模型权重、新实验 PNG / MP4 输入输出、完整运行日志或大型工具二进制。上游原有的小型示例资源保留。`docs/source_snapshot.json` 记录导出文本的 SHA256，供与服务器核对；服务器路径仅描述原环境。
 
-```bash
-python -m inference.generate_reference_guided \
-  --video examples/loft_tour/code_video.mp4 \
-  --prompt "A sunlit modern loft with a leather sofa and floating stairs, photographed at eye level." \
-  --output outputs/loft_reference_guided.png
-```
+## 许可证与引用
 
-This mode also accepts an extracted frame and a scene description loaded from
-a text file. It produces a 1536×864 reference image.
-
-### 3. Three.js Video + Reference Image → MiniMax-H3 Video
-
-Generate a video using the proxy, reference image, and original scene prompt:
-
-```bash
-python -m inference.generate_video \
-  --code-video outputs/threejs/case/reconstruction.mp4 \
-  --reference-image outputs/threejs/reference.png \
-  --prompt-file outputs/threejs/prompt.txt \
-  --model-root models/MiniMax-H3-ref2va \
-  --keep-steps 5 \
-  --output outputs/threejs/video.mp4
-```
-
-### Create a pair
-
-Both
-[original](examples/chair_placement/original) and
-[edited](examples/chair_placement/edited) workspaces include scene code, a proxy
-video, a reference image, and a prompt. Generate a new edited result from the
-provided original:
-
-```bash
-python -m inference.generate_pair \
-  --prompt-file examples/chair_placement/edited/prompt.txt \
-  --anchor examples/chair_placement/original \
-  --edit-file examples/chair_placement/edit.txt \
-  --pair-type scene \
-  --model-root models/MiniMax-H3-ref2va \
-  --output outputs/chair_placement
-```
-
-## Benchmark
-
-[**Download on Hugging Face**](https://huggingface.co/datasets/code-video-model/CodeVideoBench).
-CodeVideoBench provides 22 cases across eight applications, with editable Three.js
-programs, proxy videos, reference images, prompts, and a browser-based viewer.
-
-```bash
-python -m pip install huggingface_hub
-hf download code-video-model/CodeVideoBench \
-  --repo-type dataset \
-  --local-dir data/CodeVideoBench
-```
-
-To browse the gallery and inspect the prepared scenes:
-
-```bash
-python -m http.server 8001 --bind 127.0.0.1 --directory data/CodeVideoBench
-```
-
-To run a prepared case with H3, use
-`Cases/<case_id>/code_video.mp4`, `reference.png`, and `prompt.txt` as the three
-inputs in Inference 3.
-
-### Evaluation
-
-Evaluate **Structure**, **Style**, and **Quality** with Qwen3.8-27B through
-OpenRouter. Set `OPENROUTER_API_KEY` in your environment, then run:
-
-```bash
-python evaluate_video.py \
-  --video outputs/sports_car.mp4 \
-  --code-video examples/sports_car/code_video.mp4 \
-  --reference-image examples/sports_car/reference.png \
-  --prompt-file examples/sports_car/prompt.txt \
-  --output outputs/sports_car_evaluation
-```
-
-The script makes one request per dimension and saves scores.
-
-## Citation
-
-If you find this repository useful, please cite:
-
-```bibtex
-@misc{liang2026codevideomodel,
-  title        = {Code Video Model},
-  author       = {Liang, Zhiyang and Zhang, Jiawei and Qian, Guocheng and Chen, Dongdong and Wan, Ziyu},
-  year         = {2026},
-  month        = oct,
-  note         = {Preprint},
-  doi          = {10.13140/RG.2.2.34014.80961},
-  url          = {https://code-video-model.github.io/tech_report.pdf}
-}
-```
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/chart?repos=code-video-model%2FCodeVideoModel&type=date&legend=top-left)](https://www.star-history.com/?repos=code-video-model%2FCodeVideoModel&type=date&legend=top-left)
+代码沿用上游 [Apache-2.0](LICENSE)；示例和第三方素材遵循 [`examples/LICENSES/`](examples/LICENSES/) 内各自许可及署名要求。MiniMax-H3 权重使用其独立许可证，不随仓库重新分发。论文引用见 [README.upstream.md](README.upstream.md#citation)。
